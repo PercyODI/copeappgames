@@ -58,6 +58,17 @@ CREATE TABLE game_tag (
     keyword VARCHAR(25)
 ) ENGINE = INNODB;
 
+DROP TABLE IF EXISTS group_game_queue;
+CREATE TABLE group_game_queue (
+    groupid BIGINT UNSIGNED,
+    gameid BIGINT UNSIGNED,
+    index SMALLINT UNSIGNED,
+    CONSTRAINT FOREIGN KEY (groupid) REFERENCES cope_group(groupid),
+    CONSTRAINT FOREIGN KEY (gameid) REFERENCES game(gameid),
+    PRIMARY KEY (groupid, gameid)
+) ENGINE = INNODB;
+    
+
 DROP TABLE IF EXISTS scouts_groups;
 CREATE TABLE scouts_groups (
     scoutid BIGINT UNSIGNED,
