@@ -117,4 +117,42 @@ CREATE TABLE games_tags (
 SET FOREIGN_KEY_CHECKS=1;
 
 INSERT INTO scout (fname, lname, copename) VALUES ("John", "Smith", "Redhands");
+
 INSERT INTO cope_group (camp, copename, dateformed) VALUES ("Camp Hohn", "Big Wigs", now());
+
+-- Set default stats for Big Wigs
+INSERT INTO group_stats (groupid) VALUES (1);
+
+INSERT INTO instructor (fname, lname, copename) VALUES ("Pearse", "Hutson", "Precious");
+
+INSERT INTO game (title, description, createdby) VALUES ("King of the Jungle", "A king of the jungle is appointed. Everyone must name a correspondingly smaller animal, along with the noise the animal makes. If someone messes-up they go to the bottom of the food chain.", 1);
+
+INSERT INTO game_type (keyword) VALUES ("communication");
+INSERT INTO game_type (keyword) VALUES ("planning");
+INSERT INTO game_type (keyword) VALUES ("trust");
+INSERT INTO game_type (keyword) VALUES ("teamwork");
+INSERT INTO game_type (keyword) VALUES ("leadership");
+INSERT INTO game_type (keyword) VALUES ("decisionmaking");
+INSERT INTO game_type (keyword) VALUES ("problemsolving");
+INSERT INTO game_type (keyword) VALUES ("selfesteem");
+
+INSERT INTO game_tag (keyword) VALUES ("icebreaker");
+
+-- John Smith in Big Wigs group
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (1, 1);
+
+-- Pearse Hutson instructor of Big Wigs
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (1, 1);
+
+-- John Smith has played King of the Jungle
+INSERT INTO scout_played_games (scoutid, gameid, dateplayed) VALUES (1, 1, now());
+
+-- Big Wigs have played King of the Jungle
+INSERT INTO groups_games (gameid, groupid, dateplayed) VALUES (1, 1, now());
+
+-- King of the Jungle has tag icebreaker
+INSERT INTO games_tags (tagid, gameid) VALUES (1, 1);
+
+-- King of the Jungle has type teamwork
+INSERT INTO games_types (gameid, typeid) VALUES (1, 4);
+
