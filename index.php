@@ -17,6 +17,7 @@
         <div id="navigation">
             <button type="button" id="list-games">List All Games</button>
             <button type="button" id="list-scouts">List All Scouts</button>
+            <button type="button" id="new-session">Start New COPE Session</button>
         </div>
         <div id="content"></div>
     </div>

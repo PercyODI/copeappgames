@@ -7,21 +7,28 @@ $(document).ready(function() {
         
         // List Games function
         $("#list-games").click(function() {
-            $("#content").hide("slide", function() {
+            $("#content").hide("slide", {direction: "left"}, function() {
                 $.get("list_games.php", function(data) {
                     $("#content").html(data);
-                    $("#content").show("slide");
+                    $("#content").show("slide", {direction: "left"});
                 });
             });
         });
         
         // List Scouts function
         $("#list-scouts").click(function() {
-            $("#content").hide("slide", function() {
+            $("#content").hide("slide", {direction: "left"}, function() {
                 $.get("list_scouts.php", function(data) {
                     $("#content").html(data);
-                    $("#content").show("slide");
+                    $("#content").show("slide", {direction: "left"});
                 });
+            });
+        });
+        
+        // Start new cope session function
+        $("#new-session").click(function() {
+            $("#content").hide("slide", {direction: "left"}, function() {
+                
             });
         });
         
