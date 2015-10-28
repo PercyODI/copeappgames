@@ -1,11 +1,18 @@
-Use GROUPCONCAT
+##Use GROUPCONCAT
 
 * http://dev.mysql.com/doc/refman/5.0/en/group-by-functions.html#function_group-concat
 
-Better CSS Layouts
+##Better CSS Layouts
 
 * http://www.sitepoint.com/give-floats-the-flick-in-css-layouts/
  
-UI Design Lessons
+##UI Design Lessons
 
 * http://hackdesign.org/lessons
+
+##jQuery
+
+* Use `$(selector).load("url", {key: value}, function() {});` instead of `$.get()`
+    * http://www.jquery-tutorial.net/ajax/the-load-method/ 
+* pushState for URL navigation
+    *  https://css-tricks.com/using-the-html5-history-api/
