@@ -5,7 +5,7 @@ include_once("../connect.php");
 $dataArray = array();
 
 if($_GET['searchText'] === '') {
-    if ($result = $db->query("SELECT title, CONCAT(LEFT(description, 250), IF(LENGTH(description)>250, '...', '')) as description FROM game")) {
+    if ($result = $db->query("SELECT gameid, title, CONCAT(LEFT(description, 256), IF(LENGTH(description)>250, '...', '')) as description FROM game")) {
         while($row = $result->fetch_array(MYSQLI_ASSOC)) {
             $dataArray[] = $row;
         }
@@ -13,7 +13,7 @@ if($_GET['searchText'] === '') {
 } else {
     $searchTxt = $_GET['searchText'];
     $searchTextLike = "%" . $searchTxt . "%";
-    if ($result = $db->query("  SELECT title, CONCAT(LEFT(description, 250), IF(LENGTH(description)>250, '...', '')) as description 
+    if ($result = $db->query("  SELECT gameid, title, CONCAT(LEFT(description, 256), IF(LENGTH(description)>250, '...', '')) as description 
                                 FROM game
                                 WHERE title LIKE '$searchTextLike'
                                 OR description LIKE '$searchTextLike'
@@ -29,7 +29,7 @@ if($_GET['searchText'] === '') {
     }
 }
 foreach($dataArray as $row) {
-    echo "<div class='game'>";;
+    echo "<div class='game' gameid='" . $row['gameid'] . "'>";
     echo "<p class='title'>" . $row['title'] . "</p>\n";
     echo "<p class='description'>" . $row['description'] . "</p>\n";
     echo "</div>";

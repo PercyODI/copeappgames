@@ -40,7 +40,7 @@
             text-align: right;
         }
         
-        #goals {
+        #goals, .game {
             cursor: default;
             -webkit-user-select: none;  /* Chrome all / Safari all */
             -moz-user-select: none;     /* Firefox all */
@@ -51,6 +51,10 @@
         #goals:hover {
             font-weight: bold;
         }
+        
+        /*#secondary-menu-placeholder {*/
+        /*    height: 48px;*/
+        /*}*/
         
         .line-img {
             width: 100%;
@@ -63,11 +67,11 @@
             margin: 13px 13px;
             padding: 5px;
             border: 1px solid black;
-            transition: all .2s;
+            /*transition: all .2s;*/
         }
         
         .game:hover {
-            border-color: red;
+            background-color: #f5f5f5;
             box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         }
         
@@ -108,6 +112,30 @@
         }
         
         $(document).ready(function() {
+            // Hide secondary menu
+            $("#secondary-menu-placeholder").hide();
+            $("#primary-menu-underline").hide();
+            $("#secondary-menu-underline").hide();
+            
+            // Get contents of session menu bar
+            $.get("session_menu.php", function(data) {
+                $("#menu-placeholder").html(data);
+                //Get secondary menu bar from button clicks
+                    $(".session-menu > ul > li").each(function() {
+                        $(this).click(function() {
+                            // $("#secondary-menu-placeholder").slideUp();
+                            $.get("secondary_session_menu.php", {primaryMenu: $(this).attr('menu')}, function(data) {
+                                var sec_men_place = $("#secondary-menu-placeholder");
+                                sec_men_place.html(data);
+                                sec_men_place.slideDown();
+                            });
+                            $(this).css("color", "black");
+                            $(".session-menu > ul > li").not($(this)).css("color", "gray");
+                        }); 
+                    });
+            });
+            
+            
             
             // $("#content").css("max-height", $(window).height() - $("#content").offset().top - 10);
             $("#goals-div").hide();
@@ -145,8 +173,9 @@
 
 <body>
     <div id="container">
-        <h1 id="pageTitle">Welcome to COPEapp</h1>
-        <img src="images/grunge_line.jpg" class="line-img">
+        <div id="menu-placeholder"></div>
+        <div id="secondary-menu-placeholder"></div>
+        <img src="images/grunge_line.png" class="line-img">
         <div id="showContainer">
             <div id="searchbar">
                 <div id="goals" class="float-right">Goals <i class="fa fa-caret-down"></i></div>
@@ -173,7 +202,7 @@
         </div>
         <div id="content"></div>
         <div id="footer">
-            <img src="images/grunge_line.jpg" class="line-img">
+            <img src="images/grunge_line.png" class="line-img">
         </div>
     </div>
     
