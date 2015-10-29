@@ -16,3 +16,4 @@
     * http://www.jquery-tutorial.net/ajax/the-load-method/ 
 * pushState for URL navigation
     *  https://css-tricks.com/using-the-html5-history-api/
+*  getScript( url )

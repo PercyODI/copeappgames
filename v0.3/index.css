@@ -1,0 +1,45 @@
+/*Index Styling*/
+#ix-container {
+    width: 80%;
+    margin: auto;
+}
+
+/*Primary Navbar Styling*/
+
+#pn-menu {
+    text-align: justify;
+}
+
+.pn-icon {
+    display: inline-block;
+}
+
+#pn-menu > ul {
+    padding: 0;
+}
+
+#pn-menu > ul:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+/*Secondary Navbar Styling*/
+
+#sn-menu {
+    text-align: justify;
+}
+
+.sn-icon {
+    display: inline-block;
+}
+
+#sn-menu > ul {
+    padding: 0;
+}
+
+#sn-menu > ul:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
