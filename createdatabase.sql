@@ -13,6 +13,7 @@ CREATE TABLE cope_group (
     groupid serial PRIMARY KEY,
     camp varchar(255),
     dateformed DATE,
+    lastmodified DATE,
     copename varchar(50) NOT NULL
 ) ENGINE = INNODB;
 
@@ -129,7 +130,7 @@ SET FOREIGN_KEY_CHECKS=1;
 
 INSERT INTO scout (fname, lname, copename) VALUES ("John", "Smith", "Redhands");
 
-INSERT INTO cope_group (camp, copename, dateformed) VALUES ("Camp Hohn", "Big Wigs", now());
+INSERT INTO cope_group (camp, copename, dateformed, lastmodified) VALUES ("Camp Hohn", "Big Wigs", now(), now());
 
 -- Set default stats for Big Wigs
 INSERT INTO group_stats (groupid) VALUES (1);
