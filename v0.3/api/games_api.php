@@ -11,6 +11,7 @@
 
 // limit: int $limit                   max number of games you want returned. Default: 1
 // offset: int $offset                 how many games to skip. Default: 0
+// where_gameid: mixed $gameid         Finds game with specific gameid. Can take an array to find multiple game ids. Not recommended using with limit, offset, or where options.
 // where_goals: array $goals           only games with goals specified in $goals
 // where_tags: array $tags             only games with tags specified in $tags
 // where_group: int $groupid           only games played by a specified group   === TODO ===
@@ -46,7 +47,6 @@ $allowed_goals = ['communication', 'planning', 'trust', 'teamwork', 'leadership'
 // The following parse through the options and add to specific parts of the SQL query
 
 // Set limit option
-
 if (isset($_GET['limit'])) {
     $get_limit = (int) $_GET['limit'];
     $limit .= "$get_limit ";
@@ -66,9 +66,39 @@ if (isset($_GET['offset'])) {
     $offset .= '0 ';
 }
 
-// Set where_goals option
-if (isset($_GET['where_goals']) and is_array($_GET['where_goals'])) {
+//Set where_gameid option
+if (isset($_GET['where_gameid'])) {
     $i = 0;
+    $need_or = false;
+    if($where_used == true) {
+        $where .= "AND ";
+    }
+    if(!is_array($_GET['where_gameid'])) {
+        $where .= "game.gameid = :gameid ";
+        $bind_param_array["gameid"] = $_GET['where_gameid'];
+        $where_used = true;
+    } else {
+        foreach($_GET['where_gameid'] as $gameid) {
+            if($need_or == true) {
+                $where .= "OR ";
+            }
+            
+            $where .= "game.gameid = :gameid$i ";
+            $bind_param_array["gameid$i"] = $gameid;
+            $i++;
+            
+            $need_or = true;
+            $where_used = true;
+        }
+    }
+}
+
+// Set where_goals option
+if (isset($_GET['where_goals'])) {
+    $i = 0;
+    if(!is_array($_GET['where_goals'])) {
+        $_GET['where_goals'] = array($_GET['where_goals']);
+    }
     foreach($_GET['where_goals'] as $goal) {
         if(in_array($goal, $allowed_goals)) {
             if($where_used == true) {
@@ -86,8 +116,11 @@ if (isset($_GET['where_goals']) and is_array($_GET['where_goals'])) {
 }
 
 // Set where_tags option
-if (isset($_GET['where_tags']) and is_array($_GET['where_tags'])) {
+if (isset($_GET['where_tags'])) {
     $i = 0;
+    if(!is_array($_GET['where_tags'])) {
+        $_GET['where_tags'] = array($_GET['where_tags']);
+    }
     foreach($_GET['where_tags'] as $tag) {
         if($where_used == true) {
             $where .= "AND ";
