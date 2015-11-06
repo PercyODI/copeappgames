@@ -33,12 +33,12 @@ include_once("../connect.php");
 $limit = "LIMIT ";
 $offset = "OFFSET ";
 $where = "";
-$where_used = false;
 $join = "";
-$join_used = false;
 $select = "gameid, title, description, instructions, discussion, icon, createdby ";
 
 // Set flags
+$where_used = false;
+$join_used = false;   // I don't think this is being used....
 $need_tags_join = false;
 $need_types_join = false;
 
@@ -145,7 +145,7 @@ if (isset($_GET['where_tags'])) {
 // Set show_goals option
 if (isset($_GET['show_goals'])) {
     if($_GET['show_goals'] == 'true') {
-        $select .= ", GROUP_CONCAT(typetable.keyword SEPARATOR ', ') as goals ";
+        $select .= ", GROUP_CONCAT(typetable.keyword) as goals ";
         $need_types_join = true;
     }
 }
@@ -153,7 +153,7 @@ if (isset($_GET['show_goals'])) {
 // Set show-tags option
 if (isset($_GET['show_tags'])) {
     if($_GET['show_tags'] == 'true') {
-        $select .= ", GROUP_CONCAT(tagtable.keyword SEPARATOR ', ') as tags ";
+        $select .= ", GROUP_CONCAT(tagtable.keyword) as tags ";
         $need_tags_join = true;
     }
 }

@@ -14,7 +14,7 @@ CREATE TABLE cope_group (
     camp varchar(255),
     dateformed DATE,
     lastmodified DATE,
-    copename varchar(50) NOT NULL
+    name varchar(50) NOT NULL
 ) ENGINE = INNODB;
 
 DROP TABLE IF EXISTS group_stats;
@@ -77,7 +77,7 @@ DROP TABLE IF EXISTS group_game_queue;
 CREATE TABLE group_game_queue (
     groupid BIGINT UNSIGNED,
     gameid BIGINT UNSIGNED,
-    index SMALLINT UNSIGNED,
+    queue_index INT UNSIGNED,
     CONSTRAINT FOREIGN KEY (groupid) REFERENCES cope_group(groupid),
     CONSTRAINT FOREIGN KEY (gameid) REFERENCES game(gameid),
     PRIMARY KEY (groupid, gameid)
@@ -143,8 +143,17 @@ CREATE TABLE games_tags (
 SET FOREIGN_KEY_CHECKS=1;
 
 INSERT INTO scout (fname, lname, copename) VALUES ("John", "Smith", "Redhands");
+INSERT INTO scout (fname, lname, copename) VALUES ("Rich", "Green", "Green Green");
+INSERT INTO scout (fname, lname, copename) VALUES ("Alvin", "Zitting", "Shovel");
+INSERT INTO scout (fname, lname, copename) VALUES ("Walt", "Doyal", "Ponytail");
+INSERT INTO scout (fname, lname, copename) VALUES ("Cliff", "McBride", "Cautious Cliff");
+INSERT INTO scout (fname, lname, copename) VALUES ("Rory", "Pond", "Eternal Soldier");
 
-INSERT INTO cope_group (camp, copename, dateformed, lastmodified) VALUES ("Camp Hohn", "Big Wigs", now(), now());
+INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("Camp Hohn", "Big Wigs", now(), now());
+INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("Camp Hohn", "Big Red Fire Department", now(), now());
+INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("S-F", "Shakespeares", now(), now());
+INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("Arrow Rock", "Jasper Engines", now(), now());
+INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("LOTOSR", "Troop 479", now(), now());
 
 -- Set default stats for Big Wigs
 INSERT INTO group_stats (groupid) VALUES (1);
@@ -175,6 +184,14 @@ INSERT INTO game_tag (keyword) VALUES ("icebreaker");
 
 -- John Smith in Big Wigs group
 INSERT INTO scouts_groups (scoutid, groupid) VALUES (1, 1);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (2, 1);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (3, 1);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (4, 1);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (3, 2);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (3, 4);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (1, 5);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (5, 3);
+INSERT INTO scouts_groups (scoutid, groupid) VALUES (4, 5);
 
 -- Pearse Hutson instructor of Big Wigs
 INSERT INTO groups_instructors (groupid, instructorid) VALUES (1, 1);

@@ -9,6 +9,7 @@ $dbport = 3306;
 try {
     $db = new PDO("mysql:host=$servername;dbname=$database;port=$dbport", $username, $password);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 } catch(PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }

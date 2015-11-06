@@ -1,0 +1,12 @@
+[06-Nov-2015 02:22:59 UTC] PHP Warning:  Illegal string offset 'pearse' in /home/ubuntu/workspace/v0.3/api/read/games_read.php on line 212
+[06-Nov-2015 02:22:59 UTC] PHP Stack trace:
+[06-Nov-2015 02:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/read/games_read.php:0
+[06-Nov-2015 02:22:59 UTC] PHP Warning:  Illegal string offset 'goals' in /home/ubuntu/workspace/v0.3/api/read/games_read.php on line 213
+[06-Nov-2015 02:22:59 UTC] PHP Stack trace:
+[06-Nov-2015 02:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/read/games_read.php:0
+[06-Nov-2015 02:22:59 UTC] PHP Warning:  Illegal string offset 'goals' in /home/ubuntu/workspace/v0.3/api/read/games_read.php on line 213
+[06-Nov-2015 02:22:59 UTC] PHP Stack trace:
+[06-Nov-2015 02:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/read/games_read.php:0
+[06-Nov-2015 04:21:27 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/v0.3/api/read/groups_read.php on line 132
+[06-Nov-2015 04:21:27 UTC] PHP Stack trace:
+[06-Nov-2015 04:21:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/read/groups_read.php:0
