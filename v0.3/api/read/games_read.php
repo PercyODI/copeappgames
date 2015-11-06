@@ -1,13 +1,18 @@
 <?php
-//                         games_api.php
+//                         games_read.php
             
 // The games_api API give database access to the games. The request should be made
 // via AJAX, using the following jQuery command
 
-// $.getJSON("api/games_api.php", options, function() {...});
+// $.getJSON("api/read/games_read.php", options, function() {...});
 
 // The options parameter expects a JS object with specific key: value pairs.
 // Refer to the following list for possible options
+
+// ========TODO========
+// == return games from group_game_queue ==
+// == where_group ==
+// == where_scout ==
 
 // limit: int $limit                   max number of games you want returned. Default: 1
 // offset: int $offset                 how many games to skip. Default: 0
@@ -22,7 +27,7 @@
 // search_description: string $search  searches for a string pattern in description. Uses '%$search%'.
 
 header('Content-Type: application/json');
-include_once("connect.php");
+include_once("../connect.php");
 
 // String variables for the specific parts of the SQL query
 $limit = "LIMIT ";
@@ -70,6 +75,8 @@ if (isset($_GET['offset'])) {
 if (isset($_GET['where_gameid'])) {
     $i = 0;
     $need_or = false;
+    $limit = "";
+    $offset = "";
     if($where_used == true) {
         $where .= "AND ";
     }
@@ -153,6 +160,9 @@ if (isset($_GET['show_tags'])) {
 
 // Set search_title option
 if (isset($_GET['search_title'])) {
+    if($where_used == true) {
+        $where .= "AND ";
+    }
     $where .= "game.title LIKE :search_title ";
     $bind_param_array['search_title'] = "%" . $_GET['search_title'] . "%";
     
@@ -161,6 +171,9 @@ if (isset($_GET['search_title'])) {
 
 // Set search_title option
 if (isset($_GET['search_description'])) {
+    if($where_used == true) {
+        $where .= "AND ";
+    }
     $where .= "game.description LIKE :search_description ";
     $bind_param_array['search_description'] = "%" . $_GET['search_description'] . "%";
     
