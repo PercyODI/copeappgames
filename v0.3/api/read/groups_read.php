@@ -171,7 +171,11 @@ if(isset($_GET['show_instructors'])) {
 
 // Set search_name option
 if(isset($_GET['search_name'])) {
+    $search_name_like = '%' . $_GET['search_name'] . '%';
+    $where .= "cope_group.name LIKE :where_search_name ";
+    $bind_param_array["where_search_name"] = $search_name_like;
     
+    $where_used = true;
 }
 
 

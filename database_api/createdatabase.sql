@@ -158,7 +158,7 @@ INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("LOTOSR", 
 -- Set default stats for Big Wigs
 INSERT INTO group_stats (groupid) VALUES (1);
 
-INSERT INTO instructor (fname, lname, copename) VALUES ("Pearse", "Hutson", "Precious");
+INSERT INTO instructor (fname, lname, copename, username, password) VALUES ("Pearse", "Hutson", "Precious", "phutson", "pass");
 
 INSERT INTO game (title, description, instructions, discussion, icon, createdby) VALUES ("King of the Jungle", "Get to the top of the food chain", "A king of the jungle is appointed. Everyone must name a correspondingly smaller animal, along with the noise the animal makes. If someone messes-up they go to the bottom of the food chain.", "No discussion", "tree", 1);
 INSERT INTO game (title, description, createdby) VALUES ("If I Were... I Would...", "Each person writes two statements: \"If I were...\" and \"I would...\" These statements are collected in two separate hats. The \"I would\" hat and the \"If I were\" hat. Everyone picks one from each hat and reads them.", 1);

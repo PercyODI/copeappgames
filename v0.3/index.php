@@ -72,6 +72,10 @@
             z-index: 10;
         }
         
+        #login-error {
+            text-align: center;
+        }
+        
         .card-h1 {
             margin: auto;
             text-align: center;
@@ -112,9 +116,13 @@
     <script>
         $(document).ready(function() {
             
+            
+            
             $(".btn").each(function() {
                 $(this).button();
             });
+            
+            $("#login-error").hide();
             
             $("#shadow-overlay").height($(window).height()).width($(window).width()).offset({top: 0, left: 0});
             $("#shadow-overlay").hide();
@@ -144,12 +152,19 @@
             
             // Login Submit
             $("#login-submit-btn").click(function() {
-                $("#shadow-overlay").hide("fade");
-                $("#login-card").hide("puff");
-                $("#middle-container").css("transition", "height 1.25s").height($(window).height()).css("margin", "0");
-                $("#top-container").slideUp(1250, function() {
-                    window.location = "starthere.php";
+                $.post("api/read/instructor_login.php", {"username": $("#login-username").val(), "password": $("#login-password").val()}, function(data) {
+                    if(data.success == true) {
+                        $("#shadow-overlay").hide("fade");
+                        $("#login-card").hide("puff");
+                        $("#middle-container").css("transition", "height 1.25s").height($(window).height()).css("margin", "0");
+                        $("#top-container").slideUp(1250, function() {
+                            window.location = "starthere.php";
+                        });
+                    } else {
+                        $("#login-error").slideDown("slow");
+                    }
                 });
+                
                 
             });
         });
@@ -168,11 +183,16 @@
     </div>
     <div id="login-card" title="Login to COPEapp">
         <h1 class="card-h1">Login to COPEapp</h1>
+        <div class="ui-widget" id="login-error">
+        	<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+        		Incorrect username or password!
+        	</div>
+        </div>
         <label for="username">Username:</label>
         <input id="login-username" name="username">
         <br>
         <label for="password">Password:</label>
-        <input type="login-password" id="password" name="password">
+        <input type="password" id="login-password" name="login-password">
         <br><br>
         <div id="login-actions">
             <a href="#" id="forgot-submit-btn">Forgot my Password</a> | 
