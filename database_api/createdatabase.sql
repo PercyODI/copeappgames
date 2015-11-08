@@ -155,10 +155,22 @@ INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("S-F", "Sh
 INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("Arrow Rock", "Jasper Engines", now(), now());
 INSERT INTO cope_group (camp, name, dateformed, lastmodified) VALUES ("LOTOSR", "Troop 479", now(), now());
 
+INSERT INTO instructor (fname, lname, copename, username, password) VALUES ("Pearse", "Hutson", "Precious", "phutson", "pass");
+INSERT INTO instructor (fname, lname, copename, username, password) VALUES ("Hayley", "Hutson", "Chubbs", "hhutson", "pass");
+
+
+-- Pearse Hutson instructor of Big Wigs
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (1, 1);
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (2, 2);
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (3, 1);
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (4, 2);
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (5, 1);
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (2, 1);
+INSERT INTO groups_instructors (groupid, instructorid) VALUES (4, 1);
+
 -- Set default stats for Big Wigs
 INSERT INTO group_stats (groupid) VALUES (1);
 
-INSERT INTO instructor (fname, lname, copename, username, password) VALUES ("Pearse", "Hutson", "Precious", "phutson", "pass");
 
 INSERT INTO game (title, description, instructions, discussion, icon, createdby) VALUES ("King of the Jungle", "Get to the top of the food chain", "A king of the jungle is appointed. Everyone must name a correspondingly smaller animal, along with the noise the animal makes. If someone messes-up they go to the bottom of the food chain.", "No discussion", "tree", 1);
 INSERT INTO game (title, description, createdby) VALUES ("If I Were... I Would...", "Each person writes two statements: \"If I were...\" and \"I would...\" These statements are collected in two separate hats. The \"I would\" hat and the \"If I were\" hat. Everyone picks one from each hat and reads them.", 1);
@@ -192,9 +204,6 @@ INSERT INTO scouts_groups (scoutid, groupid) VALUES (3, 4);
 INSERT INTO scouts_groups (scoutid, groupid) VALUES (1, 5);
 INSERT INTO scouts_groups (scoutid, groupid) VALUES (5, 3);
 INSERT INTO scouts_groups (scoutid, groupid) VALUES (4, 5);
-
--- Pearse Hutson instructor of Big Wigs
-INSERT INTO groups_instructors (groupid, instructorid) VALUES (1, 1);
 
 -- John Smith has played King of the Jungle
 INSERT INTO scout_played_games (scoutid, gameid, dateplayed) VALUES (1, 1, now());

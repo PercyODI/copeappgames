@@ -125,7 +125,7 @@ function load_games() {
             $("#game_card_" + i)
                 .data(data[i])
                 .click(function() {
-                    console.dir($(this).data('gameid'));
+                    console.dir($(this).data());
                 });
         }
     });
@@ -165,4 +165,24 @@ function load_logout() {
     $("#side_bar_item_logout").addClass("sidebar_item_selected");
     var content = $("#content");
     content.html("");
+    
+    var question_html = "<h1>Are you sure you want to logout?</h1>" +
+        "<button id='logout_yes'>Yes</button>" + 
+        "<button id='logout_no'>No</button>";
+        
+    content.append(question_html);
+    content.show("slide", {direction: "down"}, 700);
+    
+    $("#logout_yes").click(function() {
+        $.get("api/read/instructor_logout.php", function(data) {
+            content.append("<h2>" + data + "</h2>");
+            setTimeout(function() {
+                window.location = "index.php";
+            }, 2000);
+        });
+    });
+    
+    $("#logout_no").click(function() {
+        
+    })
 }

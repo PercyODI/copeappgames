@@ -177,6 +177,9 @@ if(isset($_GET['search_name'])) {
     $where_used = true;
 }
 
+// Auto restrict to specific instructor
+$where .= "groupid IN (SELECT groupid FROM groups_instructors WHERE instructorid = " . $_SESSION['instructorid'] . ") ";
+$where_used = true;
 
 // Act on flags
 if ($need_scouts_join) {
