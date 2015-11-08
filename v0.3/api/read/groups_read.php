@@ -25,8 +25,7 @@
 // show_instructors: bool $show     adds a column with a comma separated list of instructors for the group
 // search_name: string $search      searches for a string pattern in name. Uses '%$search%'
 
-header('Content-type: application/json');
-include_once("../connect.php");
+include_once("../api_header.php");
 
 //String variables for specific parts of the SQL query
 $limit = "";

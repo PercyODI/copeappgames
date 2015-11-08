@@ -1,7 +1,6 @@
 <?php
 
-header('Content-type: application/json');
-include_once("../connect.php");
+include_once("../api_header.php");
 
 if(isset($_POST['username']) and isset($_POST['password'])) {
     try {
@@ -10,6 +9,7 @@ if(isset($_POST['username']) and isset($_POST['password'])) {
         $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if(count($data) == 1) {
             $return['success'] = true;
+            $_SESSION['instructorid'] = $data[0]['instructorid'];
         } else {
             $return['success'] = false;
         }

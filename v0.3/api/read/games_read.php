@@ -26,8 +26,7 @@
 // search_title: string $search        searches for a string pattern in title. Uses '%$search%'.
 // search_description: string $search  searches for a string pattern in description. Uses '%$search%'.
 
-header('Content-Type: application/json');
-include_once("../connect.php");
+include_once("../api_header.php");
 
 // String variables for the specific parts of the SQL query
 $limit = "LIMIT ";
@@ -199,6 +198,7 @@ try {
     $stmt->execute($bind_param_array);
     
     $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $data['numrows'] = count($data);
     $data['SQLstring'] = $sqlStr;
     
     echo json_encode($data);
