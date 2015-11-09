@@ -19,7 +19,7 @@ function load_start() {
     content.show("slide", {direction: "down"}, 700);
     
     content.append("<div class='grid' id='group_grid'></div>");
-    $("#masonry_style").html(
+    $("#changing_style").html(
         ".grid {" +
             "margin: auto;" +
         "}" +
@@ -86,7 +86,7 @@ function load_games() {
     content.show("slide", {direction: "down"}, 700);
     
     content.append("<div class='grid' id='game_grid'></div>");
-    $("#masonry_style").html(
+    $("#changing_style").html(
         ".grid {" +
             "margin: auto;" +
         "}" +
@@ -166,9 +166,26 @@ function load_logout() {
     var content = $("#content");
     content.html("");
     
-    var question_html = "<h1>Are you sure you want to logout?</h1>" +
-        "<button id='logout_yes'>Yes</button>" + 
-        "<button id='logout_no'>No</button>";
+    $("#changing_style").html(
+        "#logout_header {" +
+            "margin: auto;" +
+            "text-align: center;" +
+        "}" + 
+        "#logout_buttons {" +
+            "display: flex;" +
+            "justify-content: space-around;" +
+        "}" +
+        ".logout_button {" +
+            "font-size: 1.3em;" +
+            "padding: 10px 50px;" +
+        "}");
+    
+    var question_html = "<h1 id='logout_header'>Are you sure you want to logout?</h1>" +
+        "<br>" +
+        "<div id='logout_buttons'>" +
+            "<button id='logout_yes' class='logout_button'>Yes</button>" + 
+            "<button id='logout_no' class='logout_button'>No</button>" +
+        "</div>";
         
     content.append(question_html);
     content.show("slide", {direction: "down"}, 700);
@@ -183,6 +200,6 @@ function load_logout() {
     });
     
     $("#logout_no").click(function() {
-        
-    })
+        $("#side_bar_item_start").click();
+    });
 }

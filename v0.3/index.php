@@ -63,7 +63,7 @@
         }
         
         #login-card {
-            /*width: 400px;*/
+            width: 400px;
             position: absolute;
             padding: 8px;
             display: inline-block;
@@ -93,6 +93,20 @@
             text-align: right;
         }
         
+        .flex-row {
+            display: flex;
+            flex-flow: row wrap;
+            margin-top: 5px;
+        }
+        
+        .flex-row > label {
+            flex-basis: 25%
+        }
+        
+        .flex-row > input {
+            flex-grow: 1;
+        }
+        
         .close-card {
             position: absolute;
             top: 0;
@@ -115,30 +129,37 @@
     <script src="jqueryui/jquery-ui.min.js"></script>
     <!--<script type="text/javascript" src="jqtransform/jqtransformplugin/jquery.jqtransform.js"></script>-->
     <script>
+        function login_and_shadow_offset() {
+            $("#login-card").show();
+            $("#shadow-overlay").show();
+            $("#login-card").offset({
+                top: ($(window).height() / 2) - ($("#login-card").height() / 2),
+                left: ($(window).width() / 2) - ($("#login-card").width() / 2),
+            });
+            $("#login-card").width($("#login-card").width()).draggable();
+            
+            
+            $("#shadow-overlay").height($(window).height()).width($(window).width()).offset({top: 0, left: 0});
+            $("#login-card").hide();
+            $("#shadow-overlay").hide();
+        }
+        
         $(document).ready(function() {
-            
-            
+            login_and_shadow_offset();
+            $("#login-error").hide();
             
             $(".btn").each(function() {
                 $(this).button();
             });
             
-            $("#login-error").hide();
-            
-            $("#shadow-overlay").height($(window).height()).width($(window).width()).offset({top: 0, left: 0});
-            $("#shadow-overlay").hide();
-            
-            // $(function() {
-            //     $("form.jqtransform").jqTransform();
-            // });
-            
             // Click Login
-            $("#login-card").width($("#login-card").width()).draggable();
-            $("#login-card").hide();
+            
             
             $("#top-btn-login").click(function() {
+                login_and_shadow_offset();
                 $("#shadow-overlay").show("fade");
                 $("#login-card").show("puff");
+                
             });
             
             $(".close-card").click(function() {
@@ -146,10 +167,7 @@
                 $(this).parent().hide("puff");
             });
             
-            $("#login-card").offset({
-                top: ($(window).height() / 2) - ($("#login-card").height() / 2),
-                left: ($(window).width() / 2) - ($("#login-card").width() / 2),
-            });
+            
             
             // Login Submit
             $("#login-submit-btn").click(function() {
@@ -165,9 +183,11 @@
                         $("#login-error").slideDown("slow");
                     }
                 });
-                
-                
             });
+        });
+        
+        $(window).resize(function() {
+            $("#shadow-overlay").height($(window).height()).width($(window).width()).offset({top: 0, left: 0});
         });
     </script>
 </head>
@@ -189,11 +209,16 @@
         		Incorrect username or password!
         	</div>
         </div>
-        <label for="username">Username:</label>
-        <input id="login-username" name="username">
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="login-password" name="login-password">
+        <div id='login-form'>
+            <div class='flex-row'>
+                <label for="username">Username:</label>
+                <input id="login-username" name="username">
+            </div>
+            <div class='flex-row'>
+                <label for="password">Password:</label>
+                <input type="password" id="login-password" name="login-password">
+            </div>
+        </div>
         <br><br>
         <div id="login-actions">
             <a href="#" id="forgot-submit-btn">Forgot my Password</a> | 

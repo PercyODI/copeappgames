@@ -4,7 +4,7 @@
 <head>
     <title>COPEapp</title>
     <?php include_once("header.php"); ?>
-    <style id="masonry_style"></style>
+    <style id="changing_style"></style>
     <style>
         body {
             margin: 0;
@@ -93,7 +93,10 @@
             div_heights();
             $('#sidebar > ul').height($('#sidebar > ul'));
             $('#sidebar > ul').hide();
-            $('#sidebar > ul').delay(200).show('slide', {direction: 'left'}, 600);
+            $('#sidebar > ul').delay(200).show('slide', {direction: 'left'}, 600, function() {
+                // Auto start on Start
+                $("#side_bar_item_start").click();
+            });
             
             // Get start cards
             $("#side_bar_item_start").click(function() {
@@ -131,6 +134,8 @@
                     load_logout();
                 });
             });
+            
+            
         });
         
         $(window).resize(function() {
