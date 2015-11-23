@@ -10,3 +10,93 @@
 [06-Nov-2015 04:21:27 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/v0.3/api/read/groups_read.php on line 132
 [06-Nov-2015 04:21:27 UTC] PHP Stack trace:
 [06-Nov-2015 04:21:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/read/groups_read.php:0
+[23-Nov-2015 03:57:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 72
+[23-Nov-2015 03:57:37 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 81
+[23-Nov-2015 03:59:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'game_card_class requires a gameid.' in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php(130): game_card_class->__construct(1)
+#1 {main}
+  thrown in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 84
+[23-Nov-2015 04:01:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 23
+[23-Nov-2015 04:01:04 UTC] PHP Stack trace:
+[23-Nov-2015 04:01:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:01:04 UTC] PHP   2. game_card_class->__construct() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:131
+[23-Nov-2015 04:03:42 UTC] PHP Fatal error:  Call to undefined function execute() in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 50
+[23-Nov-2015 04:03:42 UTC] PHP Stack trace:
+[23-Nov-2015 04:03:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:03:42 UTC] PHP   2. game_card_class->__construct() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:132
+[23-Nov-2015 04:04:06 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 91
+[23-Nov-2015 04:04:06 UTC] PHP Stack trace:
+[23-Nov-2015 04:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:04:06 UTC] PHP   2. game_card_class->getGameid() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:134
+[23-Nov-2015 04:09:36 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 91
+[23-Nov-2015 04:09:36 UTC] PHP Stack trace:
+[23-Nov-2015 04:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:09:36 UTC] PHP   2. game_card_class->getGameid() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:134
+[23-Nov-2015 04:09:43 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 91
+[23-Nov-2015 04:09:43 UTC] PHP Stack trace:
+[23-Nov-2015 04:09:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:09:43 UTC] PHP   2. game_card_class->getGameid() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:134
+[23-Nov-2015 04:11:31 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 91
+[23-Nov-2015 04:11:31 UTC] PHP Stack trace:
+[23-Nov-2015 04:11:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:11:31 UTC] PHP   2. game_card_class->getGameid() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:134
+[23-Nov-2015 04:17:43 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 55
+[23-Nov-2015 04:17:43 UTC] PHP Stack trace:
+[23-Nov-2015 04:17:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:17:43 UTC] PHP   2. game_card_class->__construct() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:134
+[23-Nov-2015 04:18:18 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 55
+[23-Nov-2015 04:18:18 UTC] PHP Stack trace:
+[23-Nov-2015 04:18:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:0
+[23-Nov-2015 04:18:18 UTC] PHP   2. game_card_class->__construct() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:134
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:25 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 23
+[23-Nov-2015 16:33:25 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:33:34 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 22
+[23-Nov-2015 16:33:34 UTC] PHP Stack trace:
+[23-Nov-2015 16:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 16:41:26 UTC] PHP Fatal error:  Call to undefined function require_onced() in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 4
+[23-Nov-2015 16:41:26 UTC] PHP Stack trace:
+[23-Nov-2015 16:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0

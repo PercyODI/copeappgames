@@ -1,0 +1,152 @@
+<?php
+
+require_once("../connect.php");
+
+class game_card_class {
+    // An instance must be given a gameid's to work
+    
+    protected $gameid = "";
+    protected $icon = "gamepad";
+    protected $title = "";
+    protected $description = "";
+    protected $instructions = "";
+    protected $discussion = "";
+    protected $createdby = "";
+    protected $gametypes = array();
+    protected $gametags = array();
+    protected $gamepictures = array();
+    protected $gamevideos = array();
+    
+    function __construct($constructGameid) {
+        global $db;
+        if($constructGameid != null) {
+            try {
+                $stmt = $db->prepare("
+                    SELECT gameid, 
+                           title, 
+                           description, 
+                           instructions, 
+                           discussion, 
+                           icon, 
+                           createdby, 
+                           GROUP_CONCAT(gpic.link) AS pic_links, 
+                           GROUP_CONCAT(gtype.keyword) AS type_keywords, 
+                           GROUP_CONCAT(gtag.keyword) AS tag_keywords 
+                    FROM game 
+                    LEFT OUTER JOIN (SELECT *
+                                     FROM games_types
+                                     JOIN game_type
+                                     USING (typeid)
+                                    ) AS gtype USING (gameid)
+                    LEFT OUTER JOIN (SELECT *
+                                     FROM games_tags
+                                     JOIN game_tag
+                                     USING (tagid)
+                                    ) AS gtag USING (gameid)
+                                    
+                    LEFT OUTER JOIN game_pictures AS gpic USING (gameid)
+                    WHERE gameid = :gameid
+                    GROUP BY gameid");
+                $stmt->execute(array("gameid" => $constructGameid));
+                $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                $data = $data[0];
+                if(isset($data['gameid'])) {
+                    $this->gameid = $data['gameid'];
+                }
+                if(isset($data['title'])) {
+                    $this->title = $data['title'];
+                }
+                if(isset($data['description'])) {
+                    $this->description = $data['description'];
+                }
+                if(isset($data['instructions'])) {
+                    $this->instructions = $data['instructions'];
+                }
+                if(isset($data['discussion'])) {
+                    $this->discussion = $data['discussion'];
+                }
+                if(isset($data['icon'])) {
+                    $this->icon = $data['icon'];
+                }
+                if(isset($data['createdby'])) {
+                    $this->createdby = $data['createdby'];
+                }
+                if(isset($data['pic_links'])) {
+                    $this->pic_links = explode(",", $data['pic_links']);
+                }
+                if(isset($data['type_keywords'])) {
+                    $this->type_keywords = explode(",", $data['type_keywords']);
+                }
+                if(isset($data['tag_keywords'])) {
+                    $this->tag_keywords = explode(",", $data['tag_keywords']);
+                }
+            } catch(Exception $e) {
+                echo "Error: " . $e->getMessage();
+            }
+        } else {
+            throw new Exception("game_card_class requires a gameid.");
+        }
+    }
+    
+    function getGameid () {
+        return $this->gameid;
+    }
+    
+    function getTitle () {
+        return $this->title;
+    }
+    
+    function getDescription () {
+        return $this->description;
+    }
+    
+    function getInstructions () {
+        return $this->instructions;
+    }
+    
+    function getDiscussion () {
+        return $this->discussion;
+    }
+    
+    function getIcon () {
+        return $this->icon;
+    }
+    
+    function getCreatedby () {
+        return $this->createdby;
+    }
+    
+    function getPicLinks () {
+        return $this->pic_links;
+    }
+    
+    function getTypeKeywords () {
+        return $this->type_keywords;
+    }
+    
+    function getTagKeywordds () {
+        return $this->tag_keywords;
+    }
+    
+    function getCardFrontHTML() {
+        $template = file_get_contents("game_card_front.tpl");
+        $replaceArr = array(
+            "#gameid#" => $this->gameid,
+            "#icon#" => $this->icon,
+            "#title#" => $this->title,
+            "#description#" => $this->description);
+        $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
+        return $returnStr;
+    }
+    
+}
+
+// $test = new game_card_class(4);
+
+// // print_r($test);
+
+// // echo $test->getGameid() . ": ";
+// // echo $test->getTitle() . "\n\n";
+// // print_r($test->getTypeKeywords());
+
+// echo $test->getCardFrontHTML();
