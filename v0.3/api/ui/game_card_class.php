@@ -43,7 +43,6 @@ class game_card_class {
                                      JOIN game_tag
                                      USING (tagid)
                                     ) AS gtag USING (gameid)
-                                    
                     LEFT OUTER JOIN game_pictures AS gpic USING (gameid)
                     WHERE gameid = :gameid
                     GROUP BY gameid");
@@ -151,7 +150,7 @@ class game_card_class {
             "#createdby#" => $this->createdby,
             "#gametypes#" => "<li>".implode("</li><li>", $this->gametypes)."</li>",
             "#gametags#" => "<li>".implode("</li><li>", $this->gametags)."</li>",
-            "#gamepictures#" => "<img src='".implode("'></img><img src='", $this->gamepictures)."'></img>");
+            "#gamepictures#" => "<div class='item'><img class='lazyOwl' data-src='".implode("'></div><div class='item'><img class='lazyOwl' data-src='", $this->gamepictures)."'></div>");
         $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
         return $returnStr;
     }

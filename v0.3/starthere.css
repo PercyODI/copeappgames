@@ -94,6 +94,7 @@ body {
     right: 45px;
     z-index: 2;
     overflow: auto;
+    cursor: auto;
     /*width: 750px;*/
 }
 
@@ -124,5 +125,17 @@ body {
 #behind_modal {
     position: relative;
     z-index: 1;
-    background-color: rgba(0,0,0,.4);
+    /*background-color: rgba(0,0,0,.4);*/
+    background-image: url("images/black_rough_diag_bkgd.png");
+    opacity: .4;
+}
+
+.owl-carousel .item {
+    margin: 3px;
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }

@@ -86,9 +86,15 @@ function load_games() {
                     .width($(document).width())
                     .height($(document).height())
                     .fadeIn('slow');
+                $.scrollLock(true);
                 $.get("api/ui/get_full_game_card.php", {gameid: $(this).attr("gameid")}, function(data) {
                     var full_card_data = $(data);
                     $("body").append(full_card_data);
+                    $(".owl-carousel").owlCarousel({
+                        items: 4,
+                        lazyLoad: true,
+                        navigation: true
+                    });
                     full_card_data
                         .fadeIn("slow");
                         // .offset({
@@ -101,6 +107,7 @@ function load_games() {
                         $(this).remove();
                     });
                     $(this).fadeOut('slow');
+                    $.scrollLock(false);
                 });
             });
         }
