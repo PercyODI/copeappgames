@@ -12,8 +12,8 @@ class game_card_class {
     protected $instructions = "";
     protected $discussion = "";
     protected $createdby = "";
-    protected $gametypes = array();
-    protected $gametags = array();
+    protected $gametypes = array("No Game Types");
+    protected $gametags = array("No Game Tags");
     protected $gamepictures = array();
     protected $gamevideos = array();
     
@@ -72,13 +72,13 @@ class game_card_class {
                     $this->createdby = $data['createdby'];
                 }
                 if(isset($data['pic_links'])) {
-                    $this->pic_links = explode(",", $data['pic_links']);
+                    $this->gamepictures = explode(",", $data['pic_links']);
                 }
                 if(isset($data['type_keywords'])) {
-                    $this->type_keywords = explode(",", $data['type_keywords']);
+                    $this->gametypes = explode(",", $data['type_keywords']);
                 }
                 if(isset($data['tag_keywords'])) {
-                    $this->tag_keywords = explode(",", $data['tag_keywords']);
+                    $this->gametags = explode(",", $data['tag_keywords']);
                 }
             } catch(Exception $e) {
                 echo "Error: " . $e->getMessage();
@@ -135,6 +135,23 @@ class game_card_class {
             "#icon#" => $this->icon,
             "#title#" => $this->title,
             "#description#" => $this->description);
+        $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
+        return $returnStr;
+    }
+    
+    function getFullCardHTML() {
+        $template = file_get_contents("game_card_full.tpl");
+        $replaceArr = array(
+            "#gameid#" => $this->gameid,
+            "#icon#" => $this->icon,
+            "#title#" => $this->title,
+            "#description#" => $this->description,
+            "#instructions#" => $this->instructions,
+            "#discussion#" => $this->discussion,
+            "#createdby#" => $this->createdby,
+            "#gametypes#" => "<li>".implode("</li><li>", $this->gametypes)."</li>",
+            "#gametags#" => "<li>".implode("</li><li>", $this->gametags)."</li>",
+            "#gamepictures#" => "<img src='".implode("'></img><img src='", $this->gamepictures)."'></img>");
         $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
         return $returnStr;
     }

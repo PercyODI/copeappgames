@@ -19,34 +19,16 @@ function load_start() {
     content.show("slide", {direction: "down"}, 700);
     
     content.append("<div class='grid' id='group_grid'></div>");
-    $("#changing_style").html(
-        ".grid {" +
-            "margin: auto;" +
-        "}" +
-        ".grid_item {" +
-            "width: 300px;" +
-            "float: left;" +
-            "border: 1px solid black;" +
-            "margin-bottom: 10px;" +
-            "text-align: center;" + 
-            "border-radius: 5px;" +
-            "background-color: white;" +
-            "padding: 8px;" +
-            "-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" +
-            "-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" +
-            "box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" +
-            "cursor: pointer;" +
-        "}"
-    );
+
     $(".grid").masonry({
-        itemSelector: '.grid_item',
+        itemSelector: '.card',
         isFitWidth: true,
         gutter: 10
     });
     
     $.getJSON("api/read/groups_read.php", {limit: 10}, function(data) {
         for(var i = 0; i < data.numrows; i++) {
-            var group_card = $("<div class='group_card grid_item' id='group_card_" + i + "' groupid='" + data[i].groupid + "'>" +
+            var group_card = $("<div class='card group_card' id='group_card_" + i + "' groupid='" + data[i].groupid + "'>" +
                 data[i].name +
                 "</div>");
             $("#group_grid")
@@ -86,47 +68,41 @@ function load_games() {
     content.show("slide", {direction: "down"}, 700);
     
     content.append("<div class='grid' id='game_grid'></div>");
-    $("#changing_style").html(
-        ".grid {" +
-            "margin: auto;" +
-        "}" +
-        ".grid_item {" +
-            "width: 200px;" +
-            "float: left;" +
-            "border: 1px solid black;" +
-            "margin-bottom: 10px;" +
-            "text-align: center;" + 
-            "border-radius: 5px;" +
-            "background-color: white;" +
-            "padding: 8px;" +
-            "-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" +
-            "-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" +
-            "box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" +
-            "cursor: pointer;" +
-        "}"
-    );
     $(".grid").masonry({
-        itemSelector: '.grid_item',
+        itemSelector: '.card',
         isFitWidth: true,
         gutter: 10
     });
     
-    $.getJSON("api/read/games_read.php", {limit: 10}, function(data) {
-        for(var i = 0; i < data.numrows; i++) {
-            var game_card = $("<div class='game_card grid_item' id='game_card_" + i + "' gameid='" + data[i].gameid + "'>" +
-                (data[i].icon != null ? ("<i class='fa fa-" + data[i].icon + " fa-3x'></i>") : "" ) +
-                "<h3>" + data[i].title + "</h3>" +
-                "<p style='text-align: justify'>" + data[i].description + "</p>" +
-                "</div>");
+    $.getJSON("api/ui/get_game_cards.php", {limit: 10}, function(data) {
+        for(var i = 0, len = data.length; i < len; i++) {
+            var game_card = $(data[i]);
             $("#game_grid")
                 .append(game_card)
                 .masonry('appended', game_card)
                 .masonry('layout');
-            $("#game_card_" + i)
-                .data(data[i])
-                .click(function() {
-                    console.dir($(this).data());
+            game_card.click(function() {
+                $("#behind_modal")
+                    .width($(document).width())
+                    .height($(document).height())
+                    .fadeIn('slow');
+                $.get("api/ui/get_full_game_card.php", {gameid: $(this).attr("gameid")}, function(data) {
+                    var full_card_data = $(data);
+                    $("body").append(full_card_data);
+                    full_card_data
+                        .fadeIn("slow");
+                        // .offset({
+                        //     top: 15,
+                        //     left: $(window).width() / 2 - full_card_data.outerWidth() / 2
+                        // });
                 });
+                $("#behind_modal").click(function() {
+                    $(".full_card").fadeOut('slow', function() {
+                        $(this).remove();
+                    });
+                    $(this).fadeOut('slow');
+                });
+            });
         }
     });
 }

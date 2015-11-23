@@ -4,72 +4,7 @@
 <head>
     <title>COPEapp</title>
     <?php include_once("header.php"); ?>
-    <style id="changing_style"></style>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #B5BCD9;
-        }
-        
-        #container {
-            position: relative;
-        }
-        
-        #sidebar {
-            background-color: #B5BCD9;
-            margin: 0;
-            padding: 0;
-            display: inline-block;
-            position: fixed;
-            bottom: 0;
-            width: 134px;
-            min-height: 500px;
-            /*-webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75), 0px 1px 5px 0px rgba(0,0,0,0.75);*/
-            /*-moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75), 0px 1px 5px 0px rgba(0,0,0,0.75);*/
-            /*box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75), 0px 1px 5px 0px rgba(0,0,0,0.75);*/
-        }
-        
-        #sidebar_ul {
-            margin: 0;
-            padding: 25px 0 0 0;
-            position: relative;
-            width: 134px;
-        }
-        
-        .sidebar_item {
-            display: block;
-            cursor:pointer;
-            position: relative;
-            text-align: right;
-            font-size: 1.3em;
-            margin-bottom: 8px;
-            z-index: 3;
-            padding-right: 20px;
-            transition: all .15s;
-        }
-        
-        .sidebar_item_selected {
-            font-weight: bold;
-            font-size: 1.4em;
-        }
-        
-        #carabiner-img {
-            position: absolute;
-            bottom: 0;
-            width: 134px;
-            z-index: 1;
-        }
-        
-        #content {
-            display: inline-block;
-            position: absolute;
-            right: 0;
-            top: 0;
-            padding-top: 25px;
-        }
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="starthere.css">
     
     <script src="starthere.js"></script>
     <script>
@@ -83,12 +18,13 @@
             sidebar.height($(window).height());
             content.css("min-height", $(window).height());
             content.width($("#container").width() - ($("#sidebar").width() + 28));
+            
+
         }
         
         $(document).ready(function() {
             // hide content div
             $('#content').hide();
-            
         
             div_heights();
             $('#sidebar > ul').height($('#sidebar > ul'));
@@ -159,5 +95,6 @@
         </div>
         <div id="content"></div>
     </div>
+    <div id="behind_modal" style="display: none;"></div>
 </body>
 </html>

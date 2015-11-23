@@ -20,16 +20,20 @@ if(!isset($_GET['offset']) or !is_numeric((int) $_GET['offset'])) {
 try {
     foreach($db->query("SELECT gameid FROM game LIMIT {$_GET['limit']} OFFSET {$_GET['offset']}") as $gameid) {
         $gameCards["{$gameid[0]}"] = new game_card_class($gameid[0]);
+        $_SESSION['gameCards']["{$gameid[0]}"] = serialize($gameCards["{$gameid[0]}"]);
     }
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }
 
-$return = array();;
+$return = array();
 
 foreach($gameCards as $gameCard) {
     $return[] = $gameCard->getCardFrontHTML() . "\n";
 }
 
+// print_r($_SESSION);
 echo json_encode($return);
+
+?>
 

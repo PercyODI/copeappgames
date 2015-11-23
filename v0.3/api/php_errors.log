@@ -100,3 +100,6 @@ Stack trace:
 [23-Nov-2015 16:41:26 UTC] PHP Fatal error:  Call to undefined function require_onced() in /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php on line 4
 [23-Nov-2015 16:41:26 UTC] PHP Stack trace:
 [23-Nov-2015 16:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[23-Nov-2015 20:06:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 78
+[23-Nov-2015 20:06:40 UTC] PHP Stack trace:
+[23-Nov-2015 20:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
