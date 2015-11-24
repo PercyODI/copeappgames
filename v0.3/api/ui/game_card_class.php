@@ -1,6 +1,6 @@
 <?php
 
-require_once("../connect.php");
+require_once("/home/ubuntu/workspace/v0.3/api/connect.php");
 
 class game_card_class {
     // An instance must be given a gameid's to work
@@ -134,7 +134,7 @@ class game_card_class {
     }
     
     function getCardFrontHTML() {
-        $template = file_get_contents("game_card_front.tpl");
+        $template = file_get_contents("/home/ubuntu/workspace/v0.3/api/ui/game_card_front.tpl");
         $replaceArr = array(
             "#gameid#" => $this->gameid,
             "#icon#" => $this->icon,
@@ -145,7 +145,7 @@ class game_card_class {
     }
     
     function getFullCardHTML() {
-        $template = file_get_contents("game_card_full.tpl");
+        $template = file_get_contents("/home/ubuntu/workspace/v0.3/api/ui/game_card_full.tpl");
         $replaceArr = array(
             "#gameid#" => $this->gameid,
             "#icon#" => $this->icon,

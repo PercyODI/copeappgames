@@ -47,23 +47,23 @@
                 });
             });
             
-            $("#side_bar_item_groups").click(function() {
-                $("#content").hide("slide", {direction: "up"}, 700, function() {
-                    load_groups();
-                });
-            });
+            // $("#side_bar_item_groups").click(function() {
+            //     $("#content").hide("slide", {direction: "up"}, 700, function() {
+            //         load_groups();
+            //     });
+            // });
             
-            $("#side_bar_item_scouts").click(function() {
-                $("#content").hide("slide", {direction: "up"}, 700, function() {
-                    load_scouts();
-                });
-            });
+            // $("#side_bar_item_scouts").click(function() {
+            //     $("#content").hide("slide", {direction: "up"}, 700, function() {
+            //         load_scouts();
+            //     });
+            // });
             
-            $("#side_bar_item_settings").click(function() {
-                $("#content").hide("slide", {direction: "up"}, 700, function() {
-                    load_settings();
-                });
-            });
+            // $("#side_bar_item_settings").click(function() {
+            //     $("#content").hide("slide", {direction: "up"}, 700, function() {
+            //         load_settings();
+            //     });
+            // });
             
             $("#side_bar_item_logout").click(function() {
                 $("#content").hide("slide", {direction: "up"}, 700, function() {
@@ -82,17 +82,7 @@
 </head>
 <body>
     <div id="container">
-        <div id="sidebar">
-            <ul id='sidebar_ul'>
-                <li class="sidebar_item" id="side_bar_item_start">Start</li>
-                <li class="sidebar_item" id="side_bar_item_games">Games</li>
-                <!--<li class="sidebar_item" id="side_bar_item_groups">Groups</li>-->
-                <!--<li class="sidebar_item" id="side_bar_item_scouts">Scouts</li>-->
-                <!--<li class="sidebar_item" id="side_bar_item_settings">Settings</li>-->
-                <li class="sidebar_item" id="side_bar_item_logout">Logout</li>
-            </ul>
-            <img src="images/climbing_crop.jpg" id="carabiner-img">
-        </div>
+        <?php include_once("sidebar.html"); ?>
         <div id="content"></div>
     </div>
     <div id="behind_modal" style="display: none;"></div>

@@ -103,3 +103,10 @@ Stack trace:
 [23-Nov-2015 20:06:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php on line 78
 [23-Nov-2015 20:06:40 UTC] PHP Stack trace:
 [23-Nov-2015 20:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/get_game_cards.php:0
+[24-Nov-2015 16:23:54 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/v0.3/api/ui/group_game_card_class.php on line 26
+[24-Nov-2015 16:24:27 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/v0.3/api/ui/group_game_card_class.php on line 25
+[24-Nov-2015 16:24:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.3/api/ui/group_game_card_class.php on line 12
+[24-Nov-2015 16:24:58 UTC] PHP Stack trace:
+[24-Nov-2015 16:24:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/ui/group_game_card_class.php:0
+[24-Nov-2015 16:24:58 UTC] PHP   2. group_game_card_class->__construct() /home/ubuntu/workspace/v0.3/api/ui/group_game_card_class.php:31
+[24-Nov-2015 17:07:13 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/v0.3/api/ui/group_class.php on line 68
