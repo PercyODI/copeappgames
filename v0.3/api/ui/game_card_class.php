@@ -7,11 +7,12 @@ class game_card_class {
     
     protected $gameid = "";
     protected $icon = "gamepad";
-    protected $title = "";
-    protected $description = "";
-    protected $instructions = "";
-    protected $discussion = "";
+    protected $title = "No Title Listed";
+    protected $description = "No Description Listed";
+    protected $instructions = "No Instructions Listed";
+    protected $discussion = "No Discussion Listed";
     protected $createdby = "";
+    protected $equipment = "No Equipment Listed";
     protected $gametypes = array("No Game Types");
     protected $gametags = array("No Game Tags");
     protected $gamepictures = array();
@@ -153,6 +154,7 @@ class game_card_class {
             "#instructions#" => $this->instructions,
             "#discussion#" => $this->discussion,
             "#createdby#" => $this->createdby,
+            "#equipment#" => $this->equipment,
             "#gametypes#" => "<li>".implode("</li><li>", $this->gametypes)."</li>",
             "#gametags#" => "<li>".implode("</li><li>", $this->gametags)."</li>",
             "#gamepictures#" => "<div class='owl-item'><img src='".implode("'></div><div class='owl-item'><img src='", $this->gamepictures)."'></div>",

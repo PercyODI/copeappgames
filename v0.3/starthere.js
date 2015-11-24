@@ -54,17 +54,17 @@ function load_games() {
     var content = $("#content");
     content.html("");
     
-    var search_html = "<div id='search_div'>" +
-        "<input type='text' placeholder='search'>" +
-        "<select id='search_select'>" +
-        "<option value='suggested'>Suggested Games</option>" +
-        "<option value='unplayed'>Unplayed Games</option>" +
-        "<option value='all' selected>All Games</option>" +
-        "</select>" +
-        "<a id='new_game_link'>Create a New Game</a>" +
-        "</div><br>";
+    // var search_html = "<div id='search_div'>" +
+    //     "<input type='text' placeholder='search'>" +
+    //     "<select id='search_select'>" +
+    //     "<option value='suggested'>Suggested Games</option>" +
+    //     "<option value='unplayed'>Unplayed Games</option>" +
+    //     "<option value='all' selected>All Games</option>" +
+    //     "</select>" +
+    //     "<a id='new_game_link'>Create a New Game</a>" +
+    //     "</div><br>";
         
-    content.append(search_html);
+    content.append("<a id='new_game_link'>Create a New Game</a><br>");
     content.show("slide", {direction: "down"}, 700);
     
     content.append("<div class='grid' id='game_grid'></div>");
@@ -124,32 +124,32 @@ function load_games() {
     });
 }
 
-function load_groups() {
-    $(".sidebar_item").each(function() {
-        $(this).removeClass("sidebar_item_selected");
-    });
-    $("#side_bar_item_groups").addClass("sidebar_item_selected");
-    var content = $("#content");
-    content.html("");
-}
+// function load_groups() {
+//     $(".sidebar_item").each(function() {
+//         $(this).removeClass("sidebar_item_selected");
+//     });
+//     $("#side_bar_item_groups").addClass("sidebar_item_selected");
+//     var content = $("#content");
+//     content.html("");
+// }
 
-function load_scouts() {
-    $(".sidebar_item").each(function() {
-        $(this).removeClass("sidebar_item_selected");
-    });
-    $("#side_bar_item_scouts").addClass("sidebar_item_selected");
-    var content = $("#content");
-    content.html("");
-}
+// function load_scouts() {
+//     $(".sidebar_item").each(function() {
+//         $(this).removeClass("sidebar_item_selected");
+//     });
+//     $("#side_bar_item_scouts").addClass("sidebar_item_selected");
+//     var content = $("#content");
+//     content.html("");
+// }
 
-function load_settings() {
-    $(".sidebar_item").each(function() {
-        $(this).removeClass("sidebar_item_selected");
-    });
-    $("#side_bar_item_settings").addClass("sidebar_item_selected");
-    var content = $("#content");
-    content.html("");
-}
+// function load_settings() {
+//     $(".sidebar_item").each(function() {
+//         $(this).removeClass("sidebar_item_selected");
+//     });
+//     $("#side_bar_item_settings").addClass("sidebar_item_selected");
+//     var content = $("#content");
+//     content.html("");
+// }
 
 function load_logout() {
     $(".sidebar_item").each(function() {
