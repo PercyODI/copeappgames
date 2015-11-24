@@ -140,6 +140,14 @@ CREATE TABLE games_tags (
     PRIMARY KEY (tagid, gameid)
 ) ENGINE = INNODB;
 
+DROP TABLE IF EXISTS game_videos;
+CREATE TABLE game_videos (
+    videoid serial PRIMARY KEY,
+    gameid BIGINT UNSIGNED,
+    link TEXT,
+    CONSTRAINT FOREIGN KEY (gameid) REFERENCES game(gameid)
+) ENGINE = INNODB;
+
 SET FOREIGN_KEY_CHECKS=1;
 
 INSERT INTO scout (fname, lname, copename) VALUES ("John", "Smith", "Redhands");

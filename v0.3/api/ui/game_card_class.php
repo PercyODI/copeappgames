@@ -29,9 +29,10 @@ class game_card_class {
                            discussion, 
                            icon, 
                            createdby, 
-                           GROUP_CONCAT(gpic.link) AS pic_links, 
-                           GROUP_CONCAT(gtype.keyword) AS type_keywords, 
-                           GROUP_CONCAT(gtag.keyword) AS tag_keywords 
+                           GROUP_CONCAT(DISTINCT gpic.link) AS pic_links, 
+                           GROUP_CONCAT(DISTINCT gtype.keyword) AS type_keywords, 
+                           GROUP_CONCAT(DISTINCT gtag.keyword) AS tag_keywords,
+                           GROUP_CONCAT(DISTINCT gvid.link) as vid_links
                     FROM game 
                     LEFT OUTER JOIN (SELECT *
                                      FROM games_types
@@ -44,6 +45,7 @@ class game_card_class {
                                      USING (tagid)
                                     ) AS gtag USING (gameid)
                     LEFT OUTER JOIN game_pictures AS gpic USING (gameid)
+                    LEFT OUTER JOIN game_videos AS gvid USING (gameid)
                     WHERE gameid = :gameid
                     GROUP BY gameid");
                 $stmt->execute(array("gameid" => $constructGameid));
@@ -78,6 +80,9 @@ class game_card_class {
                 }
                 if(isset($data['tag_keywords'])) {
                     $this->gametags = explode(",", $data['tag_keywords']);
+                }
+                if(isset($data['vid_links'])) {
+                    $this->gamevideos = explode(",", $data['vid_links']);
                 }
             } catch(Exception $e) {
                 echo "Error: " . $e->getMessage();
@@ -150,14 +155,15 @@ class game_card_class {
             "#createdby#" => $this->createdby,
             "#gametypes#" => "<li>".implode("</li><li>", $this->gametypes)."</li>",
             "#gametags#" => "<li>".implode("</li><li>", $this->gametags)."</li>",
-            "#gamepictures#" => "<div class='item'><img class='lazyOwl' data-src='".implode("'></div><div class='item'><img class='lazyOwl' data-src='", $this->gamepictures)."'></div>");
+            "#gamepictures#" => "<div class='owl-item'><img src='".implode("'></div><div class='owl-item'><img src='", $this->gamepictures)."'></div>",
+            "#gamevideos#" => "<div class='owl-item'>".implode("</div><div class='owl-item'>", $this->gamevideos)."</div>");
         $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
         return $returnStr;
     }
     
 }
 
-// $test = new game_card_class(4);
+// $test = new game_card_class(1);
 
 // // print_r($test);
 
@@ -166,3 +172,4 @@ class game_card_class {
 // // print_r($test->getTypeKeywords());
 
 // echo $test->getCardFrontHTML();
+// echo $test->getFullCardHTML();

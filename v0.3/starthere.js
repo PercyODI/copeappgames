@@ -90,10 +90,20 @@ function load_games() {
                 $.get("api/ui/get_full_game_card.php", {gameid: $(this).attr("gameid")}, function(data) {
                     var full_card_data = $(data);
                     $("body").append(full_card_data);
-                    $(".owl-carousel").owlCarousel({
-                        items: 4,
-                        lazyLoad: true,
-                        navigation: true
+                    $("#owl-pics").owlCarousel({
+                        navigation: true,
+                        slideSpeed: 300,
+                        paginationSpeed: 400,
+                        pagination: true,
+                        items: 4
+                    });
+                    $("#owl-vids").owlCarousel({
+                        navigation: true,
+                        slideSpeed: 300,
+                        paginationSpeed: 400,
+                        pagination: true,
+                        singleItem: true,
+                        autoHeight: true
                     });
                     full_card_data
                         .fadeIn("slow");

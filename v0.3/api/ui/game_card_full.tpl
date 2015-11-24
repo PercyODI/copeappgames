@@ -25,8 +25,12 @@
         </div>
     </div>
     <div class="full_card_extra">
-        <div class="owl-carousel">
+        <div class="owl-carousel" id="owl-pics">
             #gamepictures#
+        </div>
+        <br>
+        <div class='owl-carousel' id='owl-vids'>
+            #gamevideos#
         </div>
     </div>
 </div>
