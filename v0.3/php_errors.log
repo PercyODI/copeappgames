@@ -163,3 +163,15 @@
 [24-Nov-2015 18:04:49 UTC] PHP   2. group_game_card_class->getCardFrontHTML() /home/ubuntu/workspace/v0.3/api/getGroupSession.php:24
 [24-Nov-2015 18:04:49 UTC] PHP   3. game_card_class->getCardFrontHTML() /home/ubuntu/workspace/v0.3/api/ui/group_game_card_class.php:32
 [24-Nov-2015 18:04:49 UTC] PHP   4. file_get_contents() /home/ubuntu/workspace/v0.3/api/ui/game_card_class.php:137
+[24-Nov-2015 19:19:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/v0.3/api/ui/group_class.php on line 125
+[24-Nov-2015 19:19:25 UTC] PHP Stack trace:
+[24-Nov-2015 19:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/getGroupSession.php:0
+[24-Nov-2015 19:20:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/v0.3/api/ui/group_class.php on line 125
+[24-Nov-2015 19:20:15 UTC] PHP Stack trace:
+[24-Nov-2015 19:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/getGroupSession.php:0
+[24-Nov-2015 19:20:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/v0.3/api/ui/group_class.php on line 125
+[24-Nov-2015 19:20:18 UTC] PHP Stack trace:
+[24-Nov-2015 19:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/getGroupSession.php:0
+[24-Nov-2015 19:20:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/v0.3/api/ui/group_class.php on line 125
+[24-Nov-2015 19:20:53 UTC] PHP Stack trace:
+[24-Nov-2015 19:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.3/api/getGroupSession.php:0

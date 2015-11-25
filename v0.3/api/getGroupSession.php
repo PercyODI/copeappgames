@@ -1,5 +1,8 @@
 <?php
 
+header('Content-type: application/json');
+ob_start();
+
 require_once("ui/group_class.php");
 require_once("ui/instructor_class.php");
 require_once("ui/scout_class.php");
@@ -29,6 +32,12 @@ $group = new group_class($_GET['groupid']);
     <canvas id="myChart" width="400" height="400"></canvas>
 </div>
 
-<script>
+<?php
 
-</script>
+$htmlOutput = ob_get_contents();
+ob_end_clean();
+
+echo json_encode(array(
+    "htmlOutput" => $htmlOutput, 
+    "stats" => $group->getStats())
+);

@@ -77,7 +77,7 @@ class group_class {
             $stmt->execute(array("groupid" => $constructGroupid));
             $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
             $data = $data[0];
-            $stats = array(
+            $this->stats = array(
                 "communication" => $data['communication'],
                 "planning" => $data['planning'],
                 "trust" => $data['trust'],
@@ -120,8 +120,12 @@ class group_class {
         return $this->gamequeue;
     }
     
+    function getStats() {
+        return $this->stats;
+    }
+    
 }
 
-$test = new group_class(1);
+// $test = new group_class(1);
 
-print_r($test);
+// print_r($test);

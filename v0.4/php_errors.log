@@ -1,0 +1,218 @@
+[25-Nov-2015 18:14:47 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:14:47 UTC] PHP Stack trace:
+[25-Nov-2015 18:14:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:14:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:14:47 UTC] PHP Stack trace:
+[25-Nov-2015 18:14:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:14 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:14 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:14 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:15 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:15 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:15 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:15 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:15 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:15 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:16 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:16 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:15:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:15:16 UTC] PHP Stack trace:
+[25-Nov-2015 18:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:16:04 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:16:04 UTC] PHP Stack trace:
+[25-Nov-2015 18:16:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:16:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:16:04 UTC] PHP Stack trace:
+[25-Nov-2015 18:16:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:16:05 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:16:05 UTC] PHP Stack trace:
+[25-Nov-2015 18:16:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:16:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:16:05 UTC] PHP Stack trace:
+[25-Nov-2015 18:16:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:16:06 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:16:06 UTC] PHP Stack trace:
+[25-Nov-2015 18:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:16:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 3
+[25-Nov-2015 18:16:06 UTC] PHP Stack trace:
+[25-Nov-2015 18:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:17:50 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:17:50 UTC] PHP Stack trace:
+[25-Nov-2015 18:17:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:17:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:17:50 UTC] PHP Stack trace:
+[25-Nov-2015 18:17:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:20:20 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:20:20 UTC] PHP Stack trace:
+[25-Nov-2015 18:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:20:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:20:20 UTC] PHP Stack trace:
+[25-Nov-2015 18:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:20:45 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:20:45 UTC] PHP Stack trace:
+[25-Nov-2015 18:20:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:20:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:20:45 UTC] PHP Stack trace:
+[25-Nov-2015 18:20:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:20:45 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:20:45 UTC] PHP Stack trace:
+[25-Nov-2015 18:20:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 18:20:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/v0.4/public_html/index.php on line 5
+[25-Nov-2015 18:20:45 UTC] PHP Stack trace:
+[25-Nov-2015 18:20:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:10:56 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:10:56 UTC] PHP Stack trace:
+[25-Nov-2015 19:10:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:11:03 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:11:03 UTC] PHP Stack trace:
+[25-Nov-2015 19:11:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:12:03 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:12:03 UTC] PHP Stack trace:
+[25-Nov-2015 19:12:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:13:25 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:13:25 UTC] PHP Stack trace:
+[25-Nov-2015 19:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:13:26 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:13:26 UTC] PHP Stack trace:
+[25-Nov-2015 19:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:13:56 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:13:56 UTC] PHP Stack trace:
+[25-Nov-2015 19:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:14:17 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8
+[25-Nov-2015 19:14:17 UTC] PHP Stack trace:
+[25-Nov-2015 19:14:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:15:28 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:15:28 UTC] PHP Stack trace:
+[25-Nov-2015 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:15:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:17:20 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:17:20 UTC] PHP Stack trace:
+[25-Nov-2015 19:17:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:17:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:18:03 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:18:03 UTC] PHP Stack trace:
+[25-Nov-2015 19:18:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:18:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:18:04 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:18:04 UTC] PHP Stack trace:
+[25-Nov-2015 19:18:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:18:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:18:05 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:18:05 UTC] PHP Stack trace:
+[25-Nov-2015 19:18:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:18:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:18:05 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:18:05 UTC] PHP Stack trace:
+[25-Nov-2015 19:18:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:18:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:19:46 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:19:46 UTC] PHP Stack trace:
+[25-Nov-2015 19:19:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:19:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:22:14 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:22:14 UTC] PHP Stack trace:
+[25-Nov-2015 19:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:22:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:22:14 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:22:14 UTC] PHP Stack trace:
+[25-Nov-2015 19:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:22:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:22:21 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:22:21 UTC] PHP Stack trace:
+[25-Nov-2015 19:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:22:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:22:21 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:22:21 UTC] PHP Stack trace:
+[25-Nov-2015 19:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:22:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:22:22 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:22:22 UTC] PHP Stack trace:
+[25-Nov-2015 19:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:22:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:22:22 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:22:22 UTC] PHP Stack trace:
+[25-Nov-2015 19:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:22:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:24:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The class `Gamet` was not found in the /home/ubuntu/workspace/v0.4/resources/library/classes directory.<br>
+                             Please try a different class, or create a new class' in /home/ubuntu/workspace/v0.4/resources/config.php:41
+Stack trace:
+#0 [internal function]: autoload_classes('Gamet')
+#1 /home/ubuntu/workspace/v0.4/resources/config.php(47): spl_autoload_call('Gamet')
+#2 /home/ubuntu/workspace/v0.4/public_html/index.php(5): require_once('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/v0.4/resources/config.php on line 41
+[25-Nov-2015 19:27:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The class `Gamet` was not found in the /home/ubuntu/workspace/v0.4/resources/library/classes directory.<br>
+                             Please try a different class, or create a new class' in /home/ubuntu/workspace/v0.4/resources/config.php:43
+Stack trace:
+#0 [internal function]: autoload_classes('Gamet')
+#1 /home/ubuntu/workspace/v0.4/resources/config.php(49): spl_autoload_call('Gamet')
+#2 /home/ubuntu/workspace/v0.4/public_html/index.php(5): require_once('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/v0.4/resources/config.php on line 43
+[25-Nov-2015 19:27:27 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 49
+[25-Nov-2015 19:27:27 UTC] PHP Stack trace:
+[25-Nov-2015 19:27:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:27:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:28:09 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 49
+[25-Nov-2015 19:28:09 UTC] PHP Stack trace:
+[25-Nov-2015 19:28:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:28:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:28:10 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 49
+[25-Nov-2015 19:28:10 UTC] PHP Stack trace:
+[25-Nov-2015 19:28:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:28:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:28:22 UTC] PHP Fatal error:  spl_autoload(): Class Game could not be loaded in /home/ubuntu/workspace/v0.4/resources/config.php on line 50
+[25-Nov-2015 19:28:22 UTC] PHP Stack trace:
+[25-Nov-2015 19:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:28:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:28:22 UTC] PHP   3. spl_autoload() /home/ubuntu/workspace/v0.4/public_html/index.php:50
+[25-Nov-2015 19:29:56 UTC] PHP Fatal error:  spl_autoload(): Class Game could not be loaded in /home/ubuntu/workspace/v0.4/resources/config.php on line 50
+[25-Nov-2015 19:29:56 UTC] PHP Stack trace:
+[25-Nov-2015 19:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:29:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:29:56 UTC] PHP   3. spl_autoload() /home/ubuntu/workspace/v0.4/public_html/index.php:50
+[25-Nov-2015 19:29:56 UTC] PHP Fatal error:  spl_autoload(): Class Game could not be loaded in /home/ubuntu/workspace/v0.4/resources/config.php on line 50
+[25-Nov-2015 19:29:56 UTC] PHP Stack trace:
+[25-Nov-2015 19:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:29:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:29:56 UTC] PHP   3. spl_autoload() /home/ubuntu/workspace/v0.4/public_html/index.php:50
+[25-Nov-2015 19:32:41 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:32:41 UTC] PHP Stack trace:
+[25-Nov-2015 19:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:32:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:35:48 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 58
+[25-Nov-2015 19:35:48 UTC] PHP Stack trace:
+[25-Nov-2015 19:35:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:35:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:35:49 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 58
+[25-Nov-2015 19:35:49 UTC] PHP Stack trace:
+[25-Nov-2015 19:35:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:35:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:37:43 UTC] PHP Fatal error:  Cannot redeclare class game_card_class in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 3
+[25-Nov-2015 19:37:43 UTC] PHP Stack trace:
+[25-Nov-2015 19:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:37:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:37:43 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/v0.4/public_html/index.php:48
+[25-Nov-2015 19:37:43 UTC] PHP   4. autoload_classes() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:37:54 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 48
+[25-Nov-2015 19:37:54 UTC] PHP Stack trace:
+[25-Nov-2015 19:37:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:37:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:38:08 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 48
+[25-Nov-2015 19:38:08 UTC] PHP Stack trace:
+[25-Nov-2015 19:38:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:38:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[25-Nov-2015 19:38:54 UTC] PHP Fatal error:  Class 'Game' not found in /home/ubuntu/workspace/v0.4/resources/config.php on line 47
+[25-Nov-2015 19:38:54 UTC] PHP Stack trace:
+[25-Nov-2015 19:38:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[25-Nov-2015 19:38:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5

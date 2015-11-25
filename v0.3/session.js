@@ -14,8 +14,9 @@ function load_session() {
     var content = $("#content");
     content.html("");
     
-    $.get("api/getGroupSession.php", {groupid: $("groupid").attr("value")}, function(data) {
-        content.html(data);
+    $.getJSON("api/getGroupSession.php", {groupid: $("groupid").attr("value")}, function(data) {
+        console.dir(data);
+        content.html(data.htmlOutput);
         content.show("slide", {direction: "down"}, 700);
             var ctx = document.getElementById("myChart").getContext("2d");
             var chartdata = {
@@ -29,7 +30,14 @@ function load_session() {
                         pointStrokeColor: "#fff",
                         pointHighlightFill: "#fff",
                         pointHighlightStroke: "rgba(220,220,220,1)",
-                        data: [65, 59, 90, 21, 66, 55, 40]
+                        data: [data.stats.communication,
+                               data.stats.planning,
+                               data.stats.trust,
+                               data.stats.teamwork,
+                               data.stats.leadership,
+                               data.stats.decisionmaking,
+                               data.stats.problemsolving,
+                               data.stats.selfesteem]
                     }
                 ]
             };
