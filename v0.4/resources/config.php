@@ -15,10 +15,10 @@
     ex. require_once(LIBRARY_PATH . "Paginator.php")
 */
 defined("LIBRARY_PATH")
-    or define("LIBRARY_PATH", realpath(dirname(__FILE__) . '/library'));
+    or define("LIBRARY_PATH", realpath(dirname(__FILE__) . '/library') . '/');
      
 defined("TEMPLATES_PATH")
-    or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . '/templates'));
+    or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . '/templates') . '/');
  
 
 
@@ -28,16 +28,23 @@ defined("TEMPLATES_PATH")
 */
 
 function autoload_classes($classname) {
-    $file = LIBRARY_PATH . "/classes/{$classname}.class.php";
+    $file = LIBRARY_PATH . "classes/{$classname}.class.php";
     if (file_exists($file)) {
         require_once($file);
     } else {
-        throw new Exception("The class `$classname` was not found in the " . LIBRARY_PATH . "/classes directory.<br>
+        throw new Exception("The class `$classname` was not found in the " . LIBRARY_PATH . "classes directory.<br>
                              Please try a different class, or create a new class");
     }
 }
-
+// define('SMARTY_SPL_AUTOLOAD', 0);
+require_once(LIBRARY_PATH . "external/smarty/libs/Smarty.class.php");
 spl_autoload_register("autoload_classes");
+ 
+/**
+ * Require Smarty class
+ */
+
+
  
 /*
     The important thing to realize is that the config file should be included in every
@@ -64,8 +71,19 @@ $config = array(
             "content" => $_SERVER["DOCUMENT_ROOT"] . "/images/content",
             "layout" => $_SERVER["DOCUMENT_ROOT"] . "/images/layout"
         )
-    )
+    ),
+    "smarty" => new Smarty()
 );
+
+/**
+ * ### Custom Smarty configurations
+ */
+
+$config['smarty']->setTemplateDir(TEMPLATES_PATH);
+$config['smarty']->setCompileDir(LIBRARY_PATH . 'external/smarty/templates_c');
+$config['smarty']->setCacheDir(LIBRARY_PATH . 'external/smarty/cache');
+$config['smarty']->setConfigDir(LIBRARY_PATH . 'external/smarty/configs');
+ 
  
 /*
     I will usually place the following in a bootstrap file or some type of environment

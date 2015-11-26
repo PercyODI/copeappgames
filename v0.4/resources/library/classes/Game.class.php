@@ -119,28 +119,22 @@ class Game {
     function getTagKeywordds () {
         return $this->tag_keywords;
     }
-    
-    /**
-     *  $templateFile must be a valid template file, with #variable# replace strings
-     * 
-     *  $replaceArr must contain an associative array in the following format
-     *  array("#stringToReplace#" => "property");
-     * 
-     *  For example
-     *  array("#icon#" => "icon", "#title#" => "title", "#description#" => "description")
-     */
-    function createFromTemplate($templateFile, $replaceArr) {
-        if(file_exists($templateFile)) {
-            $template = file_get_contents($templateFile);
-            $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
-        } 
-        elseif(file_exists(TEMPLATES_PATH . $templateFile)) {
-            $template = file_get_contents(TEMPLATES_PATH . $templateFile);
-            $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
+/**
+ * $replaceVals needs to be a key => value pair of the variables
+ * 
+ * $key is the name of the smarty variable
+ * $val is the name of the class variable you want to access
+ * 
+ * Ex.
+ * $replaceVals = array('title' => 'title', 'foo' => 'gamepictures');
+ */
+    function returnSmartyTemplate($smarty, $template) {
+
+        foreach(get_object_vars($this) as $key => $val) {
+            $smarty->assign($key, $val);
         }
-        else {
-            throw new Exception("Invalid template file.");
-        }
+        
+        return $smarty->display($template);
     }
     
     // function getCardFrontHTML() {
