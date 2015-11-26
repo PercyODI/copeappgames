@@ -24,7 +24,7 @@ defined("TEMPLATES_PATH")
 
 /*  ### Custom class includes by Pearse ###
     
-    The following includes all the classes in the /library/classes folder
+    Autoloads classes found in the resources/library/classes when called
 */
 
 function autoload_classes($classname) {
@@ -48,8 +48,15 @@ spl_autoload_register("autoload_classes");
 */
  
 $config = array(
+    "db" => array(
+        "dbname" => "copeapp_games",
+        "username" => getenv('C9_USER'),
+        "password" => "",
+        "host" => getenv('IP'),
+        "port" => 3306
+    ),
     "urls" => array(
-        "baseUrl" => "https://copeapp-percyodi.c9.io/v0.4/public_html/index.php"
+        "baseUrl" => "https://copeapp-percyodi.c9.io/v0.4/"
     ),
     "paths" => array(
         "resources" => "/home/ubuntu/workspace/v0.4/resources/",

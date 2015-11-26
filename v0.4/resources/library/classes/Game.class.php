@@ -1,5 +1,7 @@
 <?php
 
+require_once("config.php");
+
 class Game {
     // An instance must be given a gameid's to work
     
@@ -11,85 +13,72 @@ class Game {
     protected $discussion = "No Discussion Listed";
     protected $createdby = "";
     protected $equipment = "No Equipment Listed";
-    protected $gametypes = array("No Game Types");
+    protected $primary_type = null;
+    protected $secondary_type = null;
     protected $gametags = array("No Game Tags");
     protected $gamepictures = array();
     protected $gamevideos = array();
     
-    // function __construct($constructGameid) {
-    //     global $db;
-    //     if($constructGameid != null) {
-    //         try {
-    //             $stmt = $db->prepare("
-    //                 SELECT gameid, 
-    //                       title, 
-    //                       description, 
-    //                       instructions, 
-    //                       discussion, 
-    //                       icon, 
-    //                       createdby, 
-    //                       GROUP_CONCAT(DISTINCT gpic.link) AS pic_links, 
-    //                       GROUP_CONCAT(DISTINCT gtype.keyword) AS type_keywords, 
-    //                       GROUP_CONCAT(DISTINCT gtag.keyword) AS tag_keywords,
-    //                       GROUP_CONCAT(DISTINCT gvid.link) as vid_links
-    //                 FROM game 
-    //                 LEFT OUTER JOIN (SELECT *
-    //                                  FROM games_types
-    //                                  JOIN game_type
-    //                                  USING (typeid)
-    //                                 ) AS gtype USING (gameid)
-    //                 LEFT OUTER JOIN (SELECT *
-    //                                  FROM games_tags
-    //                                  JOIN game_tag
-    //                                  USING (tagid)
-    //                                 ) AS gtag USING (gameid)
-    //                 LEFT OUTER JOIN game_pictures AS gpic USING (gameid)
-    //                 LEFT OUTER JOIN game_videos AS gvid USING (gameid)
-    //                 WHERE gameid = :gameid
-    //                 GROUP BY gameid");
-    //             $stmt->execute(array("gameid" => $constructGameid));
-    //             $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    //             $data = $data[0];
-    //             if(isset($data['gameid'])) {
-    //                 $this->gameid = $data['gameid'];
-    //             }
-    //             if(isset($data['title'])) {
-    //                 $this->title = $data['title'];
-    //             }
-    //             if(isset($data['description'])) {
-    //                 $this->description = $data['description'];
-    //             }
-    //             if(isset($data['instructions'])) {
-    //                 $this->instructions = $data['instructions'];
-    //             }
-    //             if(isset($data['discussion'])) {
-    //                 $this->discussion = $data['discussion'];
-    //             }
-    //             if(isset($data['icon'])) {
-    //                 $this->icon = $data['icon'];
-    //             }
-    //             if(isset($data['createdby'])) {
-    //                 $this->createdby = $data['createdby'];
-    //             }
-    //             if(isset($data['pic_links'])) {
-    //                 $this->gamepictures = explode(",", $data['pic_links']);
-    //             }
-    //             if(isset($data['type_keywords'])) {
-    //                 $this->gametypes = explode(",", $data['type_keywords']);
-    //             }
-    //             if(isset($data['tag_keywords'])) {
-    //                 $this->gametags = explode(",", $data['tag_keywords']);
-    //             }
-    //             if(isset($data['vid_links'])) {
-    //                 $this->gamevideos = explode(",", $data['vid_links']);
-    //             }
-    //         } catch(Exception $e) {
-    //             echo "Error: " . $e->getMessage();
-    //         }
-    //     } else {
-    //         throw new Exception("game_card_class requires a gameid.");
-    //     }
-    // }
+    function __construct($constructGameid) {
+        $data = Database::runQuery(
+            "SELECT gameid,
+                   icon,
+                   title,
+                   description,
+                   instruction,
+                   discussion,
+                   primary_type,
+                   secondary_type, 
+                   GROUP_CONCAT(gtag.keyword) as gametags,
+                   GROUP_CONCAT(gpic.link) as gamepictures,
+                   GROUP_CONCAT(gvid.link) as gamevideos
+            FROM game 
+            LEFT OUTER JOIN (SELECT *
+                             FROM game_tag 
+                             JOIN tag
+                             USING (tagid)
+                            ) AS gtag USING (gameid)
+            LEFT OUTER JOIN picture AS gpic USING (gameid)
+            LEFT OUTER JOIN video AS gvid USING (gameid)
+            WHERE gameid = :gameid
+            GROUP BY gameid"
+            , array("gameid" => $constructGameid)
+        );
+        $data = $data[0];
+        if(isset($data['gameid'])) {
+            $this->gameid = $data['gameid'];
+        }
+        if(isset($data['title'])) {
+            $this->title = $data['title'];
+        }
+        if(isset($data['description'])) {
+            $this->description = $data['description'];
+        }
+        if(isset($data['instructions'])) {
+            $this->instruction = $data['instructions'];
+        }
+        if(isset($data['discussion'])) {
+            $this->discussion = $data['discussion'];
+        }
+        if(isset($data['icon'])) {
+            $this->icon = $data['icon'];
+        }
+        if(isset($data['primary_type'])) {
+            $this->primary_type = $data['primary_type'];
+        }
+        if(isset($data['secondary_type'])) {
+            $this->secondary_type = $data['secondary_type'];
+        }
+        if(isset($data['gametags'])) {
+            $this->gametags = explode(",", $data['gametags']);
+        }
+        if(isset($data['gamepictures'])) {
+            $this->gamepictures = explode(",", $data['gamepictures']);
+        }
+        if(isset($data['gamevideos'])) {
+            $this->gamevideos = explode(",", $data['gamevideos']);
+        }
+    }
     
     function getGameid () {
         return $this->gameid;
@@ -129,6 +118,29 @@ class Game {
     
     function getTagKeywordds () {
         return $this->tag_keywords;
+    }
+    
+    /**
+     *  $templateFile must be a valid template file, with #variable# replace strings
+     * 
+     *  $replaceArr must contain an associative array in the following format
+     *  array("#stringToReplace#" => "property");
+     * 
+     *  For example
+     *  array("#icon#" => "icon", "#title#" => "title", "#description#" => "description")
+     */
+    function createFromTemplate($templateFile, $replaceArr) {
+        if(file_exists($templateFile)) {
+            $template = file_get_contents($templateFile);
+            $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
+        } 
+        elseif(file_exists(TEMPLATES_PATH . $templateFile)) {
+            $template = file_get_contents(TEMPLATES_PATH . $templateFile);
+            $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
+        }
+        else {
+            throw new Exception("Invalid template file.");
+        }
     }
     
     // function getCardFrontHTML() {

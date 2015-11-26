@@ -5,7 +5,11 @@
 require_once("config.php");
 
 try {
-    $test = new Game;
+    // $test = new Deck(1);
+    // print_r($test);
+    
+    $replaceArr = array("#icon#" => "icon", "#title#" => "title", "#description#" => "description");
+    print_r(array_values($replaceArr));
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }

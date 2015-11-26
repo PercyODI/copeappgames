@@ -216,3 +216,63 @@ Stack trace:
 [25-Nov-2015 19:38:54 UTC] PHP Stack trace:
 [25-Nov-2015 19:38:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
 [25-Nov-2015 19:38:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/v0.4/public_html/index.php:5
+[26-Nov-2015 03:53:10 UTC] PHP Warning:  Missing argument 1 for Database::newConn(), called in /home/ubuntu/workspace/v0.4/public_html/index.php on line 8 and defined in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 44
+[26-Nov-2015 03:53:10 UTC] PHP Stack trace:
+[26-Nov-2015 03:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 03:53:10 UTC] PHP   2. Database::newConn() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 03:53:10 UTC] PHP Notice:  Undefined variable: host in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 62
+[26-Nov-2015 03:53:10 UTC] PHP Stack trace:
+[26-Nov-2015 03:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 03:53:10 UTC] PHP   2. Database::newConn() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 03:53:10 UTC] PHP Notice:  Undefined variable: dbname in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 62
+[26-Nov-2015 03:53:10 UTC] PHP Stack trace:
+[26-Nov-2015 03:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 03:53:10 UTC] PHP   2. Database::newConn() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 03:53:10 UTC] PHP Notice:  Undefined variable: port in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 62
+[26-Nov-2015 03:53:10 UTC] PHP Stack trace:
+[26-Nov-2015 03:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 03:53:10 UTC] PHP   2. Database::newConn() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 03:53:10 UTC] PHP Notice:  Undefined variable: username in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 62
+[26-Nov-2015 03:53:10 UTC] PHP Stack trace:
+[26-Nov-2015 03:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 03:53:10 UTC] PHP   2. Database::newConn() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 03:53:10 UTC] PHP Notice:  Undefined variable: password in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 62
+[26-Nov-2015 03:53:10 UTC] PHP Stack trace:
+[26-Nov-2015 03:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 03:53:10 UTC] PHP   2. Database::newConn() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:26:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/v0.4/public_html/index.php on line 10
+[26-Nov-2015 04:27:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/v0.4/public_html/index.php on line 10
+[26-Nov-2015 04:27:34 UTC] PHP Notice:  Undefined variable: config in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 76
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:27:34 UTC] PHP Notice:  Undefined variable: config in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 77
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:27:34 UTC] PHP Notice:  Undefined variable: config in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 78
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:27:34 UTC] PHP Notice:  Undefined variable: config in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 79
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:27:34 UTC] PHP Notice:  Undefined variable: config in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 80
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:27:34 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 88
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 04:27:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 88
+[26-Nov-2015 04:27:34 UTC] PHP Stack trace:
+[26-Nov-2015 04:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 04:27:34 UTC] PHP   2. Database::runQuery() /home/ubuntu/workspace/v0.4/public_html/index.php:8
+[26-Nov-2015 06:34:12 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/v0.4/public_html/index.php on line 12
+[26-Nov-2015 06:34:12 UTC] PHP Stack trace:
+[26-Nov-2015 06:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
+[26-Nov-2015 06:34:37 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/v0.4/public_html/index.php on line 12
+[26-Nov-2015 06:34:37 UTC] PHP Stack trace:
+[26-Nov-2015 06:34:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/index.php:0
