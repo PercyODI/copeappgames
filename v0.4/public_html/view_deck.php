@@ -12,6 +12,7 @@ try {
     $deck = new Deck($_GET['deckid']);
     $games = $deck->getDeckGames();
     $config['smarty']->assign('deckname', $deck->getName());
+    $config['smarty']->assign('usercopename', $deck->getUsercopename());
     $config['smarty']->assign('games', $games);
     $config['smarty']->display('view_deck.tpl');
 } catch (Exception $e) {

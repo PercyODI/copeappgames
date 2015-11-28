@@ -3,6 +3,7 @@
 <div class="page_content">
     <div class="content_title">
         <h2>Viewing {$deckname}</h2>
+        <h3>Created By {$usercopename}</h3>
     </div>
     <div class="card_grid">
     {foreach from=$games item=$game}

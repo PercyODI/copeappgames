@@ -10,7 +10,7 @@
     </div>
     <div class="game_dropdown dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-            Action
+            Game Action
             <i class="fa fa-caret-down"></i>
         </button>
         <ul class="dropdown-menu">

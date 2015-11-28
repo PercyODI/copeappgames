@@ -6,15 +6,17 @@ class Deck {
     protected $deckid = "";
     protected $name = "";
     protected $userid = "";
+    protected $usercopename = "";
     protected $description = "";
     protected $icon = "";
     protected $games = array();
     
     function __construct($constructDeckid) {
         $data = Database::runQuery(
-            "SELECT deckid, name, userid, deck.description, deck.icon, GROUP_CONCAT(game.gameid) AS games
+            "SELECT deckid, name, userid, deck.description, deck.icon, user.copename, GROUP_CONCAT(game.gameid) AS games
             FROM deck
             LEFT OUTER JOIN game USING (deckid)
+            LEFT OUTER JOIN user USING (userid)
             WHERE deckid = :deckid
             GROUP BY deckid"
            , array("deckid" => $constructDeckid)
@@ -35,6 +37,9 @@ class Deck {
         if(isset($data['icon'])) {
             $this->icon = $data['icon'];
         }
+        if(isset($data['copename'])) {
+            $this->usercopename = $data['copename'];
+        }
         if(isset($data['games'])) {
             $gameids = explode(',', $data['games']);
             foreach($gameids as $gameid) {
@@ -51,6 +56,9 @@ class Deck {
     }
     public function getUserid() {
         return $this->userid;
+    }
+    public function getUsercopename() {
+        return $this->usercopename;
     }
     public function getDescription() {
         return $this->description;

@@ -2100,3 +2100,7 @@ Stack trace:
 [28-Nov-2015 02:42:52 UTC] PHP  21. content_56590d5ead2072_53133318() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_resource_base.php:129
 [28-Nov-2015 02:46:59 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/v0.4/public_html/view_deck.php on line 7
 [28-Nov-2015 02:47:02 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/v0.4/public_html/view_deck.php on line 7
+[28-Nov-2015 04:32:05 UTC] PHP Notice:  Undefined index: usercopename in /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php on line 41
+[28-Nov-2015 04:32:05 UTC] PHP Stack trace:
+[28-Nov-2015 04:32:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[28-Nov-2015 04:32:05 UTC] PHP   2. Deck->__construct() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:12

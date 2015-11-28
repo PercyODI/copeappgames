@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.28-dev/77, created on 2015-11-28 01:53:17
+/* Smarty version 3.1.28-dev/77, created on 2015-11-28 04:37:56
   from "/home/ubuntu/workspace/v0.4/resources/templates/browse_decks.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.28-dev/77',
-  'unifunc' => 'content_5659090df06af9_15146583',
+  'unifunc' => 'content_56592fa479b1a6_45228988',
   'file_dependency' => 
   array (
     'b84c4563f9a9a3806df58b59ab0baaedafee3ebe' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/browse_decks.tpl',
-      1 => 1448675135,
+      1 => 1448685187,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:layout.tpl' => 1,
   ),
 ),false)) {
-function content_5659090df06af9_15146583 ($_smarty_tpl) {
+function content_56592fa479b1a6_45228988 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'content', array (
-  0 => 'block_19916261625659090def1818_85785892',
+  0 => 'block_59269418156592fa477ed83_62413411',
   1 => false,
   3 => 0,
   2 => 0,
@@ -35,7 +35,7 @@ $_smarty_tpl->ext->_inheritance->endChild($_smarty_tpl);
 $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:layout.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'content'}  file:browse_decks.tpl */
-function block_19916261625659090def1818_85785892($_smarty_tpl, $_blockParentStack) {
+function block_59269418156592fa477ed83_62413411($_smarty_tpl, $_blockParentStack) {
 ?>
 
 <div class="page_content">
