@@ -119,6 +119,25 @@ class Game {
     function getTagKeywordds () {
         return $this->tag_keywords;
     }
+    
+    public static function getGames($limit = 100, $offset = 0) {
+        $limit = (int) $limit;
+        $offset = (int) $offset;
+        $games = array();
+        $data = Database::runQuery("SELECT gameid FROM game LIMIT $limit OFFSET $offset");
+        foreach($data as $game) {
+            $games[] = new Game((int) $game['gameid']);
+        }
+        return $games;
+    }
+    
+    function smartyCard($template) {
+        global $config;
+        foreach(get_object_vars($this) as $key => $val) {
+            $config['smarty']->assign($key, $val);
+        }
+        echo $config['smarty']->fetch($template);
+    }
 /**
  * $replaceVals needs to be a key => value pair of the variables
  * 
@@ -128,14 +147,14 @@ class Game {
  * Ex.
  * $replaceVals = array('title' => 'title', 'foo' => 'gamepictures');
  */
-    function returnSmartyTemplate($smarty, $template) {
+    // function returnSmartyTemplate($smarty, $template) {
 
-        foreach(get_object_vars($this) as $key => $val) {
-            $smarty->assign($key, $val);
-        }
+    //     foreach(get_object_vars($this) as $key => $val) {
+    //         $smarty->assign($key, $val);
+    //     }
         
-        return $smarty->display($template);
-    }
+    //     return $smarty->fetch($template);
+    // }
     
     // function getCardFrontHTML() {
     //     $template = file_get_contents("/home/ubuntu/workspace/v0.3/api/ui/game_card_front.tpl");

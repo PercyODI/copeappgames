@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.28-dev/77, created on 2015-11-26 16:17:51
+/* Smarty version 3.1.28-dev/77, created on 2015-11-27 21:19:28
   from "/home/ubuntu/workspace/v0.4/resources/templates/test.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.28-dev/77',
-  'unifunc' => 'content_565730afaa44a2_88737852',
+  'unifunc' => 'content_5658c8e0604b98_15307116',
   'file_dependency' => 
   array (
     '29cff47fcd658bf61b65c1a7c1e763b9221b17b1' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/test.tpl',
-      1 => 1448554669,
+      1 => 1448631675,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_565730afaa44a2_88737852 ($_smarty_tpl) {
+function content_5658c8e0604b98_15307116 ($_smarty_tpl) {
 ?>
 <h1><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </h1>

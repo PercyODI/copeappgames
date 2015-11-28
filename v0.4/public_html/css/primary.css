@@ -1,0 +1,165 @@
+.page_container {
+    background-color: orange;
+    display: flex;
+    flex-flow: column;
+    /*width: 100vw;*/
+    min-height: 100vh;
+    font-family: 'robotoregular', Arial;
+}
+
+.page_container a {
+    color: black;
+}
+
+/* CSS for the navbar */
+
+.page_navbar {
+    background-color: #B5BCD9;
+    border-bottom: 1px solid #15161a;
+    min-height: 60px;
+    padding: 0 25px 0 0;
+    font-size: 1.2em;
+    order: 1;
+    
+    /*CSS for Navbar flexbox*/
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.page_navbar_right {
+    flex: 1 1 auto;
+}
+
+.page_navbar_left {
+    flex: 10 1 auto;
+    font-size: 1.75em;
+    font-family: 'permanent_markerregular', Arial;
+}
+
+.nav_ul_flex {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    flex: 1 1 auto;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.page_content {
+    background-color: #F9F9FD;
+    padding: 20px;
+    order: 2;
+    flex-grow: 1;
+    
+}
+
+/* CSS for the contents */
+
+.content_title {
+    margin: auto;
+    text-align: center;
+}
+
+.content_search {
+    margin: auto;
+    text-align: center;
+}
+
+.card_grid {
+    margin: auto;
+}
+
+/* Deck Cards */
+
+.card {
+    background-color: white;
+    border: 1px solid #15161a;
+    border-radius: 1px;
+    padding: 8px;
+    margin: 8px;
+    /*height: 300px;
+    overflow: auto;*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.deck-card {
+    width: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.deck-title {
+    font-size: 1.3em;
+}
+
+.deck-description {
+    text-align: justify;
+    flex: 1 1 auto;
+}
+
+.deck_dropdown {
+    align-self: flex-end;
+}
+
+.game-card {
+    width: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.game-title {
+    font-size: 1.3em;
+}
+
+.game-description {
+    text-align: justify;
+    flex: 1 1 auto;
+}
+
+.game_dropdown {
+    align-self: flex-end;
+}
+
+
+/* CSS for the Footer */
+
+.page_footer {
+    background-color: #B5BCD9;
+    border-top: 1px solid #15161a;
+    min-height: 60px;
+    order: 3;
+    padding: 0 20px;
+    
+    display: flex;
+    align-items: center;
+}
+
+#carabiner_pic {
+    height: 80px;
+}
+
+.footer_breadcrumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    
+    flex: 1 1 auto;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
