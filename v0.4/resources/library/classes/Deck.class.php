@@ -81,6 +81,11 @@ class Deck {
         return $decks;
     }
     
+    public static function getDeckName($deckid) {
+        $data = Database::runQuery("SELECT name FROM deck WHERE deckid = :deckid", array("deckid" => $deckid));
+        return $data[0]['name'];
+    }
+    
     public function getDeckGames($limit = 100, $offset = 0) {
         $limit = (int) $limit;
         $offset = (int) $offset;

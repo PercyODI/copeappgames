@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.28-dev/77, created on 2015-11-28 04:46:19
+/* Smarty version 3.1.28-dev/77, created on 2015-11-28 19:52:50
   from "/home/ubuntu/workspace/v0.4/resources/templates/object_card/deck_card.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.28-dev/77',
-  'unifunc' => 'content_5659319baa4200_93024039',
+  'unifunc' => 'content_565a0612dc7dd9_56759076',
   'file_dependency' => 
   array (
     'f97798bc65689f335c0ecec53714ff5ff5b78bcf' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/object_card/deck_card.tpl',
-      1 => 1448685978,
+      1 => 1448740370,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,8 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5659319baa4200_93024039 ($_smarty_tpl) {
+function content_565a0612dc7dd9_56759076 ($_smarty_tpl) {
+if (!is_callable('smarty_modifier_truncate')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
 ?>
 <div class="card deck-card">
     <div class="deck-icon">
@@ -31,7 +32,7 @@ function content_5659319baa4200_93024039 ($_smarty_tpl) {
 
     </div>
     <div class="deck-description">
-        <?php echo $_smarty_tpl->tpl_vars['description']->value;?>
+        <?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['description']->value,256);?>
 
     </div>
     <div class="deck_dropdown dropdown">

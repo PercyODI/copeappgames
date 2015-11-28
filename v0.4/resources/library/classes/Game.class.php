@@ -6,6 +6,7 @@ class Game {
     // An instance must be given a gameid's to work
     
     protected $gameid = "";
+    protected $deckid = "";
     protected $icon = "gamepad";
     protected $title = "No Title Listed";
     protected $description = "No Description Listed";
@@ -15,9 +16,10 @@ class Game {
     protected $equipment = "No Equipment Listed";
     protected $primary_type = null;
     protected $secondary_type = null;
-    protected $gametags = array("No Game Tags");
-    protected $gamepictures = array();
-    protected $gamevideos = array();
+    protected $gametypes = null;
+    protected $gametags = null;
+    protected $gamepictures = null;
+    protected $gamevideos = null;
     
     function __construct($constructGameid) {
         $data = Database::runQuery(
@@ -28,16 +30,19 @@ class Game {
                    instruction,
                    discussion,
                    primary_type,
-                   secondary_type, 
+                   secondary_type,
+                   deckid,
                    GROUP_CONCAT(gtag.keyword) as gametags,
                    GROUP_CONCAT(gpic.link) as gamepictures,
-                   GROUP_CONCAT(gvid.link) as gamevideos
+                   GROUP_CONCAT(gvid.link) as gamevideos,
+                   GROUP_CONCAT(`type`.keyword) as gametypes
             FROM game 
             LEFT OUTER JOIN (SELECT *
                              FROM game_tag 
                              JOIN tag
                              USING (tagid)
                             ) AS gtag USING (gameid)
+            LEFT OUTER JOIN type ON game.primary_type=`type`.typeid OR game.secondary_type=`type`.typeid
             LEFT OUTER JOIN picture AS gpic USING (gameid)
             LEFT OUTER JOIN video AS gvid USING (gameid)
             WHERE gameid = :gameid
@@ -54,14 +59,17 @@ class Game {
         if(isset($data['description'])) {
             $this->description = $data['description'];
         }
-        if(isset($data['instructions'])) {
-            $this->instruction = $data['instructions'];
+        if(isset($data['instruction'])) {
+            $this->instructions = $data['instruction'];
         }
         if(isset($data['discussion'])) {
             $this->discussion = $data['discussion'];
         }
         if(isset($data['icon'])) {
             $this->icon = $data['icon'];
+        }
+        if(isset($data['deckid'])) {
+            $this->deckid = $data['deckid'];
         }
         if(isset($data['primary_type'])) {
             $this->primary_type = $data['primary_type'];
@@ -77,6 +85,9 @@ class Game {
         }
         if(isset($data['gamevideos'])) {
             $this->gamevideos = explode(",", $data['gamevideos']);
+        }
+        if(isset($data['gametypes'])) {
+            $this->gametypes = explode(",", $data['gametypes']);
         }
     }
     
@@ -102,6 +113,10 @@ class Game {
     
     function getIcon () {
         return $this->icon;
+    }
+    
+    function getDeckid () {
+        return $this->deckid;
     }
     
     function getCreatedby () {
@@ -137,6 +152,15 @@ class Game {
             $config['smarty']->assign($key, $val);
         }
         echo $config['smarty']->fetch($template);
+    }
+    
+    function displayFullGameSmarty($template) {
+        global $config;
+        foreach(get_object_vars($this) as $key => $val) {
+            $config['smarty']->assign($key, $val);
+        }
+        echo $config['smarty']->display($template);
+        
     }
 /**
  * $replaceVals needs to be a key => value pair of the variables

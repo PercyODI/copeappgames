@@ -1,16 +1,16 @@
 <?php
-/* Smarty version 3.1.28-dev/77, created on 2015-11-28 19:24:52
-  from "/home/ubuntu/workspace/v0.4/resources/templates/browse_decks.tpl" */
+/* Smarty version 3.1.28-dev/77, created on 2015-11-28 19:25:38
+  from "/home/ubuntu/workspace/v0.4/resources/templates/deck/browse_decks.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.28-dev/77',
-  'unifunc' => 'content_5659ff8449b255_70451621',
+  'unifunc' => 'content_5659ffb2db10d5_84154414',
   'file_dependency' => 
   array (
-    'b84c4563f9a9a3806df58b59ab0baaedafee3ebe' => 
+    '120e475955cb24c0abde314938886be88a259070' => 
     array (
-      0 => '/home/ubuntu/workspace/v0.4/resources/templates/browse_decks.tpl',
+      0 => '/home/ubuntu/workspace/v0.4/resources/templates/deck/browse_decks.tpl',
       1 => 1448738685,
       2 => 'file',
     ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:base.tpl' => 1,
   ),
 ),false)) {
-function content_5659ff8449b255_70451621 ($_smarty_tpl) {
+function content_5659ffb2db10d5_84154414 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'content', array (
-  0 => 'block_5155534105659ff844784e7_22417221',
+  0 => 'block_20751768475659ffb2d91b27_38062272',
   1 => false,
   3 => 0,
   2 => 0,
@@ -34,8 +34,8 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'content', array 
 $_smarty_tpl->ext->_inheritance->endChild($_smarty_tpl);
 $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:base.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
-/* {block 'content'}  file:browse_decks.tpl */
-function block_5155534105659ff844784e7_22417221($_smarty_tpl, $_blockParentStack) {
+/* {block 'content'}  file:deck/browse_decks.tpl */
+function block_20751768475659ffb2d91b27_38062272($_smarty_tpl, $_blockParentStack) {
 ?>
 
 <div class="page_content">

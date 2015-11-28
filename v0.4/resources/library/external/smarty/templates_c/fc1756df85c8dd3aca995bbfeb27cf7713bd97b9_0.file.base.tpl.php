@@ -1,16 +1,16 @@
 <?php
-/* Smarty version 3.1.28-dev/77, created on 2015-11-28 19:24:13
-  from "/home/ubuntu/workspace/v0.4/resources/templates/layout.tpl" */
+/* Smarty version 3.1.28-dev/77, created on 2015-11-28 19:24:52
+  from "/home/ubuntu/workspace/v0.4/resources/templates/base.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.28-dev/77',
-  'unifunc' => 'content_5659ff5da9ebc3_77933682',
+  'unifunc' => 'content_5659ff844ce279_31896462',
   'file_dependency' => 
   array (
-    '3c75069aac11630c67f82e935bdde165f9e109ac' => 
+    'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
     array (
-      0 => '/home/ubuntu/workspace/v0.4/resources/templates/layout.tpl',
+      0 => '/home/ubuntu/workspace/v0.4/resources/templates/base.tpl',
       1 => 1448738634,
       2 => 'file',
     ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:include/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5659ff5da9ebc3_77933682 ($_smarty_tpl) {
+function content_5659ff844ce279_31896462 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, false);
 ?>
 <!DOCTYPE html>
@@ -30,7 +30,7 @@ $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, false);
 <head>
     <title><?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'title', array (
-  0 => 'block_2804686255659ff5da7e867_31239470',
+  0 => 'block_11289195815659ff844b02e3_25982191',
   1 => false,
   3 => 0,
   2 => 0,
@@ -42,7 +42,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'title', array (
 
     <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'extra_head', array (
-  0 => 'block_7765814195659ff5da921d1_29654405',
+  0 => 'block_8459396215659ff844bb234_55235927',
   1 => false,
   3 => 0,
   2 => 0,
@@ -57,7 +57,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'extra_head', arr
 
         <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'content', array (
-  0 => 'block_12856051245659ff5da98908_38642411',
+  0 => 'block_8243390755659ff844c50b9_81707128',
   1 => false,
   3 => 0,
   2 => 0,
@@ -70,18 +70,18 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'content', array 
     </div>
 </body>
 </html><?php }
-/* {block 'title'}  file:layout.tpl */
-function block_2804686255659ff5da7e867_31239470($_smarty_tpl, $_blockParentStack) {
+/* {block 'title'}  file:base.tpl */
+function block_11289195815659ff844b02e3_25982191($_smarty_tpl, $_blockParentStack) {
 ?>
 COPEapp<?php
 }
 /* {/block 'title'} */
-/* {block 'extra_head'}  file:layout.tpl */
-function block_7765814195659ff5da921d1_29654405($_smarty_tpl, $_blockParentStack) {
+/* {block 'extra_head'}  file:base.tpl */
+function block_8459396215659ff844bb234_55235927($_smarty_tpl, $_blockParentStack) {
 }
 /* {/block 'extra_head'} */
-/* {block 'content'}  file:layout.tpl */
-function block_12856051245659ff5da98908_38642411($_smarty_tpl, $_blockParentStack) {
+/* {block 'content'}  file:base.tpl */
+function block_8243390755659ff844c50b9_81707128($_smarty_tpl, $_blockParentStack) {
 ?>
 
         <div class="page_content">

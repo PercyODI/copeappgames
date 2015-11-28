@@ -14,7 +14,7 @@ try {
     $config['smarty']->assign('deckname', $deck->getName());
     $config['smarty']->assign('usercopename', $deck->getUsercopename());
     $config['smarty']->assign('games', $games);
-    $config['smarty']->display('view_deck.tpl');
+    $config['smarty']->display('deck/view_deck.tpl');
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }

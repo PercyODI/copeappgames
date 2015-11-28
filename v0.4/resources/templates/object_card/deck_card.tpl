@@ -6,7 +6,7 @@
         {$name|escape:htmlall}
     </div>
     <div class="deck-description">
-        {$description}
+        {$description|truncate:256}
     </div>
     <div class="deck_dropdown dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">

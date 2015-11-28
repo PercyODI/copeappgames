@@ -1,4 +1,4 @@
-{extends file='layout.tpl'}
+{extends file='base.tpl'}
 {block name=content}
 <div class="page_content">
     <div class="content_title">
