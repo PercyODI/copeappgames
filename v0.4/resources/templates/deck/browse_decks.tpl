@@ -11,7 +11,7 @@
         </div> <!-- /form-group -->
     </div> <!-- /content_search -->
     <div class="card_grid">
-    {foreach from=$decks item=$deck}
+    {foreach from=$decks item=deck}
         {$deck->smartyCard('object_card/deck_card.tpl')}
     {/foreach}
     </div>

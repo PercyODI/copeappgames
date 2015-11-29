@@ -64,4 +64,62 @@ class User {
     function getDecks() {
         return $this->decks;
     }
+    
+    public static function validateUser($username, $password) {
+        $data = Database::runQuery("SELECT * FROM user WHERE username = :username",
+                                   array('username' => $username));
+        if(count($data) == 1) {
+            if(password_verify($password, $data[0]['password'])) {
+                return new User($data[0]['userid']);
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }
+    
+    public static function newUser($userDetails) {
+        $return = array();
+        if(!is_array($userDetails)) {
+            $return['status'] = 'error';
+            $return['message'] = 'Expecting an Array';
+            return $return;
+        }
+        
+        if($userDetails['password'] != $userDetails['confirmpassword']) {
+            $return['status'] = 'error';
+            $return['message'] = 'Passwords Don\'t Match';
+            return $return;
+        }
+        
+        $usernameTest = Database::runQuery("SELECT * FROM user WHERE username = :username"
+                                           , array("username" => $userDetails['username']));
+        if(count($usernameTest) > 0) {
+            $return['status'] = 'error';
+            $return['message'] = 'Username Taken';
+            return $return;
+        }
+        
+        // Convert password to hash
+        $userDetails['password'] = password_hash($userDetails['password'], PASSWORD_DEFAULT);
+        try {
+            Database::runQuery("INSERT INTO user (username, password, fname, lname, copename, create_date, last_modified) 
+                                VALUES (:username, :password, :fname, :lname, :copename, CURDATE(), NOW())"
+                               , array(
+                                   "username" => $userDetails['username'],
+                                   "password" => $userDetails['password'], 
+                                   "fname" => $userDetails['fname'], 
+                                   "lname" => $userDetails['lname'], 
+                                   "copename" => $userDetails['copename'])
+                               );
+            $return['status'] = 'success';
+            return $return;
+        } catch (Exception $e) {
+            $return['status'] = 'error';
+            $return['message'] = 'Database Error';
+            return $return;
+        }
+        
+    }
 }

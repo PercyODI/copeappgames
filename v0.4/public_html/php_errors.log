@@ -1,0 +1,13 @@
+[29-Nov-2015 03:15:02 UTC] PHP Fatal error:  Class 'User' not found in /home/ubuntu/workspace/v0.4/public_html/ajax/login.php on line 12
+[29-Nov-2015 03:15:02 UTC] PHP Stack trace:
+[29-Nov-2015 03:15:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[29-Nov-2015 05:23:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The class `USER` was not found in the /home/ubuntu/workspace/v0.4/resources/library/classes directory.<br>
+                             Please try a different class, or create a new class' in /home/ubuntu/workspace/v0.4/resources/config.php:35
+Stack trace:
+#0 [internal function]: autoload_classes('USER')
+#1 /home/ubuntu/workspace/v0.4/public_html/ajax/register.php(21): spl_autoload_call('USER')
+#2 {main}
+  thrown in /home/ubuntu/workspace/v0.4/resources/config.php on line 35
+[29-Nov-2015 05:31:33 UTC] PHP Fatal error:  Call to undefined function is_empty() in /home/ubuntu/workspace/v0.4/public_html/ajax/register.php on line 8
+[29-Nov-2015 05:31:33 UTC] PHP Stack trace:
+[29-Nov-2015 05:31:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/register.php:0

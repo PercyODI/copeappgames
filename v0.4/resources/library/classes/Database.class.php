@@ -86,11 +86,15 @@ class Database {
             echo "ERROR: " . $e->getMessage();
         }
         
-        $stmt = $conn->prepare($queryStr);
-        $stmt->execute($bind_params);
-        
-        $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        return $data;
+        try {
+            $stmt = $conn->prepare($queryStr);
+            $stmt->execute($bind_params);
+            
+            $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            return $data;
+        } catch(PDOException $e) {
+            echo "Query Error: " . $e->getMessage();
+        }
     }
 }
 

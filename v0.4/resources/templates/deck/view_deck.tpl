@@ -6,7 +6,7 @@
         <h3>Created By {$usercopename}</h3>
     </div>
     <div class="card_grid">
-    {foreach from=$games item=$game}
+    {foreach from=$games item=game}
         {$game->smartyCard('object_card/game_card.tpl')}
     {foreachelse}
         <div class="card"><h3>No Games have been added to this Deck!</h3></div>

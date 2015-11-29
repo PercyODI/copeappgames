@@ -38,17 +38,17 @@
             <hr>
             <h3>Description</h3>
             <div class="full_game_description">
-                {$description}
+                {markdown text=$description}
             </div>
             <hr>
             <h3>Instructions</h3>
             <div class="full_game_instruction">
-                {$instructions}
+                {markdown text=$instructions}
             </div>
             <hr>
             <h3>Discussion</h3>
             <div class="full_game_discussion">
-                {$discussion}
+                {markdown text=$discussion}
             </div>
         </div>
 

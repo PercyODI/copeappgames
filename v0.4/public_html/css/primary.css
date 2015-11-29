@@ -71,8 +71,11 @@
     margin: 0 auto;
 }
 
-.content_title h2 {
-    margin: 0 auto;
+h2 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 h3 {
@@ -244,4 +247,26 @@ h3 {
 .full_game_videos video {
     max-width: 100%;
     vertical-align: middle;
+}
+
+/*Log In Page CSS*/
+.login_form {
+    margin: 0 auto;
+    float: none;
+}
+
+.login_form label {
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+/*Register Page CSS*/
+.register_form {
+    margin: 0 auto;
+    float: none;
+}
+
+.register_form label {
+    font-weight: normal;
+    font-size: 1.3em;
 }
