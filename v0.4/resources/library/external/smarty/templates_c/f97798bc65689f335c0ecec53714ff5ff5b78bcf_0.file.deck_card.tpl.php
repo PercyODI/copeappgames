@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 06:02:26
+<?php /* Smarty version 3.1.27, created on 2015-11-29 23:33:55
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/object_card/deck_card.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1173382462565a94f222e532_53604908%%*/
+/*%%SmartyHeaderCode:1200646454565b8b63d50530_86722714%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,32 +9,35 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97798bc65689f335c0ecec53714ff5ff5b78bcf' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/object_card/deck_card.tpl',
-      1 => 1448740370,
+      1 => 1448836611,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1173382462565a94f222e532_53604908',
+  'nocache_hash' => '1200646454565b8b63d50530_86722714',
   'variables' => 
   array (
     'icon' => 0,
     'name' => 0,
     'description' => 0,
     'deckid' => 0,
+    'userid' => 0,
+    'usercopename' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565a94f223ded8_90398403',
+  'unifunc' => 'content_565b8b63d745c2_18452750',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565a94f223ded8_90398403')) {
-function content_565a94f223ded8_90398403 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_565b8b63d745c2_18452750')) {
+function content_565b8b63d745c2_18452750 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_truncate')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
+if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '1173382462565a94f222e532_53604908';
+$_smarty_tpl->properties['nocache_hash'] = '1200646454565b8b63d50530_86722714';
 ?>
 <div class="card deck-card">
     <div class="deck-icon">
-        <i class="fa fa-4x fa-<?php echo $_smarty_tpl->tpl_vars['icon']->value;?>
+        <i class="fa fa-4x <?php echo $_smarty_tpl->tpl_vars['icon']->value;?>
 "></i>
     </div>
     <div class="deck-title">
@@ -54,6 +57,9 @@ $_smarty_tpl->properties['nocache_hash'] = '1173382462565a94f222e532_53604908';
             <li><a href="view_deck.php?deckid=<?php echo $_smarty_tpl->tpl_vars['deckid']->value;?>
 ">View Deck</a></li>
             <li><a href="#">Copy Deck</a></li>
+            <li><a href="browse_decks.php?userid=<?php echo $_smarty_tpl->tpl_vars['userid']->value;?>
+">Browse <?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['usercopename']->value);?>
+'s Decks</a></li>
         </ul>
     </div>
 </div><?php }

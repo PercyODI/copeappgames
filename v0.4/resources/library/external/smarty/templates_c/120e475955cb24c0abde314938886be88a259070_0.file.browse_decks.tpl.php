@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 06:02:26
+<?php /* Smarty version 3.1.27, created on 2015-11-29 23:33:55
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/deck/browse_decks.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:250699952565a94f21ab966_56411840%%*/
+/*%%SmartyHeaderCode:138884384565b8b63b4d9b1_08680535%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '120e475955cb24c0abde314938886be88a259070' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/deck/browse_decks.tpl',
-      1 => 1448759826,
+      1 => 1448823447,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -18,23 +18,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1448738634,
       2 => 'file',
     ),
-    'bb09c183a0ac750b82508e0493f34f02b85bd6ea' => 
+    'e7c8648ad1f988fb97e37b490292769d57d41826' => 
     array (
-      0 => 'bb09c183a0ac750b82508e0493f34f02b85bd6ea',
+      0 => 'e7c8648ad1f988fb97e37b490292769d57d41826',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '250699952565a94f21ab966_56411840',
+  'nocache_hash' => '138884384565b8b63b4d9b1_08680535',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565a94f21fa676_37520627',
+  'unifunc' => 'content_565b8b63ce4a26_62690036',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565a94f21fa676_37520627')) {
-function content_565a94f21fa676_37520627 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_565b8b63ce4a26_62690036')) {
+function content_565b8b63ce4a26_62690036 ($_smarty_tpl) {
+if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '250699952565a94f21ab966_56411840';
+$_smarty_tpl->properties['nocache_hash'] = '138884384565b8b63b4d9b1_08680535';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,20 +52,56 @@ $_smarty_tpl->properties['nocache_hash'] = '250699952565a94f21ab966_56411840';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '250699952565a94f21ab966_56411840';
+$_smarty_tpl->properties['nocache_hash'] = '138884384565b8b63b4d9b1_08680535';
 ?>
 
 <div class="page_content">
     <div class="content_title">
-        <h2>Browse Decks</h2>
+        <h2>
+        <?php if ($_GET['search']) {?>
+        Searching
+        <?php } else { ?>
+        Browsing
+        <?php }?>
+        
+        <?php if ($_GET['userid'] == $_SESSION['userid']) {?>
+        My Decks
+        <?php } elseif ($_GET['userid'] != 'any') {?>
+        <?php echo (($tmp = @smarty_modifier_capitalize($_smarty_tpl->tpl_vars['copename']->value))===null||$tmp==='' ? 'No  Username' : $tmp);?>
+'s Decks
+        <?php } else { ?>
+        All Decks
+        <?php }?>
+        </h2>
     </div>
     <div class="content_search form-inline">
-        <div class="form-group">
-            <input type="text" class="form-control">
-            <button type="button" class="btn btn-primary">Search</button>
-        </div> <!-- /form-group -->
+        <form class="form-group" action="browse_decks.php" method="GET">
+            <input type="text" name="search" id="search" class="form-control"<?php if ($_GET['search'] != null) {?>value="<?php echo $_GET['search'];?>
+"<?php }?>>
+            <?php if ($_GET['userid']) {?>
+            <input type="hidden" name="userid" value="<?php echo (($tmp = @$_GET['userid'])===null||$tmp==='' ? '' : $tmp);?>
+">
+            <?php }?>
+            <button type="submit" id="search_submit" class="btn btn-primary">Search</button>
+            <?php if ($_GET['search']) {?>
+            <button class="clear_search btn btn-default" type="button">Clear Search</button>
+            <?php }?>
+        </form> <!-- /form-group -->
     </div> <!-- /content_search -->
     <div class="card_grid">
+        <?php if ($_GET['userid'] == $_SESSION['userid']) {?>
+        <div class="card deck-card create_deck">
+            <div class="deck-title">
+                Create a New Deck
+            </div>
+            <div class="deck-icon">
+                <i class="fa fa-4x fa-plus-square"></i>
+            </div>
+            <div class="deck-description">
+                Click this card to Create a New Deck!
+            </div>
+        </div>
+        <?php }?>
     <?php
 $_from = $_smarty_tpl->tpl_vars['decks']->value;
 if (!is_array($_from) && !is_object($_from)) {

@@ -1,6 +1,6 @@
 <div class="card game-card">
     <div class="game-icon">
-        <i class="fa fa-4x fa-{$icon}"></i>
+        <i class="fa fa-4x {$icon}"></i>
     </div>
     <div class="game-title">
         {$title}

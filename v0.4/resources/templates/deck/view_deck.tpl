@@ -3,9 +3,22 @@
 <div class="page_content">
     <div class="content_title">
         <h2>Viewing {$deckname}</h2>
-        <h3>Created By {$usercopename}</h3>
+        <h3>Created By <a href="browse_decks.php?userid={$userid}">{$usercopename}</a></h3>
     </div>
     <div class="card_grid">
+        {if $userid == $smarty.session.userid}
+        <div class="card game-card create_game" deckid={$smarty.get.deckid}>
+            <div class="game-title">
+                Create a New Game
+            </div>
+            <div class="game-icon">
+                <i class="fa fa-4x fa-plus-square"></i>
+            </div>
+            <div class="game-description">
+                Click this card to Create a New Deck!
+            </div>
+        </div>
+        {/if}
     {foreach from=$games item=game}
         {$game->smartyCard('object_card/game_card.tpl')}
     {foreachelse}

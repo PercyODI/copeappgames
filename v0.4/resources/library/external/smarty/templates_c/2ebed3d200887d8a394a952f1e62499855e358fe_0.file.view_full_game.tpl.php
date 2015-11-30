@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 01:43:11
+<?php /* Smarty version 3.1.27, created on 2015-11-29 19:14:16
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/game/view_full_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:609225259565a582fa5cd72_87292711%%*/
+/*%%SmartyHeaderCode:1489440827565b4e88ebed09_72044015%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -25,18 +25,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '609225259565a582fa5cd72_87292711',
+  'nocache_hash' => '1489440827565b4e88ebed09_72044015',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565a582fb55df5_31039671',
+  'unifunc' => 'content_565b4e89063434_48895561',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565a582fb55df5_31039671')) {
-function content_565a582fb55df5_31039671 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_565b4e89063434_48895561')) {
+function content_565b4e89063434_48895561 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 if (!is_callable('smarty_function_markdown')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/function.markdown.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '609225259565a582fa5cd72_87292711';
+$_smarty_tpl->properties['nocache_hash'] = '1489440827565b4e88ebed09_72044015';
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,7 +53,7 @@ $_smarty_tpl->properties['nocache_hash'] = '609225259565a582fa5cd72_87292711';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '609225259565a582fa5cd72_87292711';
+$_smarty_tpl->properties['nocache_hash'] = '1489440827565b4e88ebed09_72044015';
 ?>
 
 

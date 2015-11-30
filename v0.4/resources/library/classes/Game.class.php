@@ -24,14 +24,15 @@ class Game {
     function __construct($constructGameid) {
         $data = Database::runQuery(
             "SELECT gameid,
-                   icon,
+                   game.icon,
                    title,
-                   description,
-                   instruction,
-                   discussion,
+                   game.description,
+                   game.instruction,
+                   game.discussion,
                    primary_type,
                    secondary_type,
                    deckid,
+                   deck.userid,
                    GROUP_CONCAT(gtag.keyword) as gametags,
                    GROUP_CONCAT(gpic.link) as gamepictures,
                    GROUP_CONCAT(gvid.link) as gamevideos,
@@ -45,6 +46,7 @@ class Game {
             LEFT OUTER JOIN type ON game.primary_type=`type`.typeid OR game.secondary_type=`type`.typeid
             LEFT OUTER JOIN picture AS gpic USING (gameid)
             LEFT OUTER JOIN video AS gvid USING (gameid)
+            LEFT OUTER JOIN deck USING (deckid)
             WHERE gameid = :gameid
             GROUP BY gameid"
             , array("gameid" => $constructGameid)
@@ -162,52 +164,32 @@ class Game {
         echo $config['smarty']->display($template);
         
     }
-/**
- * $replaceVals needs to be a key => value pair of the variables
- * 
- * $key is the name of the smarty variable
- * $val is the name of the class variable you want to access
- * 
- * Ex.
- * $replaceVals = array('title' => 'title', 'foo' => 'gamepictures');
- */
-    // function returnSmartyTemplate($smarty, $template) {
-
-    //     foreach(get_object_vars($this) as $key => $val) {
-    //         $smarty->assign($key, $val);
-    //     }
-        
-    //     return $smarty->fetch($template);
-    // }
     
-    // function getCardFrontHTML() {
-    //     $template = file_get_contents("/home/ubuntu/workspace/v0.3/api/ui/game_card_front.tpl");
-    //     $replaceArr = array(
-    //         "#gameid#" => $this->gameid,
-    //         "#icon#" => $this->icon,
-    //         "#title#" => $this->title,
-    //         "#description#" => $this->description);
-    //     $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
-    //     return $returnStr;
-    // }
+    public static function newDeck($deckDetails) {
+        $return = array();
+        if(!is_array($deckDetails)) {
+            $return['status'] = 'error';
+            $return['message'] = 'Expecting an Array';
+            return $return;
+        }
     
-    // function getFullCardHTML() {
-    //     $template = file_get_contents("/home/ubuntu/workspace/v0.3/api/ui/game_card_full.tpl");
-    //     $replaceArr = array(
-    //         "#gameid#" => $this->gameid,
-    //         "#icon#" => $this->icon,
-    //         "#title#" => $this->title,
-    //         "#description#" => $this->description,
-    //         "#instructions#" => $this->instructions,
-    //         "#discussion#" => $this->discussion,
-    //         "#createdby#" => $this->createdby,
-    //         "#equipment#" => $this->equipment,
-    //         "#gametypes#" => "<li>".implode("</li><li>", $this->gametypes)."</li>",
-    //         "#gametags#" => "<li>".implode("</li><li>", $this->gametags)."</li>",
-    //         "#gamepictures#" => "<div class='owl-item'><img src='".implode("'></div><div class='owl-item'><img src='", $this->gamepictures)."'></div>",
-    //         "#gamevideos#" => "<div class='owl-item'>".implode("</div><div class='owl-item'>", $this->gamevideos)."</div>");
-    //     $returnStr = str_replace(array_keys($replaceArr), array_values($replaceArr), $template);
-    //     return $returnStr;
-    // }
+        try {
+            Database::runQuery("INSERT INTO deck (name, description, icon, userid) 
+                                VALUES (:name, :description, :icon, :userid)"
+                               , array(
+                                   "name" => $deckDetails['name'],
+                                   "description" => $deckDetails['description'], 
+                                   "icon" => $deckDetails['icon'],
+                                   "userid" => $deckDetails['userid']
+                                   )
+                              );
+            $return['status'] = 'success';
+            return $return;
+        } catch (Exception $e) {
+            $return['status'] = 'error';
+            $return['message'] = 'Database Error';
+            return $return;
+        }
+    }
     
 }

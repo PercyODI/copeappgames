@@ -1,6 +1,6 @@
 <div class="card deck-card">
     <div class="deck-icon">
-        <i class="fa fa-4x fa-{$icon}"></i>
+        <i class="fa fa-4x {$icon}"></i>
     </div>
     <div class="deck-title">
         {$name|escape:htmlall}
@@ -16,6 +16,7 @@
         <ul class="dropdown-menu">
             <li><a href="view_deck.php?deckid={$deckid}">View Deck</a></li>
             <li><a href="#">Copy Deck</a></li>
+            <li><a href="browse_decks.php?userid={$userid}">Browse {$usercopename|capitalize}'s Decks</a></li>
         </ul>
     </div>
 </div>

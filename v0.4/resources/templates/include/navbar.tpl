@@ -8,9 +8,9 @@
             <li><a href="browse_decks.php">Browse Decks</a></li>
             {if isset($smarty.session.userid)}
             <li>|</li>
-            <li><a href="browse_my_decks.php">My Decks</a></li>
+            <li><a href="browse_decks.php?userid={$smarty.session.userid}">My Decks</a></li>
             <li>|</li>
-            <li>Logout</li>
+            <li><a href="ajax/logout.php">Logout</a></li>
             {else}
             <li>|</li>
             <li><a href="register.php">Register Now!</a></li>

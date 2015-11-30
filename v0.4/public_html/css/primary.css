@@ -156,11 +156,17 @@ h3 {
 .page_footer {
     background-color: #B5BCD9;
     border-top: 1px solid #15161a;
+    font-size: 1.5em;
     min-height: 60px;
     order: 3;
     padding: 0 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.page_footer > p {
+    margin: 0;
 }
 
 #carabiner_pic {
@@ -171,7 +177,7 @@ h3 {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 1.5em;
+    
     flex: 1 1 auto;
     display: flex;
     flex-flow: row wrap;
@@ -250,12 +256,12 @@ h3 {
 }
 
 /*Log In Page CSS*/
-.login_form {
+.single_form {
     margin: 0 auto;
     float: none;
 }
 
-.login_form label {
+.single_form label {
     font-weight: normal;
     font-size: 1.3em;
 }
@@ -269,4 +275,9 @@ h3 {
 .register_form label {
     font-weight: normal;
     font-size: 1.3em;
+}
+
+/**/
+.create_game, .create_deck {
+    cursor: pointer;
 }

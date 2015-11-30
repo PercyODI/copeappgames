@@ -6,8 +6,8 @@
 {block name=content}
 
 <div class="page_content">
-    <h3>Please Login</h3>
-    <form class="login_form form-horizontal col-sm-6">
+    <form class="single_form card form-horizontal col-sm-6">
+        <h3>Please Login</h3>
         <div class="form-group">
             <label for="username" class="col-sm-3 control-label">Username</label>
             <div class="col-sm-9">
@@ -23,7 +23,7 @@
         <div class="js_alert alert alert-warning alert-dismissible" role="alert" style="display: none;">
             Invalid Username or Password! Please try again, or <a href="register.php" class="alert-link">Register a New Account!</a>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg pull-right" id="log_in_btn">Log In</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="log_in_btn">Log In</button>
     </form>
     
 </div>

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 06:02:26
+<?php /* Smarty version 3.1.27, created on 2015-11-30 00:45:21
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/include/external_links.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1161430877565a94f2204623_25635928%%*/
+/*%%SmartyHeaderCode:1503262910565b9c2140b0c7_77579868%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,16 +13,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1161430877565a94f2204623_25635928',
+  'nocache_hash' => '1503262910565b9c2140b0c7_77579868',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565a94f2209418_16763300',
+  'unifunc' => 'content_565b9c214103a2_04852084',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565a94f2209418_16763300')) {
-function content_565a94f2209418_16763300 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_565b9c214103a2_04852084')) {
+function content_565b9c214103a2_04852084 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '1161430877565a94f2204623_25635928';
+$_smarty_tpl->properties['nocache_hash'] = '1503262910565b9c2140b0c7_77579868';
 ?>
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

@@ -120,6 +120,19 @@ class User {
             $return['message'] = 'Database Error';
             return $return;
         }
-        
+    }
+    
+    public static function getCopenameFromId($userid) {
+        try {
+            $data = Database::runQuery("SELECT username, copename FROM user WHERE userid = :userid", array("userid" => $userid));
+            if($data[0]['copename']) {
+                return $data[0]['copename'];
+            } else {
+                return $data[0]['username'];
+            }
+            
+        } catch (Exception $e) {
+            echo "getCopenameFromId Error: " . $e->getMessage();
+        }
     }
 }
