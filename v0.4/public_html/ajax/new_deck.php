@@ -5,7 +5,7 @@ header("Content-Type: application/json");
 
 $return = array();
 
-if(empty($_POST['title']) or empty($_POST['description'])) {
+if(empty($_POST['name']) or empty($_POST['description'])) {
     $return['status'] = 'error';
     $return['message'] = 'Missing Fields';
     echo json_encode($return);

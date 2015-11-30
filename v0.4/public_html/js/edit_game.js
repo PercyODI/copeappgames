@@ -1,13 +1,12 @@
 $(document).ready(function() {
     $(".icp").iconpicker({placement: "bottom"});
-    // selected: true, defaultValue: "fa-gamepad", inputSearch: true
-    $(".new_game_btn").click(function(e) {
+    $(".edit_game_btn").click(function(e) {
         e.preventDefault();
         $(".js_alert").slideUp("fast");
         if($("#icon").parents(".form-group").hasClass("has-error") == true) {
             $(".js_alert").html("Please Select a Valid Game Icon").slideDown("fast");
         } else {
-            $.post("ajax/new_game.php", $(".new_game_form").serialize(), function(data) {
+            $.post("ajax/edit_game.php", $(".edit_game_form").serialize(), function(data) {
                 console.dir(data);
                 if(data.status === 'success') {
                     window.location = data.relocate;

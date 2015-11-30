@@ -6,11 +6,12 @@ class Game {
     // An instance must be given a gameid's to work
     
     protected $gameid = "";
+    protected $userid = "";
     protected $deckid = "";
     protected $icon = "gamepad";
     protected $title = "No Title Listed";
     protected $description = "No Description Listed";
-    protected $instructions = "No Instructions Listed";
+    protected $instruction = "No Instructions Listed";
     protected $discussion = "No Discussion Listed";
     protected $createdby = "";
     protected $equipment = "No Equipment Listed";
@@ -55,6 +56,9 @@ class Game {
         if(isset($data['gameid'])) {
             $this->gameid = $data['gameid'];
         }
+        if(isset($data['userid'])) {
+            $this->userid = $data['userid'];
+        }
         if(isset($data['title'])) {
             $this->title = $data['title'];
         }
@@ -62,7 +66,7 @@ class Game {
             $this->description = $data['description'];
         }
         if(isset($data['instruction'])) {
-            $this->instructions = $data['instruction'];
+            $this->instruction = $data['instruction'];
         }
         if(isset($data['discussion'])) {
             $this->discussion = $data['discussion'];
@@ -93,6 +97,9 @@ class Game {
         }
     }
     
+    function getUserid() {
+        return $this->userid;
+    }
     function getGameid () {
         return $this->gameid;
     }
@@ -105,8 +112,8 @@ class Game {
         return $this->description;
     }
     
-    function getInstructions () {
-        return $this->instructions;
+    function getInstruction () {
+        return $this->instruction;
     }
     
     function getDiscussion () {
@@ -137,6 +144,14 @@ class Game {
         return $this->tag_keywords;
     }
     
+    function getPrimary_type () {
+        return $this->primary_type;
+    }
+    
+    function getSecondary_type () {
+        return $this->secondary_type;
+    }
+    
     public static function getGames($limit = 100, $offset = 0) {
         $limit = (int) $limit;
         $offset = (int) $offset;
@@ -165,24 +180,111 @@ class Game {
         
     }
     
-    public static function newDeck($deckDetails) {
+    public static function newGame($gameDetails) {
         $return = array();
-        if(!is_array($deckDetails)) {
+        if(!is_array($gameDetails)) {
             $return['status'] = 'error';
             $return['message'] = 'Expecting an Array';
             return $return;
         }
-    
+        $primaryInsert = "";
+        $primaryVal = "";
+        $secondaryInsert = "";
+        $secondaryVal = "";
+        $bind_array = array(    "deckid" => $gameDetails['deckid'], 
+                                "title" => $gameDetails['title'], 
+                                "description" => $gameDetails['description'], 
+                                "instruction" => $gameDetails['instruction'], 
+                                "discussion" => $gameDetails['discussion'], 
+                                "icon" => $gameDetails['icon'] );
+        
+        if($gameDetails['primary_type'] == "None") {
+            $gameDetails['primary_type'] = "NULL";
+        } else {
+            $primaryInsert = ", primary_type";
+            $primaryVal = ", :primary_type";
+            $bind_array['primary_type'] = $gameDetails['primary_type'];
+        }
+        
+        if($gameDetails['secondary_type'] == "None") {
+            $gameDetails['secondary_type'] = "NULL";
+        } else {
+            $secondaryInsert = ", secondary_type";
+            $secondaryVal = ", :secondary_type";
+            $bind_array['secondary_type'] = $gameDetails['secondary_type'];
+        }
+        
+        if($gameDetails['primary_type'] != 'NULL' or $gameDetails['secondary_type'] != "NULL") {
+            if($gameDetails['primary_type'] == $gameDetails['secondary_type']) {
+                $return['status'] = 'error';
+                $return['message'] = "Primary Type and Secondary Type Must Be Different";
+            }
+        }
+        
         try {
-            Database::runQuery("INSERT INTO deck (name, description, icon, userid) 
-                                VALUES (:name, :description, :icon, :userid)"
-                               , array(
-                                   "name" => $deckDetails['name'],
-                                   "description" => $deckDetails['description'], 
-                                   "icon" => $deckDetails['icon'],
-                                   "userid" => $deckDetails['userid']
-                                   )
-                              );
+            Database::runQuery("INSERT INTO game (deckid, title, description, instruction, discussion{$primaryInsert}{$secondaryInsert}, icon) 
+                                VALUES (:deckid, :title, :description, :instruction, :discussion{$primaryVal}{$secondaryVal}, :icon)"
+                               , $bind_array);
+            $return['status'] = 'success';
+            return $return;
+        } catch (Exception $e) {
+            $return['status'] = 'error';
+            $return['message'] = 'Database Error';
+            return $return;
+        }
+    }
+    
+     public static function editGame($gameDetails) {
+        $return = array();
+        if(!is_array($gameDetails)) {
+            $return['status'] = 'error';
+            $return['message'] = 'Expecting an Array';
+            return $return;
+        }
+        $primaryInsert = "";
+        $primaryVal = "";
+        $secondaryInsert = "";
+        $secondaryVal = "";
+        $bind_array = array("title" => $gameDetails['title'], 
+                            "description" => $gameDetails['description'], 
+                            "instruction" => $gameDetails['instruction'], 
+                            "discussion" => $gameDetails['discussion'], 
+                            "icon" => $gameDetails['icon'],
+                            "gameid" => $gameDetails['gameid']);
+        
+        if($gameDetails['primary_type'] == "None") {
+            $gameDetails['primary_type'] = "NULL";
+            $primaryUpdate = ", primary_type = NULL";
+        } else {
+            $primaryUpdate = ", primary_type = :primary_type";
+            $bind_array['primary_type'] = $gameDetails['primary_type'];
+        }
+        
+        if($gameDetails['secondary_type'] == "None") {
+            $gameDetails['secondary_type'] = "NULL";
+            $secondaryUpdate = ", secondary_type = NULL";
+        } else {
+            $secondaryUpdate = ", secondary_type = :secondary_type";
+            $bind_array['secondary_type'] = $gameDetails['secondary_type'];
+        }
+        
+        if($gameDetails['primary_type'] != 'NULL' or $gameDetails['secondary_type'] != "NULL") {
+            if($gameDetails['primary_type'] == $gameDetails['secondary_type']) {
+                $return['status'] = 'error';
+                $return['message'] = "Primary Type and Secondary Type Must Be Different";
+            }
+        }
+        try {
+            Database::runQuery("UPDATE game 
+                                SET icon = :icon, 
+                                    title = :title, 
+                                    description = :description, 
+                                    instruction = :instruction, 
+                                    discussion = :discussion
+                                    {$primaryUpdate} 
+                                    {$secondaryUpdate}
+                                WHERE gameid = :gameid"
+                               , $bind_array);
             $return['status'] = 'success';
             return $return;
         } catch (Exception $e) {

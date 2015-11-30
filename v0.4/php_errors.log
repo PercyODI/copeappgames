@@ -2665,3 +2665,1249 @@ Stack trace:
 [29-Nov-2015 19:49:49 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
 [29-Nov-2015 19:49:49 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
 [29-Nov-2015 19:49:49 UTC] PHP   7. content_565b56dd364f31_65575584() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:00:04 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/ubuntu/workspace/v0.4/public_html/edit_game.php on line 15
+[30-Nov-2015 02:00:28 UTC] PHP Notice:  Undefined index: gameid in /home/ubuntu/workspace/v0.4/public_html/edit_game.php on line 12
+[30-Nov-2015 02:00:28 UTC] PHP Stack trace:
+[30-Nov-2015 02:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:00:28 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 54
+[30-Nov-2015 02:00:28 UTC] PHP Stack trace:
+[30-Nov-2015 02:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:00:28 UTC] PHP   2. Game->__construct() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:12
+[30-Nov-2015 02:00:28 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_data.php on line 63
+[30-Nov-2015 02:00:28 UTC] PHP Stack trace:
+[30-Nov-2015 02:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:00:28 UTC] PHP   2. Smarty_Internal_Data->assign() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:14
+[30-Nov-2015 02:00:28 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/84969b94c40ba68fe63182d88aed56ccef833d02_0.file.new_game.tpl.php on line 166
+[30-Nov-2015 02:00:28 UTC] PHP Stack trace:
+[30-Nov-2015 02:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:00:28 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:00:28 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:00:28 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:00:28 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:00:28 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:00:28 UTC] PHP   7. content_565badbc219da7_64601081() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:03:19 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_data.php on line 63
+[30-Nov-2015 02:03:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:03:19 UTC] PHP   2. Smarty_Internal_Data->assign() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:14
+[30-Nov-2015 02:03:19 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/84969b94c40ba68fe63182d88aed56ccef833d02_0.file.new_game.tpl.php on line 166
+[30-Nov-2015 02:03:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:03:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:03:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:03:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:03:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:03:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:03:19 UTC] PHP   7. content_565bae67779a31_26163420() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:03:41 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/84969b94c40ba68fe63182d88aed56ccef833d02_0.file.new_game.tpl.php on line 166
+[30-Nov-2015 02:03:41 UTC] PHP Stack trace:
+[30-Nov-2015 02:03:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:03:41 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:03:41 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:03:41 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:03:41 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:03:41 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:03:41 UTC] PHP   7. content_565bae7dae1e11_77082300() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:05:22 UTC] PHP Fatal error:  Call to undefined method Game::getInstruction() in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 97
+[30-Nov-2015 02:05:22 UTC] PHP Stack trace:
+[30-Nov-2015 02:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:05:22 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:05:22 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:05:22 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:05:22 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:05:22 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:05:22 UTC] PHP   7. content_565baee231a731_11312795() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:09:26 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:09:26 UTC] PHP Stack trace:
+[30-Nov-2015 02:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:09:26 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:09:26 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:09:26 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:09:26 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:09:26 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:09:26 UTC] PHP   7. content_565bafd67b73c2_32396261() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:18 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:18 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:18 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:18 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:18 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:18 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:18 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:18 UTC] PHP   7. content_565bb0465b2137_87955331() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:11:29 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 162
+[30-Nov-2015 02:11:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:11:29 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:11:29 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:11:29 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:11:29 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:11:29 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:11:29 UTC] PHP   7. content_565bb051583103_36188332() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:12:14 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:12:14 UTC] PHP Stack trace:
+[30-Nov-2015 02:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:12:14 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:12:14 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:12:14 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:12:14 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:12:14 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:12:14 UTC] PHP   7. content_565bb07e0f1844_16617066() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:39:25 UTC] PHP Fatal error:  Call to undefined method Game::getUserid() in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 176
+[30-Nov-2015 02:39:25 UTC] PHP Stack trace:
+[30-Nov-2015 02:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:39:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:39:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:39:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:39:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:39:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:39:25 UTC] PHP   7. content_565bb6dd6e1a47_82802478() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:19 UTC] PHP Fatal error:  Call to undefined method Game::getUserid() in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 176
+[30-Nov-2015 02:40:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:19 UTC] PHP   7. content_565bb7134f0b82_46678184() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Notice:  Undefined property: Game::$getSecondary_type in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 165
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:40:36 UTC] PHP Fatal error:  Call to undefined method Game::getUserid() in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 176
+[30-Nov-2015 02:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 02:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:40:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:40:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:40:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:40:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:40:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:40:36 UTC] PHP   7. content_565bb72465c913_08235681() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:41:19 UTC] PHP Fatal error:  Call to undefined method Game::getUserid() in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 176
+[30-Nov-2015 02:41:19 UTC] PHP Stack trace:
+[30-Nov-2015 02:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:41:19 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:41:19 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:41:19 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:41:19 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:41:19 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:41:19 UTC] PHP   7. content_565bb74f154309_40908268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 02:41:23 UTC] PHP Fatal error:  Call to undefined method Game::getUserid() in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 176
+[30-Nov-2015 02:41:23 UTC] PHP Stack trace:
+[30-Nov-2015 02:41:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 02:41:23 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:16
+[30-Nov-2015 02:41:23 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 02:41:23 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 02:41:23 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 02:41:23 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 02:41:23 UTC] PHP   7. content_565bb753a58504_49299309() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:31:36 UTC] PHP Notice:  Undefined variable: game in /home/ubuntu/workspace/v0.4/public_html/edit_deck.php on line 8
+[30-Nov-2015 03:31:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:31:36 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 83
+[30-Nov-2015 03:31:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:31:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:31:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:31:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:31:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:31:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:31:36 UTC] PHP   7. content_565bc31853df36_34008877() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:31:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 83
+[30-Nov-2015 03:31:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:31:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:31:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:31:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:31:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:31:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:31:36 UTC] PHP   7. content_565bc31853df36_34008877() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:31:36 UTC] PHP Fatal error:  Call to a member function getTitle() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/b10ae3994dcf43fffe04c06f9de7d1835997d101_0.file.edit_game.tpl.php on line 83
+[30-Nov-2015 03:31:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:31:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:31:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:31:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:31:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:31:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:31:36 UTC] PHP   7. content_565bc31853df36_34008877() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:32:08 UTC] PHP Notice:  Undefined variable: game in /home/ubuntu/workspace/v0.4/public_html/edit_deck.php on line 8
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 82
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:32:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:32:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:32:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:32:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:32:08 UTC] PHP   7. content_565bc33852b328_88327268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:32:08 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 89
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:32:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:32:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:32:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:32:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:32:08 UTC] PHP   7. content_565bc33852b328_88327268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:32:08 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 96
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:32:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:32:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:32:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:32:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:32:08 UTC] PHP   7. content_565bc33852b328_88327268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:32:08 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:32:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:32:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:32:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:32:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:32:08 UTC] PHP   7. content_565bc33852b328_88327268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:32:08 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:32:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:32:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:32:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:32:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:32:08 UTC] PHP   7. content_565bc33852b328_88327268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:32:08 UTC] PHP Fatal error:  Call to a member function getDeckid() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:32:08 UTC] PHP Stack trace:
+[30-Nov-2015 03:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:32:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:32:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:32:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:32:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:32:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:32:08 UTC] PHP   7. content_565bc33852b328_88327268() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:33:34 UTC] PHP Notice:  Undefined property: Deck::$getName in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 82
+[30-Nov-2015 03:33:34 UTC] PHP Stack trace:
+[30-Nov-2015 03:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:33:34 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:33:34 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:33:34 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:33:34 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:33:34 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:33:34 UTC] PHP   7. content_565bc38e68c459_58290017() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:33:34 UTC] PHP Notice:  Undefined property: Deck::$getName in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 89
+[30-Nov-2015 03:33:34 UTC] PHP Stack trace:
+[30-Nov-2015 03:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:33:34 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:33:34 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:33:34 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:33:34 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:33:34 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:33:34 UTC] PHP   7. content_565bc38e68c459_58290017() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:33:34 UTC] PHP Notice:  Undefined property: Deck::$getName in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 96
+[30-Nov-2015 03:33:34 UTC] PHP Stack trace:
+[30-Nov-2015 03:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:33:34 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:33:34 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:33:34 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:33:34 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:33:34 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:33:34 UTC] PHP   7. content_565bc38e68c459_58290017() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:33:34 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:33:34 UTC] PHP Stack trace:
+[30-Nov-2015 03:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:33:34 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:33:34 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:33:34 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:33:34 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:33:34 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:33:34 UTC] PHP   7. content_565bc38e68c459_58290017() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:33:34 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:33:34 UTC] PHP Stack trace:
+[30-Nov-2015 03:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:33:34 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:33:34 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:33:34 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:33:34 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:33:34 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:33:34 UTC] PHP   7. content_565bc38e68c459_58290017() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:33:34 UTC] PHP Fatal error:  Call to a member function getDeckid() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:33:34 UTC] PHP Stack trace:
+[30-Nov-2015 03:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:33:34 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:33:34 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:33:34 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:33:34 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:33:34 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:33:34 UTC] PHP   7. content_565bc38e68c459_58290017() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:24 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:24 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:24 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:24 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:24 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:24 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:24 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:24 UTC] PHP   7. content_565bc3c0af34b5_54498556() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:24 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:24 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:24 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:24 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:24 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:24 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:24 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:24 UTC] PHP   7. content_565bc3c0af34b5_54498556() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:24 UTC] PHP Fatal error:  Call to a member function getDeckid() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:24 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:24 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:24 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:24 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:24 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:24 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:24 UTC] PHP   7. content_565bc3c0af34b5_54498556() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:36 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:36 UTC] PHP   7. content_565bc3cc34ec58_71141385() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:36 UTC] PHP   7. content_565bc3cc34ec58_71141385() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:36 UTC] PHP Fatal error:  Call to a member function getDeckid() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:36 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:36 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:36 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:36 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:36 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:36 UTC] PHP   7. content_565bc3cc34ec58_71141385() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:48 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:48 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:48 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:48 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:48 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:48 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:48 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:48 UTC] PHP   7. content_565bc3d8b2f8c9_04195940() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:48 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:48 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:48 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:48 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:48 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:48 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:48 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:48 UTC] PHP   7. content_565bc3d8b2f8c9_04195940() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:34:48 UTC] PHP Fatal error:  Call to a member function getDeckid() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/2e8968318a4cb125a5b66f130d978fcab594297c_0.file.edit_deck.tpl.php on line 100
+[30-Nov-2015 03:34:48 UTC] PHP Stack trace:
+[30-Nov-2015 03:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:34:48 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:9
+[30-Nov-2015 03:34:48 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:34:48 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:34:48 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:34:48 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:34:48 UTC] PHP   7. content_565bc3d8b2f8c9_04195940() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:44:44 UTC] PHP Notice:  Undefined index: gameid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:44:44 UTC] PHP Stack trace:
+[30-Nov-2015 03:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:44:44 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:44:44 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:44:44 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:44:44 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:44:44 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:44:44 UTC] PHP   7. content_565bc62c494a87_50562324() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:44:44 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:44:44 UTC] PHP Stack trace:
+[30-Nov-2015 03:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:44:44 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:44:44 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:44:44 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:44:44 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:44:44 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:44:44 UTC] PHP   7. content_565bc62c494a87_50562324() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:44:49 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 55
+[30-Nov-2015 03:44:49 UTC] PHP Stack trace:
+[30-Nov-2015 03:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:0
+[30-Nov-2015 03:44:49 UTC] PHP   2. Game->__construct() /home/ubuntu/workspace/v0.4/public_html/edit_game.php:12
+[30-Nov-2015 03:45:11 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:45:11 UTC] PHP Stack trace:
+[30-Nov-2015 03:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:45:11 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:45:11 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:45:11 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:45:11 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:45:11 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:45:11 UTC] PHP   7. content_565bc647dd8df5_48921281() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:45:11 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:45:11 UTC] PHP Stack trace:
+[30-Nov-2015 03:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:45:11 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:45:11 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:45:11 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:45:11 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:45:11 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:45:11 UTC] PHP   7. content_565bc647dd8df5_48921281() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:45:14 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php on line 24
+[30-Nov-2015 03:45:14 UTC] PHP Stack trace:
+[30-Nov-2015 03:45:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:45:14 UTC] PHP   2. Deck->__construct() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:6
+[30-Nov-2015 03:46:39 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:46:39 UTC] PHP Stack trace:
+[30-Nov-2015 03:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:46:39 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:46:39 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:46:39 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:46:39 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:46:39 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:46:39 UTC] PHP   7. content_565bc69faf8561_11999655() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:46:39 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:46:39 UTC] PHP Stack trace:
+[30-Nov-2015 03:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:46:39 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:46:39 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:46:39 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:46:39 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:46:39 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:46:39 UTC] PHP   7. content_565bc69faf8561_11999655() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:46:45 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php on line 24
+[30-Nov-2015 03:46:45 UTC] PHP Stack trace:
+[30-Nov-2015 03:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:0
+[30-Nov-2015 03:46:45 UTC] PHP   2. Deck->__construct() /home/ubuntu/workspace/v0.4/public_html/edit_deck.php:6
+[30-Nov-2015 03:47:25 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:47:25 UTC] PHP Stack trace:
+[30-Nov-2015 03:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:47:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:47:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:47:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:47:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:47:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:47:25 UTC] PHP   7. content_565bc6cd7ce0b7_28796237() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 03:47:25 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83_0.file.view_deck.tpl.php on line 65
+[30-Nov-2015 03:47:25 UTC] PHP Stack trace:
+[30-Nov-2015 03:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:0
+[30-Nov-2015 03:47:25 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/view_deck.php:18
+[30-Nov-2015 03:47:25 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 03:47:25 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 03:47:25 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 03:47:25 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 03:47:25 UTC] PHP   7. content_565bc6cd7ce0b7_28796237() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 67
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 92
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:08 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:08 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:08 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:08 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP   7. content_565bcc98c247d4_74255741() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:08 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:08 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:08 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:08 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:08 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:08 UTC] PHP  13. content_565bcc98cc7b85_63549339() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 67
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 92
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[30-Nov-2015 04:12:09 UTC] PHP Stack trace:
+[30-Nov-2015 04:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[30-Nov-2015 04:12:09 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[30-Nov-2015 04:12:09 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[30-Nov-2015 04:12:09 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP   7. content_565bcc99ae3155_26502798() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[30-Nov-2015 04:12:09 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[30-Nov-2015 04:12:09 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[30-Nov-2015 04:12:09 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371

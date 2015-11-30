@@ -4,6 +4,9 @@
     <div class="content_title">
         <h2>Viewing {$deckname}</h2>
         <h3>Created By <a href="browse_decks.php?userid={$userid}">{$usercopename}</a></h3>
+        {if $userid == $smarty.session.userid}
+        [<a href="edit_deck.php?deckid={$smarty.get.deckid}">Edit</a>]
+        {/if}
     </div>
     <div class="card_grid">
         {if $userid == $smarty.session.userid}

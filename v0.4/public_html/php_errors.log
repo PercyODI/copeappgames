@@ -240,3 +240,61 @@ Stack trace:
 [29-Nov-2015 23:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_deck.php:0
 [29-Nov-2015 23:26:37 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/v0.4/public_html/ajax/new_deck.php:25
 [29-Nov-2015 23:26:37 UTC] PHP   3. autoload_classes() /home/ubuntu/workspace/v0.4/public_html/ajax/new_deck.php:0
+[30-Nov-2015 01:17:24 UTC] PHP Notice:  Undefined index: discussion in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 197
+[30-Nov-2015 01:17:24 UTC] PHP Stack trace:
+[30-Nov-2015 01:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 01:17:24 UTC] PHP   2. Game::newGame() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:25
+[30-Nov-2015 01:30:37 UTC] PHP Notice:  Undefined variable: secondaryInsert in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 209
+[30-Nov-2015 01:30:37 UTC] PHP Stack trace:
+[30-Nov-2015 01:30:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 01:30:37 UTC] PHP   2. Game::newGame() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:25
+[30-Nov-2015 01:30:37 UTC] PHP Notice:  Undefined variable: secondaryVal in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 210
+[30-Nov-2015 01:30:37 UTC] PHP Stack trace:
+[30-Nov-2015 01:30:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 01:30:37 UTC] PHP   2. Game::newGame() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:25
+[30-Nov-2015 02:38:54 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 187
+[30-Nov-2015 02:38:54 UTC] PHP Stack trace:
+[30-Nov-2015 02:38:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 02:38:54 UTC] PHP   2. Game::newGame() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:25
+[30-Nov-2015 02:38:54 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php on line 28
+[30-Nov-2015 02:38:54 UTC] PHP Stack trace:
+[30-Nov-2015 02:38:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 02:38:56 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/classes/Game.class.php on line 187
+[30-Nov-2015 02:38:56 UTC] PHP Stack trace:
+[30-Nov-2015 02:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 02:38:56 UTC] PHP   2. Game::newGame() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:25
+[30-Nov-2015 02:38:56 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php on line 28
+[30-Nov-2015 02:38:56 UTC] PHP Stack trace:
+[30-Nov-2015 02:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/new_game.php:0
+[30-Nov-2015 02:55:29 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php on line 15
+[30-Nov-2015 02:55:29 UTC] PHP Stack trace:
+[30-Nov-2015 02:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php:0
+[30-Nov-2015 02:55:31 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php on line 15
+[30-Nov-2015 02:55:31 UTC] PHP Stack trace:
+[30-Nov-2015 02:55:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php:0
+[30-Nov-2015 02:56:38 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php on line 15
+[30-Nov-2015 02:56:38 UTC] PHP Stack trace:
+[30-Nov-2015 02:56:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php:0
+[30-Nov-2015 02:57:35 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php on line 15
+[30-Nov-2015 02:57:35 UTC] PHP Stack trace:
+[30-Nov-2015 02:57:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php:0
+[30-Nov-2015 02:57:56 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php on line 15
+[30-Nov-2015 02:57:56 UTC] PHP Stack trace:
+[30-Nov-2015 02:57:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php:0
+[30-Nov-2015 02:59:15 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php on line 15
+[30-Nov-2015 02:59:15 UTC] PHP Stack trace:
+[30-Nov-2015 02:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_game.php:0
+[30-Nov-2015 03:35:38 UTC] PHP Fatal error:  Call to undefined method Deck::editDeck() in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php on line 22
+[30-Nov-2015 03:35:38 UTC] PHP Stack trace:
+[30-Nov-2015 03:35:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:0
+[30-Nov-2015 03:35:46 UTC] PHP Fatal error:  Call to undefined method Deck::editDeck() in /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php on line 22
+[30-Nov-2015 03:35:46 UTC] PHP Stack trace:
+[30-Nov-2015 03:35:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:0
+[30-Nov-2015 03:40:07 UTC] PHP Notice:  Undefined index: deckidid in /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php on line 153
+[30-Nov-2015 03:40:07 UTC] PHP Stack trace:
+[30-Nov-2015 03:40:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:0
+[30-Nov-2015 03:40:07 UTC] PHP   2. Deck::editDeck() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:22
+[30-Nov-2015 03:40:36 UTC] PHP Notice:  Undefined index: deckid in /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php on line 153
+[30-Nov-2015 03:40:36 UTC] PHP Stack trace:
+[30-Nov-2015 03:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:0
+[30-Nov-2015 03:40:36 UTC] PHP   2. Deck::editDeck() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:22

@@ -132,6 +132,36 @@ class Deck {
         }
     }
     
+    public static function editDeck($deckDetails) {
+        $return = array();
+        if(!is_array($deckDetails)) {
+            $return['status'] = 'error';
+            $return['message'] = 'Expecting an Array';
+            return $return;
+        }
+    
+        try {
+            Database::runQuery("UPDATE deck
+                                SET name = :name,
+                                    description = :description,
+                                    icon = :icon
+                                WHERE deckid = :deckid"
+                               , array(
+                                   "name" => $deckDetails['name'],
+                                   "description" => $deckDetails['description'], 
+                                   "icon" => $deckDetails['icon'],
+                                   "deckid" => $deckDetails['deckid']
+                                   )
+                              );
+            $return['status'] = 'success';
+            return $return;
+        } catch (Exception $e) {
+            $return['status'] = 'error';
+            $return['message'] = 'Database Error';
+            return $return;
+        }
+    }
+    
     public static function getDeckName($deckid) {
         $data = Database::runQuery("SELECT name FROM deck WHERE deckid = :deckid", array("deckid" => $deckid));
         return $data[0]['name'];

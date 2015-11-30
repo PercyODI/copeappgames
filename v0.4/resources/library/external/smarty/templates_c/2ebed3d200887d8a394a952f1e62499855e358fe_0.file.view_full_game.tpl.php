@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 19:14:16
+<?php /* Smarty version 3.1.27, created on 2015-11-30 03:53:49
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/game/view_full_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1489440827565b4e88ebed09_72044015%%*/
+/*%%SmartyHeaderCode:706162197565bc84d211c49_79952827%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2ebed3d200887d8a394a952f1e62499855e358fe' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/game/view_full_game.tpl',
-      1 => 1448761390,
+      1 => 1448853316,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -18,25 +18,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1448738634,
       2 => 'file',
     ),
-    '642eb0c2ec62bada104b6e65289efdbca055a75c' => 
+    'bdb4495312466e376aa5727ff87305549cd0ef90' => 
     array (
-      0 => '642eb0c2ec62bada104b6e65289efdbca055a75c',
+      0 => 'bdb4495312466e376aa5727ff87305549cd0ef90',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '1489440827565b4e88ebed09_72044015',
+  'nocache_hash' => '706162197565bc84d211c49_79952827',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565b4e89063434_48895561',
+  'unifunc' => 'content_565bc84d345e03_19379788',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565b4e89063434_48895561')) {
-function content_565b4e89063434_48895561 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_565bc84d345e03_19379788')) {
+function content_565bc84d345e03_19379788 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 if (!is_callable('smarty_function_markdown')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/function.markdown.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '1489440827565b4e88ebed09_72044015';
+$_smarty_tpl->properties['nocache_hash'] = '706162197565bc84d211c49_79952827';
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,14 +53,14 @@ $_smarty_tpl->properties['nocache_hash'] = '1489440827565b4e88ebed09_72044015';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '1489440827565b4e88ebed09_72044015';
+$_smarty_tpl->properties['nocache_hash'] = '706162197565bc84d211c49_79952827';
 ?>
 
 
 <div class="page_content">
     <div class="full_game_flexbox">
         <div class="full_game_left">
-            <i class="fa fa-4x fa-<?php echo $_smarty_tpl->tpl_vars['icon']->value;?>
+            <i class="fa fa-4x <?php echo $_smarty_tpl->tpl_vars['icon']->value;?>
 "></i>
             <?php if ($_smarty_tpl->tpl_vars['gametypes']->value != null) {?>
             <h3>Types</h3>
@@ -136,6 +136,10 @@ $_smarty_tpl->tpl_vars['item'] = $foreach_item_Sav;
                 <p>From Deck: <a href="view_deck.php?deckid=<?php echo $_smarty_tpl->tpl_vars['deckid']->value;?>
 "><?php echo $_smarty_tpl->tpl_vars['deckname']->value;?>
 </a></p>
+                <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>
+                [<a href="edit_game.php?gameid=<?php echo $_smarty_tpl->tpl_vars['gameid']->value;?>
+">Edit</a>]
+                <?php }?>
             </div>
             <hr>
             <h3>Description</h3>
@@ -146,7 +150,7 @@ $_smarty_tpl->tpl_vars['item'] = $foreach_item_Sav;
             <hr>
             <h3>Instructions</h3>
             <div class="full_game_instruction">
-                <?php echo smarty_function_markdown(array('text'=>$_smarty_tpl->tpl_vars['instructions']->value),$_smarty_tpl);?>
+                <?php echo smarty_function_markdown(array('text'=>$_smarty_tpl->tpl_vars['instruction']->value),$_smarty_tpl);?>
 
             </div>
             <hr>

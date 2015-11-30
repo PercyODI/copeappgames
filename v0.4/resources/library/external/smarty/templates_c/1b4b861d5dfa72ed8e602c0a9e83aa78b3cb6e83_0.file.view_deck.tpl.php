@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 23:46:02
+<?php /* Smarty version 3.1.27, created on 2015-11-30 04:03:40
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/deck/view_deck.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:2020533612565b8e3a4c9747_65322757%%*/
+/*%%SmartyHeaderCode:1445751159565bca9c79f429_16955513%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1b4b861d5dfa72ed8e602c0a9e83aa78b3cb6e83' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/deck/view_deck.tpl',
-      1 => 1448824789,
+      1 => 1448855301,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -18,23 +18,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1448738634,
       2 => 'file',
     ),
-    'eea8e873ad3fd1781dae5b5dba20041d9b1ff565' => 
+    '053044b2f52863ba00ea63b4a54a98b68516b954' => 
     array (
-      0 => 'eea8e873ad3fd1781dae5b5dba20041d9b1ff565',
+      0 => '053044b2f52863ba00ea63b4a54a98b68516b954',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '2020533612565b8e3a4c9747_65322757',
+  'nocache_hash' => '1445751159565bca9c79f429_16955513',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565b8e3a51c3f2_28472219',
+  'unifunc' => 'content_565bca9c7f0183_09446539',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565b8e3a51c3f2_28472219')) {
-function content_565b8e3a51c3f2_28472219 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_565bca9c7f0183_09446539')) {
+function content_565bca9c7f0183_09446539 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '2020533612565b8e3a4c9747_65322757';
+$_smarty_tpl->properties['nocache_hash'] = '1445751159565bca9c79f429_16955513';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2020533612565b8e3a4c9747_65322757';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '2020533612565b8e3a4c9747_65322757';
+$_smarty_tpl->properties['nocache_hash'] = '1445751159565bca9c79f429_16955513';
 ?>
 
 <div class="page_content">
@@ -61,6 +61,10 @@ $_smarty_tpl->properties['nocache_hash'] = '2020533612565b8e3a4c9747_65322757';
         <h3>Created By <a href="browse_decks.php?userid=<?php echo $_smarty_tpl->tpl_vars['userid']->value;?>
 "><?php echo $_smarty_tpl->tpl_vars['usercopename']->value;?>
 </a></h3>
+        <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>
+        [<a href="edit_deck.php?deckid=<?php echo $_GET['deckid'];?>
+">Edit</a>]
+        <?php }?>
     </div>
     <div class="card_grid">
         <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>

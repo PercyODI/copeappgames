@@ -4,7 +4,7 @@
 <div class="page_content">
     <div class="full_game_flexbox">
         <div class="full_game_left">
-            <i class="fa fa-4x fa-{$icon}"></i>
+            <i class="fa fa-4x {$icon}"></i>
             {if $gametypes != null}
             <h3>Types</h3>
             <div class="full_game_types">
@@ -34,6 +34,9 @@
             <div class="content_title">
                 <h2>{$title}</h2>
                 <p>From Deck: <a href="view_deck.php?deckid={$deckid}">{$deckname}</a></p>
+                {if $userid == $smarty.session.userid}
+                [<a href="edit_game.php?gameid={$gameid}">Edit</a>]
+                {/if}
             </div>
             <hr>
             <h3>Description</h3>
@@ -43,7 +46,7 @@
             <hr>
             <h3>Instructions</h3>
             <div class="full_game_instruction">
-                {markdown text=$instructions}
+                {markdown text=$instruction}
             </div>
             <hr>
             <h3>Discussion</h3>

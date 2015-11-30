@@ -16,6 +16,9 @@
         <ul class="dropdown-menu">
             <li><a href="view_deck.php?deckid={$deckid}">View Deck</a></li>
             <li><a href="#">Copy Deck</a></li>
+            {if $userid == $smarty.session.userid}
+            <li><a href="edit_deck.php?deckid={$deckid}">Edit Deck</a></li>
+            {/if}
             <li><a href="browse_decks.php?userid={$userid}">Browse {$usercopename|capitalize}'s Decks</a></li>
         </ul>
     </div>
