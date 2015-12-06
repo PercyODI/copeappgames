@@ -15,7 +15,6 @@
         </button>
         <ul class="dropdown-menu">
             <li><a href="view_game.php?gameid={$gameid}">View Game</a></li>
-            <li><a href="#">Copy Game</a></li>
             {if $userid == $smarty.session.userid}
             <li><a href="edit_game.php?gameid={$gameid}">Edit Game</a></li>
             {/if}

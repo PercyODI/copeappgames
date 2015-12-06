@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-30 04:12:09
+<?php /* Smarty version 3.1.27, created on 2015-12-06 22:03:13
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/deck/browse_decks.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1201421377565bcc99a72500_24646284%%*/
+/*%%SmartyHeaderCode:21215827075664b0a1334487_17646691%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -25,17 +25,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '1201421377565bcc99a72500_24646284',
+  'nocache_hash' => '21215827075664b0a1334487_17646691',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565bcc99ae3155_26502798',
+  'unifunc' => 'content_5664b0a13d8be2_30026095',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565bcc99ae3155_26502798')) {
-function content_565bcc99ae3155_26502798 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664b0a13d8be2_30026095')) {
+function content_5664b0a13d8be2_30026095 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '1201421377565bcc99a72500_24646284';
+$_smarty_tpl->properties['nocache_hash'] = '21215827075664b0a1334487_17646691';
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,7 +52,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1201421377565bcc99a72500_24646284';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '1201421377565bcc99a72500_24646284';
+$_smarty_tpl->properties['nocache_hash'] = '21215827075664b0a1334487_17646691';
 ?>
 
 <div class="page_content">

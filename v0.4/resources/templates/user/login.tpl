@@ -6,7 +6,7 @@
 {block name=content}
 
 <div class="page_content">
-    <form class="single_form card form-horizontal col-sm-6">
+    <form class="single_form login_form card form-horizontal col-sm-6">
         <h3>Please Login</h3>
         <div class="form-group">
             <label for="username" class="col-sm-3 control-label">Username</label>

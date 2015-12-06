@@ -298,3 +298,63 @@ Stack trace:
 [30-Nov-2015 03:40:36 UTC] PHP Stack trace:
 [30-Nov-2015 03:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:0
 [30-Nov-2015 03:40:36 UTC] PHP   2. Deck::editDeck() /home/ubuntu/workspace/v0.4/public_html/ajax/edit_deck.php:22
+[06-Dec-2015 21:54:39 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:54:39 UTC] PHP Stack trace:
+[06-Dec-2015 21:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:54:39 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:54:39 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:54:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:54:39 UTC] PHP Stack trace:
+[06-Dec-2015 21:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:54:39 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:54:39 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:54:42 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:54:42 UTC] PHP Stack trace:
+[06-Dec-2015 21:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:54:42 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:54:42 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:54:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:54:42 UTC] PHP Stack trace:
+[06-Dec-2015 21:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:54:42 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:54:42 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:54:58 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:54:58 UTC] PHP Stack trace:
+[06-Dec-2015 21:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:54:58 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:54:58 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:54:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:54:58 UTC] PHP Stack trace:
+[06-Dec-2015 21:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:54:58 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:54:58 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:55:02 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:02 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:55:02 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:55:02 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:55:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:02 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:55:02 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:55:02 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:55:04 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:04 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:55:04 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:55:04 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:55:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:04 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:55:04 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:55:04 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:57:13 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:57:13 UTC] PHP Stack trace:
+[06-Dec-2015 21:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:57:13 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:57:13 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70
+[06-Dec-2015 21:57:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:57:13 UTC] PHP Stack trace:
+[06-Dec-2015 21:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:0
+[06-Dec-2015 21:57:13 UTC] PHP   2. User::validateUser() /home/ubuntu/workspace/v0.4/public_html/ajax/login.php:14
+[06-Dec-2015 21:57:13 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/User.class.php:70

@@ -3911,3 +3911,299 @@ Stack trace:
 [30-Nov-2015 04:12:09 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
 [30-Nov-2015 04:12:09 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
 [30-Nov-2015 04:12:09 UTC] PHP  13. content_565bcc99b28544_28095813() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 67
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 92
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 01:22:52 UTC] PHP Stack trace:
+[01-Dec-2015 01:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 01:22:52 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 01:22:52 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 01:22:52 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP   7. content_565cf66c632ce6_43471002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 01:22:52 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 01:22:52 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 01:22:52 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 01:22:52 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 01:22:52 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 01:22:52 UTC] PHP  13. content_565cf66c6992b4_93231002() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 67
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php on line 92
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP Notice:  Undefined index: userid in /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/f97798bc65689f335c0ecec53714ff5ff5b78bcf_0.file.deck_card.tpl.php on line 60
+[01-Dec-2015 13:46:42 UTC] PHP Stack trace:
+[01-Dec-2015 13:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[01-Dec-2015 13:46:42 UTC] PHP   2. Smarty->display() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:23
+[01-Dec-2015 13:46:42 UTC] PHP   3. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:834
+[01-Dec-2015 13:46:42 UTC] PHP   4. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP   5. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP   6. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP   7. content_565da4c2a868c5_26294673() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[01-Dec-2015 13:46:42 UTC] PHP   8. Deck->smartyCard() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/templates_c/120e475955cb24c0abde314938886be88a259070_0.file.browse_decks.tpl.php:116
+[01-Dec-2015 13:46:42 UTC] PHP   9. Smarty->fetch() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:186
+[01-Dec-2015 13:46:42 UTC] PHP  10. Smarty_Internal_Template->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/Smarty.class.php:820
+[01-Dec-2015 13:46:42 UTC] PHP  11. Smarty_Template_Compiled->render() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:246
+[01-Dec-2015 13:46:42 UTC] PHP  12. Smarty_Internal_Template->getRenderedTemplateCode() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_template_compiled.php:202
+[01-Dec-2015 13:46:42 UTC] PHP  13. content_565da4c2b00464_86810353() /home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/sysplugins/smarty_internal_template.php:371
+[06-Dec-2015 21:55:07 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:07 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[06-Dec-2015 21:55:07 UTC] PHP   2. Deck::getDecks() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:21
+[06-Dec-2015 21:55:07 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:101
+[06-Dec-2015 21:55:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:07 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[06-Dec-2015 21:55:07 UTC] PHP   2. Deck::getDecks() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:21
+[06-Dec-2015 21:55:07 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:101
+[06-Dec-2015 21:55:11 UTC] PHP Notice:  Undefined variable: conn in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:11 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[06-Dec-2015 21:55:11 UTC] PHP   2. Deck::getDecks() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:21
+[06-Dec-2015 21:55:11 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:101
+[06-Dec-2015 21:55:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/v0.4/resources/library/classes/Database.class.php on line 90
+[06-Dec-2015 21:55:11 UTC] PHP Stack trace:
+[06-Dec-2015 21:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:0
+[06-Dec-2015 21:55:11 UTC] PHP   2. Deck::getDecks() /home/ubuntu/workspace/v0.4/public_html/browse_decks.php:21
+[06-Dec-2015 21:55:11 UTC] PHP   3. Database::runQuery() /home/ubuntu/workspace/v0.4/resources/library/classes/Deck.class.php:101

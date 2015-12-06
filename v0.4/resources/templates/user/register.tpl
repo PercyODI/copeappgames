@@ -6,7 +6,7 @@
 {block name=content}
 
 <div class="page_content">
-    <form class="single_form card form-horizontal col-sm-6">
+    <form class="single_form register_form card form-horizontal col-sm-6">
         <h2>New User Registration</h2>
         <div class="form-group" id="username_parent" requiredInput>
             <label for="username" class="col-sm-3 control-label">Username</label>

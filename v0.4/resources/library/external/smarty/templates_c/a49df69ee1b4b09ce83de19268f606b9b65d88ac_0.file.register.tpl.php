@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-29 15:48:23
+<?php /* Smarty version 3.1.27, created on 2015-12-06 22:02:12
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/user/register.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1610016020565b1e47cf9704_75226674%%*/
+/*%%SmartyHeaderCode:6591496085664b064d32229_73909130%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a49df69ee1b4b09ce83de19268f606b9b65d88ac' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/user/register.tpl',
-      1 => 1448776006,
+      1 => 1449439325,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -24,23 +24,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 0,
       2 => 'string',
     ),
-    '8a0775b3ab24d866c6e57a773b2e33e1208b8d92' => 
+    '54a8eda32bfdf298238bc5458563d85c1132ee5a' => 
     array (
-      0 => '8a0775b3ab24d866c6e57a773b2e33e1208b8d92',
+      0 => '54a8eda32bfdf298238bc5458563d85c1132ee5a',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '1610016020565b1e47cf9704_75226674',
+  'nocache_hash' => '6591496085664b064d32229_73909130',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565b1e47d4b883_10523995',
+  'unifunc' => 'content_5664b064d76ab7_61625094',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565b1e47d4b883_10523995')) {
-function content_565b1e47d4b883_10523995 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664b064d76ab7_61625094')) {
+function content_5664b064d76ab7_61625094 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '1610016020565b1e47cf9704_75226674';
+$_smarty_tpl->properties['nocache_hash'] = '6591496085664b064d32229_73909130';
 ?>
 <!DOCTYPE html>
 <html>
@@ -50,7 +50,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1610016020565b1e47cf9704_75226674';
 ?>
 
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '1610016020565b1e47cf9704_75226674';
+$_smarty_tpl->properties['nocache_hash'] = '6591496085664b064d32229_73909130';
 ?>
 
 <?php echo '<script'; ?>
@@ -64,12 +64,12 @@ $_smarty_tpl->properties['nocache_hash'] = '1610016020565b1e47cf9704_75226674';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '1610016020565b1e47cf9704_75226674';
+$_smarty_tpl->properties['nocache_hash'] = '6591496085664b064d32229_73909130';
 ?>
 
 
 <div class="page_content">
-    <form class="register_form card form-horizontal col-sm-6">
+    <form class="single_form register_form card form-horizontal col-sm-6">
         <h2>New User Registration</h2>
         <div class="form-group" id="username_parent" requiredInput>
             <label for="username" class="col-sm-3 control-label">Username</label>
