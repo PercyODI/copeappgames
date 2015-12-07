@@ -57,17 +57,17 @@ session_start();
  
 $config = array(
     "db" => array(
-        "dbname" => "copeapp_games",
-        "username" => getenv('C9_USER'),
-        "password" => "",
-        "host" => getenv('IP'),
+        "dbname" => "copeappgamesdb",
+        "username" => "b02aa903c7d012",
+        "password" => "0c92ef9e",
+        "host" => "us-cdbr-azure-central-a.cloudapp.net",
         "port" => 3306
     ),
     "urls" => array(
-        "baseUrl" => "https://copeapp-percyodi.c9.io/v0.4/"
+        "baseUrl" => "https://copeappgames.cloudapp.net"
     ),
     "paths" => array(
-        "resources" => "/home/ubuntu/workspace/v0.4/resources/",
+        "resources" => "/var/www/resources/",
         "images" => array(
             "content" => $_SERVER["DOCUMENT_ROOT"] . "/images/content",
             "layout" => $_SERVER["DOCUMENT_ROOT"] . "/images/layout"
