@@ -90,10 +90,14 @@ class Database {
             $stmt = $conn->prepare($queryStr);
             $stmt->execute($bind_params);
             
-            $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            if($stmt->columnCount() != 0) {
+                $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            } else {
+                $data['numAffected'] = $stmt->rowCount();
+            }
             return $data;
         } catch(PDOException $e) {
-            echo "Query Error: " . $e->getMessage();
+            echo "PDO Query Exception: " . $e->getMessage();
         }
     }
 }

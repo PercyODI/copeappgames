@@ -92,12 +92,17 @@ class User {
             $return['message'] = 'Passwords Don\'t Match';
             return $return;
         }
-        
-        $usernameTest = Database::runQuery("SELECT * FROM user WHERE username = :username"
-                                           , array("username" => $userDetails['username']));
-        if(count($usernameTest) > 0) {
+        try {
+            $usernameTest = Database::runQuery("SELECT * FROM user WHERE username = :username"
+                                               , array("username" => $userDetails['username']));
+            if(count($usernameTest) > 0) {
+                $return['status'] = 'error';
+                $return['message'] = 'Username Taken';
+                return $return;
+            }
+        } catch (Exception $e) {
             $return['status'] = 'error';
-            $return['message'] = 'Username Taken';
+            $return['message'] = 'Database Error';
             return $return;
         }
         
