@@ -8,9 +8,9 @@ require_once("config.php");
 
 class Database {
     protected $dbname = "copeappgamesdb";
-    protected $username = "b02aa903c7d012";
-    protected $password = "0c92ef9e";
-    protected $host = "us-cdbr-azure-central-a.cloudapp.net";
+    protected $username = "site";
+    protected $password = "webpass";
+    protected $host = "localhost";
     protected $port = 3306;
     protected $conn;
     

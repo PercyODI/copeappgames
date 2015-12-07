@@ -58,9 +58,9 @@ session_start();
 $config = array(
     "db" => array(
         "dbname" => "copeappgamesdb",
-        "username" => "b02aa903c7d012",
-        "password" => "0c92ef9e",
-        "host" => "us-cdbr-azure-central-a.cloudapp.net",
+        "username" => "site",
+        "password" => "webpass",
+        "host" => "localhost",
         "port" => 3306
     ),
     "urls" => array(

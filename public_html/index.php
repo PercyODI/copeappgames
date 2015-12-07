@@ -1,6 +1,6 @@
 <?php
 
-require_once("rconfig.php");
+require_once("config.php");
 
 try {
     $config['smarty']->display('user/login.tpl');
