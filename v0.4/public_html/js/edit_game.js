@@ -6,6 +6,9 @@ $(document).ready(function() {
         if($("#icon").parents(".form-group").hasClass("has-error") == true) {
             $(".js_alert").html("Please Select a Valid Game Icon").slideDown("fast");
         } else {
+            for ( instance in CKEDITOR.instances ) {
+                CKEDITOR.instances[instance].updateElement();
+            }
             $.post("ajax/edit_game.php", $(".edit_game_form").serialize(), function(data) {
                 console.dir(data);
                 if(data.status === 'success') {
@@ -26,4 +29,7 @@ $(document).ready(function() {
             $("#secondary_type").prop("disabled", false);
         }
     })
+    
+    //CKEditor Setup
+    CKEDITOR.replaceAll( 'ckedit' );
 });

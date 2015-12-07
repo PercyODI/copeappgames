@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-30 03:06:52
+<?php /* Smarty version 3.1.27, created on 2015-12-06 22:40:53
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/game/new_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1001080987565bbd4ce88b37_81445778%%*/
+/*%%SmartyHeaderCode:8355129825664b9751faab3_32171027%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '84969b94c40ba68fe63182d88aed56ccef833d02' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/game/new_game.tpl',
-      1 => 1448846316,
+      1 => 1449441651,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -18,30 +18,30 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1448738634,
       2 => 'file',
     ),
-    '92fe957548be4a812241f69c9c64670a8f971c4a' => 
+    '4b905d2f3b66add9394ef96d19bbedc4c2cb2383' => 
     array (
-      0 => '92fe957548be4a812241f69c9c64670a8f971c4a',
+      0 => '4b905d2f3b66add9394ef96d19bbedc4c2cb2383',
       1 => 0,
       2 => 'string',
     ),
-    '590238ac7556a0f0d9dc3081f977ef2b59960991' => 
+    '75e18e9c91c3842394ba82701800b096aa748a81' => 
     array (
-      0 => '590238ac7556a0f0d9dc3081f977ef2b59960991',
+      0 => '75e18e9c91c3842394ba82701800b096aa748a81',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '1001080987565bbd4ce88b37_81445778',
+  'nocache_hash' => '8355129825664b9751faab3_32171027',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565bbd4cf279e8_57812874',
+  'unifunc' => 'content_5664b9752575a1_02357146',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565bbd4cf279e8_57812874')) {
-function content_565bbd4cf279e8_57812874 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664b9752575a1_02357146')) {
+function content_5664b9752575a1_02357146 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
+$_smarty_tpl->properties['nocache_hash'] = '8355129825664b9751faab3_32171027';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
 ?>
 
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
+$_smarty_tpl->properties['nocache_hash'] = '8355129825664b9751faab3_32171027';
 ?>
 
 <link rel="stylesheet" type="text/css" href="js/external/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css">
@@ -62,6 +62,9 @@ $_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
 <?php echo '<script'; ?>
  src="js/external/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"><?php echo '</script'; ?>
 >
+<?php echo '<script'; ?>
+ src="//cdn.ckeditor.com/4.5.5/standard/ckeditor.js"><?php echo '</script'; ?>
+>
 
 </head>
 <body>
@@ -70,7 +73,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
+$_smarty_tpl->properties['nocache_hash'] = '8355129825664b9751faab3_32171027';
 ?>
 
 
@@ -86,19 +89,19 @@ $_smarty_tpl->properties['nocache_hash'] = '1001080987565bbd4ce88b37_81445778';
         <div class="form-group" requiredInput>
             <label for="description" class="col-sm-3 control-label">Description</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="description" name="description" required></textarea>
+                <textarea class="form-control input-lg ckedit" id="description" name="description" required></textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="instruction" class="col-sm-3 control-label">Instruction</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="instruction" name="instruction"></textarea>
+                <textarea class="form-control input-lg ckedit" id="instruction" name="instruction"></textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="discussion" class="col-sm-3 control-label">Discussion</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="discussion" name="discussion"></textarea>
+                <textarea class="form-control input-lg ckedit" id="discussion" name="discussion"></textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>

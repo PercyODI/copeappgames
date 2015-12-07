@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-06 22:03:23
+<?php /* Smarty version 3.1.27, created on 2015-12-07 01:35:31
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/game/view_full_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:9868069445664b0ab380171_90656001%%*/
+/*%%SmartyHeaderCode:10157482545664e2636f7331_44732591%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2ebed3d200887d8a394a952f1e62499855e358fe' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/game/view_full_game.tpl',
-      1 => 1448853316,
+      1 => 1449450993,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -18,25 +18,30 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1448738634,
       2 => 'file',
     ),
-    'bdb4495312466e376aa5727ff87305549cd0ef90' => 
+    'b88668d99a9b8102ca0e8f9b6924b294479d5ebc' => 
     array (
-      0 => 'bdb4495312466e376aa5727ff87305549cd0ef90',
+      0 => 'b88668d99a9b8102ca0e8f9b6924b294479d5ebc',
+      1 => 0,
+      2 => 'string',
+    ),
+    'c4bb674c648064f8445f23636f886058d127a3f0' => 
+    array (
+      0 => 'c4bb674c648064f8445f23636f886058d127a3f0',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '9868069445664b0ab380171_90656001',
+  'nocache_hash' => '10157482545664e2636f7331_44732591',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5664b0ab498519_37134242',
+  'unifunc' => 'content_5664e2637fdb32_75703702',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5664b0ab498519_37134242')) {
-function content_5664b0ab498519_37134242 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664e2637fdb32_75703702')) {
+function content_5664e2637fdb32_75703702 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
-if (!is_callable('smarty_function_markdown')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/function.markdown.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '9868069445664b0ab380171_90656001';
+$_smarty_tpl->properties['nocache_hash'] = '10157482545664e2636f7331_44732591';
 ?>
 <!DOCTYPE html>
 <html>
@@ -45,7 +50,19 @@ $_smarty_tpl->properties['nocache_hash'] = '9868069445664b0ab380171_90656001';
     <?php echo $_smarty_tpl->getSubTemplate ('include/external_links.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 
-    
+    <?php
+$_smarty_tpl->properties['nocache_hash'] = '10157482545664e2636f7331_44732591';
+?>
+
+<?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>
+<?php echo '<script'; ?>
+ src="//cdn.ckeditor.com/4.5.5/standard/ckeditor.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="js/view_game.js"><?php echo '</script'; ?>
+>
+<?php }?>
+
 </head>
 <body>
     <div class="page_container">
@@ -53,7 +70,7 @@ $_smarty_tpl->properties['nocache_hash'] = '9868069445664b0ab380171_90656001';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '9868069445664b0ab380171_90656001';
+$_smarty_tpl->properties['nocache_hash'] = '10157482545664e2636f7331_44732591';
 ?>
 
 
@@ -141,23 +158,35 @@ $_smarty_tpl->tpl_vars['item'] = $foreach_item_Sav;
 ">Edit</a>]
                 <?php }?>
             </div>
-            <hr>
+            <hr class="hr_slash">
             <h3>Description</h3>
-            <div class="full_game_description">
-                <?php echo smarty_function_markdown(array('text'=>$_smarty_tpl->tpl_vars['description']->value),$_smarty_tpl);?>
+            <div class="ckedit_ph_wrapper" data-field="description" data-gameid="<?php echo $_smarty_tpl->tpl_vars['gameid']->value;?>
+" data-userid="<?php echo $_smarty_tpl->tpl_vars['userid']->value;?>
+">    
+                <div class="full_game_description ckedit" <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>contenteditable="true"<?php }?>>
+                    <?php echo $_smarty_tpl->tpl_vars['description']->value;?>
 
+                </div>
             </div>
-            <hr>
+            <hr class="hr_slash">
             <h3>Instructions</h3>
-            <div class="full_game_instruction">
-                <?php echo smarty_function_markdown(array('text'=>$_smarty_tpl->tpl_vars['instruction']->value),$_smarty_tpl);?>
+            <div class="ckedit_ph_wrapper" data-field="instruction" data-gameid="<?php echo $_smarty_tpl->tpl_vars['gameid']->value;?>
+" data-userid="<?php echo $_smarty_tpl->tpl_vars['userid']->value;?>
+">    
+                <div class="full_game_instruction ckedit" <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>contenteditable="true"<?php }?>>
+                    <?php echo $_smarty_tpl->tpl_vars['instruction']->value;?>
 
+                </div>
             </div>
-            <hr>
+            <hr class="hr_slash">
             <h3>Discussion</h3>
-            <div class="full_game_discussion">
-                <?php echo smarty_function_markdown(array('text'=>$_smarty_tpl->tpl_vars['discussion']->value),$_smarty_tpl);?>
+            <div class="ckedit_ph_wrapper" data-field="discussion" data-gameid="<?php echo $_smarty_tpl->tpl_vars['gameid']->value;?>
+" data-userid="<?php echo $_smarty_tpl->tpl_vars['userid']->value;?>
+">    
+                <div class="full_game_discussion ckedit" <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>contenteditable="true"<?php }?>>
+                    <?php echo $_smarty_tpl->tpl_vars['discussion']->value;?>
 
+                </div>
             </div>
         </div>
 

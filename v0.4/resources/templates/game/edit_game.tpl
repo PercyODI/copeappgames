@@ -4,6 +4,7 @@
 
 <script src="js/edit_game.js"></script>
 <script src="js/external/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"></script>
+<script src="//cdn.ckeditor.com/4.5.5/full/ckeditor.js"></script>
 {/block}
 
 {block name=content}
@@ -20,19 +21,19 @@
         <div class="form-group" requiredInput>
             <label for="description" class="col-sm-3 control-label">Description</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="description" name="description" value="{$game->getDescription()}" required>{$game->getDescription()}</textarea>
+                <textarea class="form-control input-lg ckedit" id="description" name="description" value="{$game->getDescription()}" required>{$game->getDescription()}</textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="instruction" class="col-sm-3 control-label">Instruction</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="instruction" name="instruction" value="{$game->getInstruction()}">{$game->getInstruction()}</textarea>
+                <textarea class="form-control input-lg ckedit" id="instruction" name="instruction" value="{$game->getInstruction()}">{$game->getInstruction()}</textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="discussion" class="col-sm-3 control-label">Discussion</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="discussion" name="discussion" value="{$game->getDiscussion()}">{$game->getDiscussion()}</textarea>
+                <textarea class="form-control input-lg ckedit" id="discussion" name="discussion" value="{$game->getDiscussion()}">{$game->getDiscussion()}</textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>

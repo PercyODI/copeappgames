@@ -234,6 +234,29 @@ class Game {
         }
     }
     
+    public static function updateOneField($gameid, $field, $data) {
+        if(!in_array($field, array("description", "instruction", "discussion"))) {
+            $return['status'] = 'error';
+            $return['message'] = 'Expecting description, instruction, or discussion as a field';
+            return $return;
+            exit();
+        }
+        
+        try {
+            Database::runQuery("UPDATE game
+                                SET $field = :data
+                                WHERE gameid = :gameid",
+                                array("data" => $data, "gameid" => $gameid));
+            $return['status'] = 'success';
+            return $return;
+        } catch (Exception $e) {
+            $return['status'] = 'error';
+            $return['message'] = 'Database Error';
+            return $return;
+        }
+        
+    }
+    
      public static function editGame($gameDetails) {
         $return = array();
         if(!is_array($gameDetails)) {

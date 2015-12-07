@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-06 22:03:13
+<?php /* Smarty version 3.1.27, created on 2015-12-07 01:44:10
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/object_card/deck_card.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:13319258925664b0a13fb283_37719841%%*/
+/*%%SmartyHeaderCode:4358730665664e46acf52c4_86713059%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13319258925664b0a13fb283_37719841',
+  'nocache_hash' => '4358730665664e46acf52c4_86713059',
   'variables' => 
   array (
     'icon' => 0,
@@ -25,15 +25,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5664b0a1419119_94933815',
+  'unifunc' => 'content_5664e46ad14fb9_75560950',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5664b0a1419119_94933815')) {
-function content_5664b0a1419119_94933815 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664e46ad14fb9_75560950')) {
+function content_5664e46ad14fb9_75560950 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_truncate')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '13319258925664b0a13fb283_37719841';
+$_smarty_tpl->properties['nocache_hash'] = '4358730665664e46acf52c4_86713059';
 ?>
 <div class="card deck-card">
     <div class="deck-icon">

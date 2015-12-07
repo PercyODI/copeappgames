@@ -201,7 +201,7 @@ h3 {
     width: 80%;
 }
 
-.full_game_right hr {
+.full_game_right .hr_slash {
     height: 6px;
     background: url('../img/layout/hr-11.png') repeat-x 0 0;
     border: 0;

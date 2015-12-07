@@ -3,10 +3,9 @@ require_once("config.php");
 
 header("Content-Type: application/json");
 
-$return = array();
-if(empty($_POST['title']) or empty($_POST['description'])) {
+if(!isset($_POST['gameid']) or !isset($_POST['field']) or !isset($_POST['data'])) {
     $return['status'] = 'error';
-    $return['message'] = 'Missing Fields';
+    $return['message'] = 'Missing fields';
     echo json_encode($return);
     exit();
 }
@@ -19,10 +18,9 @@ if(isset($_SESSION['userid']) != $_POST['userid']) {
     exit();
 }
 
-$newGame = Game::editGame($_POST);
+$newGame = Game::updateOneField($_POST['gameid'], $_POST['field'], $_POST['data']);
 if ($newGame['status'] == 'success') {
     $return['status'] = 'success';
-    $return['relocate'] = "view_game.php?gameid=" . $_POST['gameid'];
 } else {
     $return['status'] = $newGame['status'];
     $return['message'] = $newGame['message'];

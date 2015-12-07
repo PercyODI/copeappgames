@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-11-30 03:44:49
+<?php /* Smarty version 3.1.27, created on 2015-12-07 01:32:20
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/game/edit_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1235112843565bc631ae2370_26089503%%*/
+/*%%SmartyHeaderCode:3273331495664e1a4d421b4_79727986%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b10ae3994dcf43fffe04c06f9de7d1835997d101' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/game/edit_game.tpl',
-      1 => 1448852402,
+      1 => 1449451933,
       2 => 'file',
     ),
     'fc1756df85c8dd3aca995bbfeb27cf7713bd97b9' => 
@@ -18,30 +18,30 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1448738634,
       2 => 'file',
     ),
-    '2d6b959a25b4c9eed6fe9ed1115ccf2d04eead67' => 
+    'bf8e7a94eaf24340fe0f0d86bdafe7d7ac53ddef' => 
     array (
-      0 => '2d6b959a25b4c9eed6fe9ed1115ccf2d04eead67',
+      0 => 'bf8e7a94eaf24340fe0f0d86bdafe7d7ac53ddef',
       1 => 0,
       2 => 'string',
     ),
-    'd40873a302cb63f54bcfd242e068d5b1325eaff9' => 
+    '4c5f19547f9b483930c8663b5db3ce89c14f47b8' => 
     array (
-      0 => 'd40873a302cb63f54bcfd242e068d5b1325eaff9',
+      0 => '4c5f19547f9b483930c8663b5db3ce89c14f47b8',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '1235112843565bc631ae2370_26089503',
+  'nocache_hash' => '3273331495664e1a4d421b4_79727986',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_565bc631b8a170_97811842',
+  'unifunc' => 'content_5664e1a4db9ae9_01968610',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_565bc631b8a170_97811842')) {
-function content_565bc631b8a170_97811842 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664e1a4db9ae9_01968610')) {
+function content_5664e1a4db9ae9_01968610 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
+$_smarty_tpl->properties['nocache_hash'] = '3273331495664e1a4d421b4_79727986';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
 ?>
 
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
+$_smarty_tpl->properties['nocache_hash'] = '3273331495664e1a4d421b4_79727986';
 ?>
 
 <link rel="stylesheet" type="text/css" href="js/external/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css">
@@ -62,6 +62,9 @@ $_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
 <?php echo '<script'; ?>
  src="js/external/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"><?php echo '</script'; ?>
 >
+<?php echo '<script'; ?>
+ src="//cdn.ckeditor.com/4.5.5/full/ckeditor.js"><?php echo '</script'; ?>
+>
 
 </head>
 <body>
@@ -70,7 +73,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
+$_smarty_tpl->properties['nocache_hash'] = '3273331495664e1a4d421b4_79727986';
 ?>
 
 
@@ -87,7 +90,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
         <div class="form-group" requiredInput>
             <label for="description" class="col-sm-3 control-label">Description</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="description" name="description" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getDescription();?>
+                <textarea class="form-control input-lg ckedit" id="description" name="description" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getDescription();?>
 " required><?php echo $_smarty_tpl->tpl_vars['game']->value->getDescription();?>
 </textarea>
             </div>
@@ -95,7 +98,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
         <div class="form-group" requiredInput>
             <label for="instruction" class="col-sm-3 control-label">Instruction</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="instruction" name="instruction" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getInstruction();?>
+                <textarea class="form-control input-lg ckedit" id="instruction" name="instruction" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getInstruction();?>
 "><?php echo $_smarty_tpl->tpl_vars['game']->value->getInstruction();?>
 </textarea>
             </div>
@@ -103,7 +106,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1235112843565bc631ae2370_26089503';
         <div class="form-group" requiredInput>
             <label for="discussion" class="col-sm-3 control-label">Discussion</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg" id="discussion" name="discussion" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getDiscussion();?>
+                <textarea class="form-control input-lg ckedit" id="discussion" name="discussion" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getDiscussion();?>
 "><?php echo $_smarty_tpl->tpl_vars['game']->value->getDiscussion();?>
 </textarea>
             </div>

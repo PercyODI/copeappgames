@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-06 22:03:19
+<?php /* Smarty version 3.1.27, created on 2015-12-07 01:53:30
          compiled from "/home/ubuntu/workspace/v0.4/resources/templates/object_card/game_card.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1583669475664b0a7425799_80187613%%*/
+/*%%SmartyHeaderCode:3530874575664e69a182192_70243749%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4f4c4ae7b81a9d26e814770a21b89e686e81e301' => 
     array (
       0 => '/home/ubuntu/workspace/v0.4/resources/templates/object_card/game_card.tpl',
-      1 => 1449439377,
+      1 => 1449453208,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1583669475664b0a7425799_80187613',
+  'nocache_hash' => '3530874575664e69a182192_70243749',
   'variables' => 
   array (
     'icon' => 0,
@@ -24,14 +24,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5664b0a743cf48_74994041',
+  'unifunc' => 'content_5664e69a19b416_56595903',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5664b0a743cf48_74994041')) {
-function content_5664b0a743cf48_74994041 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5664e69a19b416_56595903')) {
+function content_5664e69a19b416_56595903 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_truncate')) require_once '/home/ubuntu/workspace/v0.4/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '1583669475664b0a7425799_80187613';
+$_smarty_tpl->properties['nocache_hash'] = '3530874575664e69a182192_70243749';
 ?>
 <div class="card game-card">
     <div class="game-icon">

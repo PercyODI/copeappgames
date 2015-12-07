@@ -1,4 +1,11 @@
 {extends file='base.tpl'}
+{block name=extra_head}
+{if $userid == $smarty.session.userid}
+<script src="//cdn.ckeditor.com/4.5.5/standard/ckeditor.js"></script>
+<script src="js/view_game.js"></script>
+{/if}
+{/block}
+
 {block name=content}
 
 <div class="page_content">
@@ -38,20 +45,26 @@
                 [<a href="edit_game.php?gameid={$gameid}">Edit</a>]
                 {/if}
             </div>
-            <hr>
+            <hr class="hr_slash">
             <h3>Description</h3>
-            <div class="full_game_description">
-                {markdown text=$description}
+            <div class="ckedit_ph_wrapper" data-field="description" data-gameid="{$gameid}" data-userid="{$userid}">    
+                <div class="full_game_description ckedit" {if $userid == $smarty.session.userid}contenteditable="true"{/if}>
+                    {$description}
+                </div>
             </div>
-            <hr>
+            <hr class="hr_slash">
             <h3>Instructions</h3>
-            <div class="full_game_instruction">
-                {markdown text=$instruction}
+            <div class="ckedit_ph_wrapper" data-field="instruction" data-gameid="{$gameid}" data-userid="{$userid}">    
+                <div class="full_game_instruction ckedit" {if $userid == $smarty.session.userid}contenteditable="true"{/if}>
+                    {$instruction}
+                </div>
             </div>
-            <hr>
+            <hr class="hr_slash">
             <h3>Discussion</h3>
-            <div class="full_game_discussion">
-                {markdown text=$discussion}
+            <div class="ckedit_ph_wrapper" data-field="discussion" data-gameid="{$gameid}" data-userid="{$userid}">    
+                <div class="full_game_discussion ckedit" {if $userid == $smarty.session.userid}contenteditable="true"{/if}>
+                    {$discussion}
+                </div>
             </div>
         </div>
 
