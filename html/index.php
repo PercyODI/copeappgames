@@ -1,5 +1,11 @@
 <?php
-//header("https://copeappgames.cloudapp.net");
-?>
 
-<h1>Test</h1>
+require_once("rconfig.php");
+
+try {
+    $config['smarty']->display('user/login.tpl');
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
+
+?>
