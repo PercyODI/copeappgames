@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-07 16:24:43
+<?php /* Smarty version 3.1.27, created on 2015-12-07 17:07:00
          compiled from "/var/www/resources/templates/game/edit_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:522597605665b2cb6c3830_67312144%%*/
+/*%%SmartyHeaderCode:5307089855665bcb47541c7_85236716%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -31,17 +31,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '522597605665b2cb6c3830_67312144',
+  'nocache_hash' => '5307089855665bcb47541c7_85236716',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5665b2cb7a9149_45183981',
+  'unifunc' => 'content_5665bcb4832d09_39144962',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5665b2cb7a9149_45183981')) {
-function content_5665b2cb7a9149_45183981 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5665bcb4832d09_39144962')) {
+function content_5665bcb4832d09_39144962 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/var/www/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '522597605665b2cb6c3830_67312144';
+$_smarty_tpl->properties['nocache_hash'] = '5307089855665bcb47541c7_85236716';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ $_smarty_tpl->properties['nocache_hash'] = '522597605665b2cb6c3830_67312144';
 ?>
 
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '522597605665b2cb6c3830_67312144';
+$_smarty_tpl->properties['nocache_hash'] = '5307089855665bcb47541c7_85236716';
 ?>
 
 <link rel="stylesheet" type="text/css" href="js/external/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css">
@@ -73,7 +73,7 @@ $_smarty_tpl->properties['nocache_hash'] = '522597605665b2cb6c3830_67312144';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '522597605665b2cb6c3830_67312144';
+$_smarty_tpl->properties['nocache_hash'] = '5307089855665bcb47541c7_85236716';
 ?>
 
 
