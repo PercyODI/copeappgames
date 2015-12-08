@@ -6,7 +6,7 @@
         {$title}
     </div>
     <div class="game-description">
-        {$description|truncate:256}
+        {$description|strip_tags|truncate:256}
     </div>
     <div class="game_dropdown dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">

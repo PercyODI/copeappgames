@@ -1,0 +1,12 @@
+[08-Dec-2015 01:27:51 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public_html/index.php on line 3
+[08-Dec-2015 01:27:51 UTC] PHP Stack trace:
+[08-Dec-2015 01:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/public_html/index.php:0
+[08-Dec-2015 01:27:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/home/ubuntu/workspace/v0.4/resources') in /home/ubuntu/workspace/public_html/index.php on line 3
+[08-Dec-2015 01:27:51 UTC] PHP Stack trace:
+[08-Dec-2015 01:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/public_html/index.php:0
+[08-Dec-2015 01:30:23 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public_html/index.php on line 3
+[08-Dec-2015 01:30:23 UTC] PHP Stack trace:
+[08-Dec-2015 01:30:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/public_html/index.php:0
+[08-Dec-2015 01:30:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/home/ubuntu/workspace/v0.4/resources') in /home/ubuntu/workspace/public_html/index.php on line 3
+[08-Dec-2015 01:30:23 UTC] PHP Stack trace:
+[08-Dec-2015 01:30:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/public_html/index.php:0
