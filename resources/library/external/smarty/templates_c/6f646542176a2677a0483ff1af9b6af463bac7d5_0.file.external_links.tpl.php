@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-08 01:15:07
+<?php /* Smarty version 3.1.27, created on 2015-12-08 01:19:49
          compiled from "/var/www/resources/templates/include/external_links.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:78238870756662f1b07bcc5_10956376%%*/
+/*%%SmartyHeaderCode:171218424566630354d6fb8_22682951%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,16 +13,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '78238870756662f1b07bcc5_10956376',
+  'nocache_hash' => '171218424566630354d6fb8_22682951',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_56662f1b081890_25275618',
+  'unifunc' => 'content_566630354daed8_32571721',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_56662f1b081890_25275618')) {
-function content_56662f1b081890_25275618 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_566630354daed8_32571721')) {
+function content_566630354daed8_32571721 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '78238870756662f1b07bcc5_10956376';
+$_smarty_tpl->properties['nocache_hash'] = '171218424566630354d6fb8_22682951';
 ?>
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
