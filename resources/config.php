@@ -103,4 +103,8 @@ error_reporting(E_ALL|E_STRCT);
  
 ?>
 
+<<<<<<< HEAD
 <!--FROM C9-->
+=======
+<!-- FROM SERVER -->
+>>>>>>> 0d34529221832b63f9f798eddcd1bfee9832c564

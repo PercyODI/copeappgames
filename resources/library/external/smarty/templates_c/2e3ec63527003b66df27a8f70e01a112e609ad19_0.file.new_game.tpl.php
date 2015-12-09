@@ -1,14 +1,14 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-08 03:40:39
-         compiled from "/var/www/resources/templates/game/edit_game.tpl" */ ?>
+<?php /* Smarty version 3.1.27, created on 2015-12-08 02:25:58
+         compiled from "/var/www/resources/templates/game/new_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:82271138056665137f36545_30511327%%*/
+/*%%SmartyHeaderCode:52175266056663fb6080f68_93918233%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '744d12ba0e108f1038cb769b3e79a3bf99582284' => 
+    '2e3ec63527003b66df27a8f70e01a112e609ad19' => 
     array (
-      0 => '/var/www/resources/templates/game/edit_game.tpl',
+      0 => '/var/www/resources/templates/game/new_game.tpl',
       1 => 1449455292,
       2 => 'file',
     ),
@@ -18,30 +18,30 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1449455292,
       2 => 'file',
     ),
-    '9573da16c4ff5e12fa1f741cbb0e08e2feae7b33' => 
+    'e01b19b70ab56abecf88604aedebeed8445c0f72' => 
     array (
-      0 => '9573da16c4ff5e12fa1f741cbb0e08e2feae7b33',
+      0 => 'e01b19b70ab56abecf88604aedebeed8445c0f72',
       1 => 0,
       2 => 'string',
     ),
-    '804f35d522dc92ef845b0fce2845ea40eb02e446' => 
+    '8c1f12e07a0334b8ec4898ed6e5fde27b3bb7290' => 
     array (
-      0 => '804f35d522dc92ef845b0fce2845ea40eb02e446',
+      0 => '8c1f12e07a0334b8ec4898ed6e5fde27b3bb7290',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '82271138056665137f36545_30511327',
+  'nocache_hash' => '52175266056663fb6080f68_93918233',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_56665138105516_52640392',
+  'unifunc' => 'content_56663fb6162e21_70425552',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_56665138105516_52640392')) {
-function content_56665138105516_52640392 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_56663fb6162e21_70425552')) {
+function content_56663fb6162e21_70425552 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/var/www/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '82271138056665137f36545_30511327';
+$_smarty_tpl->properties['nocache_hash'] = '52175266056663fb6080f68_93918233';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,19 +51,19 @@ $_smarty_tpl->properties['nocache_hash'] = '82271138056665137f36545_30511327';
 ?>
 
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '82271138056665137f36545_30511327';
+$_smarty_tpl->properties['nocache_hash'] = '52175266056663fb6080f68_93918233';
 ?>
 
 <link rel="stylesheet" type="text/css" href="js/external/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css">
 
 <?php echo '<script'; ?>
- src="js/edit_game.js"><?php echo '</script'; ?>
+ src="js/new_game.js"><?php echo '</script'; ?>
 >
 <?php echo '<script'; ?>
  src="js/external/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"><?php echo '</script'; ?>
 >
 <?php echo '<script'; ?>
- src="//cdn.ckeditor.com/4.5.5/full/ckeditor.js"><?php echo '</script'; ?>
+ src="//cdn.ckeditor.com/4.5.5/standard/ckeditor.js"><?php echo '</script'; ?>
 >
 
 </head>
@@ -73,49 +73,41 @@ $_smarty_tpl->properties['nocache_hash'] = '82271138056665137f36545_30511327';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '82271138056665137f36545_30511327';
+$_smarty_tpl->properties['nocache_hash'] = '52175266056663fb6080f68_93918233';
 ?>
 
 
 <div class="page_content">
-    <form class="single_form edit_game_form card form-horizontal col-sm-6">
-        <h2>Game Editor</h2>
+    <form class="single_form new_game_form card form-horizontal col-sm-6">
+        <h2>New Game Creator</h2>
         <div class="form-group" id="title" requiredInput>
             <label for="title" class="col-sm-3 control-label">Game Title</label>
             <div class="col-sm-9">
-                <input type="text" class="form-control input-lg" id="title" name="title" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getTitle();?>
-" required>
+                <input type="text" class="form-control input-lg" id="title" name="title" required>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="description" class="col-sm-3 control-label">Description</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg ckedit" id="description" name="description" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getDescription();?>
-" required><?php echo $_smarty_tpl->tpl_vars['game']->value->getDescription();?>
-</textarea>
+                <textarea class="form-control input-lg ckedit" id="description" name="description" required></textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="instruction" class="col-sm-3 control-label">Instruction</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg ckedit" id="instruction" name="instruction" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getInstruction();?>
-"><?php echo $_smarty_tpl->tpl_vars['game']->value->getInstruction();?>
-</textarea>
+                <textarea class="form-control input-lg ckedit" id="instruction" name="instruction"></textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="discussion" class="col-sm-3 control-label">Discussion</label>
             <div class="col-sm-9">
-                <textarea class="form-control input-lg ckedit" id="discussion" name="discussion" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getDiscussion();?>
-"><?php echo $_smarty_tpl->tpl_vars['game']->value->getDiscussion();?>
-</textarea>
+                <textarea class="form-control input-lg ckedit" id="discussion" name="discussion"></textarea>
             </div>
         </div>
         <div class="form-group" requiredInput>
             <label for="username" class="col-sm-3 control-label">Game Icon</label>
             <div class="col-sm-9">
-                <input name="icon" id="icon" class="form-control input-lg icp icp-auto iconpicker-element iconpicker-input" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getIcon();?>
-" type="text">
+                <input name="icon" id="icon" class="form-control input-lg icp icp-auto iconpicker-element iconpicker-input" value="fa-gamepad" type="text">
             </div>
         </div>
         <div class="form-group" requiredInput>
@@ -137,7 +129,7 @@ $foreach_v_Sav = $_smarty_tpl->tpl_vars['v'];
 ?>
                     <option label="<?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['v']->value);?>
 " value="<?php echo $_smarty_tpl->tpl_vars['k']->value;?>
-"<?php if ($_smarty_tpl->tpl_vars['k']->value == $_smarty_tpl->tpl_vars['game']->value->getPrimary_type()) {?> selected<?php }?>><?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['v']->value);?>
+"><?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['v']->value);?>
 </option>
                     <?php
 $_smarty_tpl->tpl_vars['v'] = $foreach_v_Sav;
@@ -149,7 +141,7 @@ $_smarty_tpl->tpl_vars['v'] = $foreach_v_Sav;
         <div class="form-group" requiredInput>
             <label for="discussion" class="col-sm-3 control-label">Secondary Type</label>
             <div class="col-sm-9">
-                <select name="secondary_type" id="secondary_type" class="form-control input-lg">
+                <select name="secondary_type" id="secondary_type" class="form-control input-lg" disabled>
                     <option label="None" value="None">None</option>
                     <?php
 $_from = $_smarty_tpl->tpl_vars['types']->value;
@@ -165,7 +157,7 @@ $foreach_v_Sav = $_smarty_tpl->tpl_vars['v'];
 ?>
                     <option label="<?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['v']->value);?>
 " value="<?php echo $_smarty_tpl->tpl_vars['k']->value;?>
-"<?php if ($_smarty_tpl->tpl_vars['k']->value == $_smarty_tpl->tpl_vars['game']->value->getSecondary_type()) {?> selected<?php }?>><?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['v']->value);?>
+"><?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['v']->value);?>
 </option>
                     <?php
 $_smarty_tpl->tpl_vars['v'] = $foreach_v_Sav;
@@ -174,12 +166,10 @@ $_smarty_tpl->tpl_vars['v'] = $foreach_v_Sav;
                 </select>
             </div>
         </div>
-        <input type="hidden" name="gameid" id="gameid" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getGameid();?>
-">
-        <input type="hidden" name="userid" id="userid" value="<?php echo $_smarty_tpl->tpl_vars['game']->value->getUserid();?>
+        <input type="hidden" name="deckid" id="deckid" value="<?php echo $_GET['deckid'];?>
 ">
         <div class="js_alert alert alert-warning alert-dismissible" role="alert" style="display: none;"></div>
-        <button type="submit" class="edit_game_btn btn btn-primary btn-block" id="register_btn">Save Game</button>
+        <button type="submit" class="new_game_btn btn btn-primary btn-block" id="register_btn">Create Game</button>
     </form>
 </div>
 

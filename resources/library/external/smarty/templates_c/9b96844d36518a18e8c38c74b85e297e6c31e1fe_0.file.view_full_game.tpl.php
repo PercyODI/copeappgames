@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-07 17:07:05
+<?php /* Smarty version 3.1.27, created on 2015-12-09 04:11:02
          compiled from "/var/www/resources/templates/game/view_full_game.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:6263085885665bcb9c32dd9_58823693%%*/
+/*%%SmartyHeaderCode:11467598075667a9d67d6de7_81011737%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9b96844d36518a18e8c38c74b85e297e6c31e1fe' => 
     array (
       0 => '/var/www/resources/templates/game/view_full_game.tpl',
-      1 => 1449455292,
+      1 => 1449632538,
       2 => 'file',
     ),
     'd21bf927a100aaf43baeb210631f7768dae73341' => 
@@ -24,24 +24,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 0,
       2 => 'string',
     ),
-    'cdd9b395ca5947699c8daccae1565c35fc14c0f2' => 
+    '529b48370cd3929f40c6c91f317f697022660e43' => 
     array (
-      0 => 'cdd9b395ca5947699c8daccae1565c35fc14c0f2',
+      0 => '529b48370cd3929f40c6c91f317f697022660e43',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '6263085885665bcb9c32dd9_58823693',
+  'nocache_hash' => '11467598075667a9d67d6de7_81011737',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5665bcb9d899a1_72575300',
+  'unifunc' => 'content_5667a9d6927442_98985385',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5665bcb9d899a1_72575300')) {
-function content_5665bcb9d899a1_72575300 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5667a9d6927442_98985385')) {
+function content_5667a9d6927442_98985385 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once '/var/www/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '6263085885665bcb9c32dd9_58823693';
+$_smarty_tpl->properties['nocache_hash'] = '11467598075667a9d67d6de7_81011737';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ $_smarty_tpl->properties['nocache_hash'] = '6263085885665bcb9c32dd9_58823693';
 ?>
 
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '6263085885665bcb9c32dd9_58823693';
+$_smarty_tpl->properties['nocache_hash'] = '11467598075667a9d67d6de7_81011737';
 ?>
 
 <?php if ($_smarty_tpl->tpl_vars['userid']->value == $_SESSION['userid']) {?>
@@ -70,7 +70,7 @@ $_smarty_tpl->properties['nocache_hash'] = '6263085885665bcb9c32dd9_58823693';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '6263085885665bcb9c32dd9_58823693';
+$_smarty_tpl->properties['nocache_hash'] = '11467598075667a9d67d6de7_81011737';
 ?>
 
 
@@ -269,10 +269,8 @@ $_smarty_tpl->tpl_vars['link'] = $foreach_link_Sav;
             </div>
             <div class="full_game_videos tab-pane" role="tabpanel" id="videos">
                 <?php if ($_smarty_tpl->tpl_vars['gamevideos']->value != null) {?>
-                <video controls>
-                    <source src="<?php echo $_smarty_tpl->tpl_vars['gamevideos']->value[0];?>
-">
-                </video>
+                    <?php echo $_smarty_tpl->tpl_vars['gamevideos']->value[0];?>
+
                 <?php } else { ?>
                 <h3>No Videos Found!</h3>
                 <?php }?>
