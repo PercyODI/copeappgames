@@ -34,10 +34,10 @@ class Game {
                    secondary_type,
                    deckid,
                    deck.userid,
-                   GROUP_CONCAT(gtag.keyword) as gametags,
-                   GROUP_CONCAT(gpic.link) as gamepictures,
-                   GROUP_CONCAT(gvid.link) as gamevideos,
-                   GROUP_CONCAT(`type`.keyword) as gametypes
+                   GROUP_CONCAT(DISTINCT gtag.keyword) as gametags,
+                   GROUP_CONCAT(DISTINCT gpic.link) as gamepictures,
+                   GROUP_CONCAT(DISTINCT gvid.link) as gamevideos,
+                   GROUP_CONCAT(DISTINCT `type`.keyword) as gametypes
             FROM game 
             LEFT OUTER JOIN (SELECT *
                              FROM game_tag 
