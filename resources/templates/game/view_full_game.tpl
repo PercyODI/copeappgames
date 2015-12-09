@@ -112,9 +112,7 @@
             </div>
             <div class="full_game_videos tab-pane" role="tabpanel" id="videos">
                 {if $gamevideos != null}
-                <video controls>
-                    <source src="{$gamevideos[0]}">
-                </video>
+                    {$gamevideos[0]}
                 {else}
                 <h3>No Videos Found!</h3>
                 {/if}
