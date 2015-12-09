@@ -11,7 +11,7 @@ if(isset($_GET['gameid'])) {
 try {
     $game = new Game($_GET['gameid']);
     $deckname = Deck::getDeckName($game->getDeckid());
-    print_r($game->getPicLinks());
+    print_r($game);
     $config['smarty']->assign('deckname', $deckname);
     $game->displayFullGameSmarty('game/view_full_game.tpl');
 } catch (Exception $e) {
