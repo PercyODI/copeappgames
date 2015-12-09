@@ -95,6 +95,8 @@ class Game {
         if(isset($data['gametypes'])) {
             $this->gametypes = explode(",", $data['gametypes']);
         }
+        
+        print_r($data);
     }
     
     function getUserid() {
