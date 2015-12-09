@@ -133,7 +133,7 @@ class Game {
     }
     
     function getPicLinks () {
-        return $this->pic_links;
+        return $this->gamepictures;
     }
     
     function getTypeKeywords () {
