@@ -35,7 +35,7 @@ class Game {
                    deckid,
                    deck.userid,
                    GROUP_CONCAT(DISTINCT gtag.keyword) as gametags,
-                   GROUP_CONCAT(DISTINCT gpic.link) as gamepictures,
+                   GROUP_CONCAT( gpic.link) as gamepictures,
                    GROUP_CONCAT(DISTINCT gvid.link) as gamevideos,
                    GROUP_CONCAT(DISTINCT `type`.keyword) as gametypes
             FROM game 
@@ -95,8 +95,6 @@ class Game {
         if(isset($data['gametypes'])) {
             $this->gametypes = explode(",", $data['gametypes']);
         }
-        
-        print_r($data);
     }
     
     function getUserid() {

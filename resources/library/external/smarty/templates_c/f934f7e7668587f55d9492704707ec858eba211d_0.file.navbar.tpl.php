@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-09 18:37:49
+<?php /* Smarty version 3.1.27, created on 2015-12-09 21:21:57
          compiled from "/home/ubuntu/workspace/resources/templates/include/navbar.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1496702857566874fdc13596_35773688%%*/
+/*%%SmartyHeaderCode:32270550256689b75131fb9_03908160%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,16 +13,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1496702857566874fdc13596_35773688',
+  'nocache_hash' => '32270550256689b75131fb9_03908160',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_566874fdc231e8_01311858',
+  'unifunc' => 'content_56689b75150b81_48174525',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_566874fdc231e8_01311858')) {
-function content_566874fdc231e8_01311858 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_56689b75150b81_48174525')) {
+function content_56689b75150b81_48174525 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '1496702857566874fdc13596_35773688';
+$_smarty_tpl->properties['nocache_hash'] = '32270550256689b75131fb9_03908160';
 ?>
 <div class="page_navbar">
     <div class="page_navbar_left">
