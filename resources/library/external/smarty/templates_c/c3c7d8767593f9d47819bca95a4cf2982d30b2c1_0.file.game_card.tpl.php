@@ -1,19 +1,19 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-09 04:10:58
-         compiled from "/var/www/resources/templates/object_card/game_card.tpl" */ ?>
+<?php /* Smarty version 3.1.27, created on 2015-12-09 18:13:12
+         compiled from "/home/ubuntu/workspace/resources/templates/object_card/game_card.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:6893279575667a9d2dbed11_17146691%%*/
+/*%%SmartyHeaderCode:188383374956686f38b6d985_52525116%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '5e0400c5293e0a7a55e912b08f1bdf247a804e32' => 
+    'c3c7d8767593f9d47819bca95a4cf2982d30b2c1' => 
     array (
-      0 => '/var/www/resources/templates/object_card/game_card.tpl',
-      1 => 1449538392,
+      0 => '/home/ubuntu/workspace/resources/templates/object_card/game_card.tpl',
+      1 => 1449538048,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6893279575667a9d2dbed11_17146691',
+  'nocache_hash' => '188383374956686f38b6d985_52525116',
   'variables' => 
   array (
     'icon' => 0,
@@ -24,14 +24,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5667a9d2dea467_73641575',
+  'unifunc' => 'content_56686f38b81600_55958232',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5667a9d2dea467_73641575')) {
-function content_5667a9d2dea467_73641575 ($_smarty_tpl) {
-if (!is_callable('smarty_modifier_truncate')) require_once '/var/www/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
+if ($_valid && !is_callable('content_56686f38b81600_55958232')) {
+function content_56686f38b81600_55958232 ($_smarty_tpl) {
+if (!is_callable('smarty_modifier_truncate')) require_once '/home/ubuntu/workspace/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '6893279575667a9d2dbed11_17146691';
+$_smarty_tpl->properties['nocache_hash'] = '188383374956686f38b6d985_52525116';
 ?>
 <div class="card game-card">
     <div class="game-icon">

@@ -1,41 +1,41 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-09 04:11:46
-         compiled from "/var/www/resources/templates/deck/browse_decks.tpl" */ ?>
+<?php /* Smarty version 3.1.27, created on 2015-12-09 18:13:06
+         compiled from "/home/ubuntu/workspace/resources/templates/deck/browse_decks.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:7937771035667aa02441fb1_96624782%%*/
+/*%%SmartyHeaderCode:96303885556686f32baa0c8_87590113%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'fd752f35d3ce2e879e756f82af39522c49bfd26e' => 
+    'f72ef534611e871cc4496639b52983d714603b47' => 
     array (
-      0 => '/var/www/resources/templates/deck/browse_decks.tpl',
-      1 => 1449455292,
+      0 => '/home/ubuntu/workspace/resources/templates/deck/browse_decks.tpl',
+      1 => 1449507925,
       2 => 'file',
     ),
-    'd21bf927a100aaf43baeb210631f7768dae73341' => 
+    '95d01e163690a49691b00460c50fe5ddab264581' => 
     array (
-      0 => '/var/www/resources/templates/base.tpl',
-      1 => 1449455292,
+      0 => '/home/ubuntu/workspace/resources/templates/base.tpl',
+      1 => 1448738634,
       2 => 'file',
     ),
-    '684c8bc37be08946ed068ad68e5aa0014414949e' => 
+    '3d0565d25f1a5a5570db29e29438e8bbb0b816e3' => 
     array (
-      0 => '684c8bc37be08946ed068ad68e5aa0014414949e',
+      0 => '3d0565d25f1a5a5570db29e29438e8bbb0b816e3',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '7937771035667aa02441fb1_96624782',
+  'nocache_hash' => '96303885556686f32baa0c8_87590113',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5667aa02524428_27964808',
+  'unifunc' => 'content_56686f32c71282_15942350',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5667aa02524428_27964808')) {
-function content_5667aa02524428_27964808 ($_smarty_tpl) {
-if (!is_callable('smarty_modifier_capitalize')) require_once '/var/www/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
+if ($_valid && !is_callable('content_56686f32c71282_15942350')) {
+function content_56686f32c71282_15942350 ($_smarty_tpl) {
+if (!is_callable('smarty_modifier_capitalize')) require_once '/home/ubuntu/workspace/resources/library/external/smarty/libs/plugins/modifier.capitalize.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '7937771035667aa02441fb1_96624782';
+$_smarty_tpl->properties['nocache_hash'] = '96303885556686f32baa0c8_87590113';
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,7 +52,7 @@ $_smarty_tpl->properties['nocache_hash'] = '7937771035667aa02441fb1_96624782';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '7937771035667aa02441fb1_96624782';
+$_smarty_tpl->properties['nocache_hash'] = '96303885556686f32baa0c8_87590113';
 ?>
 
 <div class="page_content">

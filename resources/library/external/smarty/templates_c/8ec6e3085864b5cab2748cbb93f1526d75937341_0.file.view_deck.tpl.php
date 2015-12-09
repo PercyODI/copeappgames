@@ -1,40 +1,40 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-09 04:10:58
-         compiled from "/var/www/resources/templates/deck/view_deck.tpl" */ ?>
+<?php /* Smarty version 3.1.27, created on 2015-12-09 18:13:12
+         compiled from "/home/ubuntu/workspace/resources/templates/deck/view_deck.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:5788534345667a9d2d03437_12772037%%*/
+/*%%SmartyHeaderCode:185802200156686f38ac5c01_49886473%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '93e2926a187c8e0ac1b46bf34d12b13e4fa12c57' => 
+    '8ec6e3085864b5cab2748cbb93f1526d75937341' => 
     array (
-      0 => '/var/www/resources/templates/deck/view_deck.tpl',
-      1 => 1449455292,
+      0 => '/home/ubuntu/workspace/resources/templates/deck/view_deck.tpl',
+      1 => 1448855301,
       2 => 'file',
     ),
-    'd21bf927a100aaf43baeb210631f7768dae73341' => 
+    '95d01e163690a49691b00460c50fe5ddab264581' => 
     array (
-      0 => '/var/www/resources/templates/base.tpl',
-      1 => 1449455292,
+      0 => '/home/ubuntu/workspace/resources/templates/base.tpl',
+      1 => 1448738634,
       2 => 'file',
     ),
-    'e5e4cb405ea90af10301519e3deece5060c11913' => 
+    '140140eba6cad62de929341feea7bb2014f9f302' => 
     array (
-      0 => 'e5e4cb405ea90af10301519e3deece5060c11913',
+      0 => '140140eba6cad62de929341feea7bb2014f9f302',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '5788534345667a9d2d03437_12772037',
+  'nocache_hash' => '185802200156686f38ac5c01_49886473',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5667a9d2d8b019_06458089',
+  'unifunc' => 'content_56686f38b4fc58_90721395',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5667a9d2d8b019_06458089')) {
-function content_5667a9d2d8b019_06458089 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_56686f38b4fc58_90721395')) {
+function content_56686f38b4fc58_90721395 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '5788534345667a9d2d03437_12772037';
+$_smarty_tpl->properties['nocache_hash'] = '185802200156686f38ac5c01_49886473';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ $_smarty_tpl->properties['nocache_hash'] = '5788534345667a9d2d03437_12772037';
 ?>
 
         <?php
-$_smarty_tpl->properties['nocache_hash'] = '5788534345667a9d2d03437_12772037';
+$_smarty_tpl->properties['nocache_hash'] = '185802200156686f38ac5c01_49886473';
 ?>
 
 <div class="page_content">
