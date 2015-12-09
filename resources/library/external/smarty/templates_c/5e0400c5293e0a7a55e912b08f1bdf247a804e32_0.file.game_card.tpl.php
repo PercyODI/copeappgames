@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-07 17:07:10
+<?php /* Smarty version 3.1.27, created on 2015-12-09 04:10:58
          compiled from "/var/www/resources/templates/object_card/game_card.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:10446285005665bcbecc2700_09238992%%*/
+/*%%SmartyHeaderCode:6893279575667a9d2dbed11_17146691%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5e0400c5293e0a7a55e912b08f1bdf247a804e32' => 
     array (
       0 => '/var/www/resources/templates/object_card/game_card.tpl',
-      1 => 1449455292,
+      1 => 1449538392,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10446285005665bcbecc2700_09238992',
+  'nocache_hash' => '6893279575667a9d2dbed11_17146691',
   'variables' => 
   array (
     'icon' => 0,
@@ -24,14 +24,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5665bcbece0907_07498638',
+  'unifunc' => 'content_5667a9d2dea467_73641575',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5665bcbece0907_07498638')) {
-function content_5665bcbece0907_07498638 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5667a9d2dea467_73641575')) {
+function content_5667a9d2dea467_73641575 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_truncate')) require_once '/var/www/resources/library/external/smarty/libs/plugins/modifier.truncate.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '10446285005665bcbecc2700_09238992';
+$_smarty_tpl->properties['nocache_hash'] = '6893279575667a9d2dbed11_17146691';
 ?>
 <div class="card game-card">
     <div class="game-icon">
@@ -43,7 +43,7 @@ $_smarty_tpl->properties['nocache_hash'] = '10446285005665bcbecc2700_09238992';
 
     </div>
     <div class="game-description">
-        <?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['description']->value,256);?>
+        <?php echo smarty_modifier_truncate(preg_replace('!<[^>]*?>!', ' ', $_smarty_tpl->tpl_vars['description']->value),256);?>
 
     </div>
     <div class="game_dropdown dropdown">
